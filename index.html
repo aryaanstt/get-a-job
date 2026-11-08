@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loker Fresh Graduate</title>
+<meta name="description" content="Rekap lowongan management trainee dan program fresh graduate di Indonesia, dicek ke sumber resmi.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f1a1f'/><path d='M9 13h14v10H9z' fill='none' stroke='%235eead4' stroke-width='2'/><path d='M13 13v-3h6v3' fill='none' stroke='%235eead4' stroke-width='2'/></svg>">
+<style>
+:root {
+  --bg: #0b1114;
+  --panel: #111a1f;
+  --panel-2: #16222a;
+  --line: #22323b;
+  --text: #e3ece9;
+  --muted: #8ea19d;
+  --accent: #5eead4;
+  --accent-soft: rgba(94, 234, 212, .12);
+  --ok: #4ade80;
+  --warn: #fbbf24;
+  --danger: #f87171;
+  --radius: 16px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); font-family: "Inter", "Segoe UI", system-ui, sans-serif; }
+body { min-height: 100vh; }
+.glow { position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 20%), rgba(94, 234, 212, .08), transparent 60%); transition: background .1s; }
+.wrap { position: relative; z-index: 1; max-width: 1080px; margin: 0 auto; padding: 32px 16px 56px; }
+header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+h1 { font-size: 22px; font-weight: 650; margin: 0; letter-spacing: -.01em; }
+.sub { color: var(--muted); font-size: 13.5px; margin-top: 6px; max-width: 560px; line-height: 1.5; }
+.updated { color: var(--muted); font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; white-space: nowrap; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.stat .n { font-size: 22px; font-weight: 650; }
+.stat .l { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.stat .n.small { font-size: 15px; line-height: 1.35; padding-top: 4px; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; align-items: center; }
+.search { flex: 1 1 220px; background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 12px; padding: 10px 14px; font: inherit; font-size: 14px; outline: none; }
+.search:focus { border-color: var(--accent); }
+.chip { background: var(--panel); border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 8px 13px; font: inherit; font-size: 13px; cursor: pointer; transition: .15s; }
+.chip:hover { color: var(--text); }
+.chip.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+select.chip { appearance: none; padding-right: 13px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.card { display: flex; flex-direction: column; position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; overflow: hidden; transition: border-color .2s, transform .2s; }
+.card::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .2s;
+  background: radial-gradient(260px circle at var(--cx, 50%) var(--cy, 50%), rgba(94, 234, 212, .10), transparent 60%); }
+.card:hover { border-color: #2f4752; transform: translateY(-1px); }
+.card:hover::before { opacity: 1; }
+.top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.co { font-size: 12.5px; color: var(--muted); }
+.prog { font-size: 15.5px; font-weight: 600; margin: 3px 0 10px; line-height: 1.35; }
+.badge { font-size: 11px; border-radius: 999px; padding: 3px 9px; white-space: nowrap; border: 1px solid; }
+.b-ok { color: var(--ok); border-color: rgba(74, 222, 128, .35); background: rgba(74, 222, 128, .08); }
+.b-warn { color: var(--warn); border-color: rgba(251, 191, 36, .35); background: rgba(251, 191, 36, .08); }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.tag { font-size: 11.5px; color: var(--muted); background: var(--panel-2); border-radius: 8px; padding: 3px 8px; }
+.tag.exp { color: var(--danger); background: rgba(248, 113, 113, .08); }
+.dl { display: flex; align-items: center; justify-content: space-between; gap: 8px; border-top: 1px solid var(--line); padding-top: 10px; margin-top: auto; font-size: 13px; }
+.more + .dl { margin-top: auto; }
+.meta { margin-bottom: 10px; }
+.dl .when { color: var(--muted); }
+.dl .left { font-weight: 600; }
+.left.soon { color: var(--warn); }
+.left.over { color: var(--danger); }
+.left.none { color: var(--muted); font-weight: 400; }
+.more { max-height: 0; overflow: hidden; transition: max-height .3s ease; font-size: 13px; color: #c3d0cc; line-height: 1.5; }
+.card.open .more { max-height: 520px; }
+.more ul { margin: 8px 0 6px; padding-left: 18px; }
+.more p { margin: 8px 0 6px; }
+.more .src { font-size: 11.5px; color: var(--muted); }
+.actions { display: flex; gap: 8px; margin-top: 12px; }
+.btn { flex: 1; text-align: center; font: inherit; font-size: 13px; border-radius: 10px; padding: 9px 10px; cursor: pointer; text-decoration: none; border: 1px solid var(--line); background: var(--panel-2); color: var(--text); }
+.btn.primary { background: var(--accent-soft); border-color: rgba(94, 234, 212, .4); color: var(--accent); }
+.btn:hover { filter: brightness(1.15); }
+.empty { color: var(--muted); text-align: center; padding: 40px 0; grid-column: 1 / -1; }
+footer { margin-top: 34px; color: var(--muted); font-size: 12px; line-height: 1.6; border-top: 1px solid var(--line); padding-top: 16px; }
+footer b { color: var(--text); font-weight: 600; }
+@media (max-width: 560px) {
+  .wrap { padding-top: 22px; }
+  .stats { grid-template-columns: 1fr 1fr; }
+  .stats .stat:last-child { grid-column: 1 / -1; }
+  .grid { grid-template-columns: 1fr; }
+}
+@media (hover: none) { .glow { display: none; } }
+</style>
+</head>
+<body>
+<div class="glow" id="glow"></div>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Loker Fresh Graduate</h1>
+      <div class="sub">Rekap lowongan management trainee dan program fresh graduate. Tiap lowongan dicek ke sumber resmi, dan yang belum ketemu sumbernya ditandai "Perlu dicek".</div>
+    </div>
+    <div class="updated" id="updated">Memuat…</div>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><div class="n" id="s-total">–</div><div class="l">Lowongan</div></div>
+    <div class="stat"><div class="n" id="s-ok">–</div><div class="l">Terverifikasi</div></div>
+    <div class="stat"><div class="n small" id="s-next">–</div><div class="l">Deadline terdekat</div></div>
+  </section>
+
+  <section class="tools">
+    <input class="search" id="q" type="search" placeholder="Cari perusahaan atau program…">
+    <button class="chip on" data-f="semua">Semua</button>
+    <button class="chip" data-f="fresh">Ramah fresh graduate</button>
+    <button class="chip" data-f="ok">Terverifikasi</button>
+    <button class="chip" data-f="cek">Perlu dicek</button>
+    <select class="chip" id="kat"><option value="">Semua bidang</option></select>
+  </section>
+
+  <section class="grid" id="grid"></section>
+
+  <footer>
+    <b>Selalu cek ulang di link resmi sebelum melamar.</b> Info bisa berubah sewaktu-waktu. Rekrutmen resmi tidak pernah memungut biaya.<br>
+    Sumber awal info dicatat di tiap kartu. Dirangkum oleh aryaanstt.
+  </footer>
+</div>
+
+<script>
+const BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
+const fmt = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd} ${BULAN[m - 1]} ${y}`; };
+const today = () => { const n = new Date(Date.now() + 7 * 3600e3); return new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate())); };
+const daysLeft = d => { const [y, m, dd] = d.split("-").map(Number); return Math.round((Date.UTC(y, m - 1, dd) - today()) / 864e5); };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+let DATA = [], filter = "semua";
+
+function leftLabel(j) {
+  if (!j.deadline) return `<span class="left none">Belum diumumkan</span>`;
+  const n = daysLeft(j.deadline);
+  if (n < 0) return `<span class="left over">Sudah tutup</span>`;
+  if (n === 0) return `<span class="left soon">Tutup hari ini</span>`;
+  return `<span class="left ${n <= 7 ? "soon" : ""}">${n} hari lagi</span>`;
+}
+
+function card(j) {
+  const ok = j.status === "terverifikasi";
+  const tags = [j.kategori, j.lokasi].filter(Boolean).map(t => `<span class="tag">${esc(t)}</span>`);
+  if (!j.fresh_grad) tags.push(`<span class="tag exp">Butuh pengalaman</span>`);
+  const jalur = j.jalur.length ? `<p><b>Jalur:</b> ${j.jalur.map(esc).join(", ")}</p>` : "";
+  const syarat = j.syarat.length ? `<ul>${j.syarat.map(s => `<li>${esc(s)}</li>`).join("")}</ul>` : "";
+  return `<article class="card" data-id="${esc(j.id)}">
+    <div class="top">
+      <div><div class="co">${esc(j.perusahaan)}</div><div class="prog">${esc(j.program)}</div></div>
+      <span class="badge ${ok ? "b-ok" : "b-warn"}">${ok ? "Terverifikasi" : "Perlu dicek"}</span>
+    </div>
+    <div class="meta">${tags.join("")}</div>
+    <div class="more">
+      <p><b>Untuk:</b> ${esc(j.untuk)}</p>${jalur}${syarat}
+      ${j.catatan ? `<p>${esc(j.catatan)}</p>` : ""}
+      <div class="src">Dicek: ${esc(j.dicek)} · Info awal: ${esc(j.sumber)}</div>
+    </div>
+    <div class="dl"><span class="when">${j.deadline ? "Tutup " + fmt(j.deadline) : "Tanggal tutup"}</span>${leftLabel(j)}</div>
+    <div class="actions">
+      <button class="btn" data-toggle>Detail</button>
+      <a class="btn primary" href="${esc(j.link)}" target="_blank" rel="noopener">Buka link resmi</a>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const kat = document.getElementById("kat").value;
+  let list = DATA.filter(j => {
+    if (filter === "fresh" && !j.fresh_grad) return false;
+    if (filter === "ok" && j.status !== "terverifikasi") return false;
+    if (filter === "cek" && j.status === "terverifikasi") return false;
+    if (kat && j.kategori !== kat) return false;
+    if (q && !(j.perusahaan + " " + j.program + " " + j.jalur.join(" ")).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  list.sort((a, b) => {
+    const da = a.deadline ? daysLeft(a.deadline) : 1e9, db = b.deadline ? daysLeft(b.deadline) : 1e9;
+    const oa = da < 0 ? 2e9 : da, ob = db < 0 ? 2e9 : db;
+    if (oa !== ob) return oa - ob;
+    if (a.status !== b.status) return a.status === "terverifikasi" ? -1 : 1;
+    return a.perusahaan.localeCompare(b.perusahaan);
+  });
+  document.getElementById("grid").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Ga ada lowongan yang cocok.</div>`;
+}
+
+function stats(d) {
+  document.getElementById("s-total").textContent = DATA.length;
+  document.getElementById("s-ok").textContent = DATA.filter(j => j.status === "terverifikasi").length;
+  const next = DATA.filter(j => j.deadline && daysLeft(j.deadline) >= 0).sort((a, b) => daysLeft(a.deadline) - daysLeft(b.deadline))[0];
+  document.getElementById("s-next").textContent = next ? `${next.perusahaan}, ${fmt(next.deadline)}` : "Belum ada";
+  document.getElementById("updated").textContent = "Diperbarui " + fmt(d.diperbarui);
+  const kats = [...new Set(DATA.map(j => j.kategori))].sort();
+  document.getElementById("kat").insertAdjacentHTML("beforeend", kats.map(k => `<option>${esc(k)}</option>`).join(""));
+}
+
+fetch("data/loker.json", { cache: "no-store" }).then(r => r.json()).then(d => { DATA = d.loker; stats(d); render(); })
+  .catch(() => { document.getElementById("grid").innerHTML = `<div class="empty">Data gagal dimuat. Coba muat ulang halaman.</div>`; document.getElementById("updated").textContent = "Gagal memuat"; });
+
+document.getElementById("q").addEventListener("input", render);
+document.getElementById("kat").addEventListener("change", render);
+document.querySelectorAll("[data-f]").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("[data-f]").forEach(x => x.classList.remove("on"));
+  b.classList.add("on"); filter = b.dataset.f; render();
+}));
+document.getElementById("grid").addEventListener("click", e => {
+  const t = e.target.closest("[data-toggle]"); if (!t) return;
+  const c = t.closest(".card"); c.classList.toggle("open"); t.textContent = c.classList.contains("open") ? "Tutup" : "Detail";
+});
+document.addEventListener("pointermove", e => {
+  const g = document.getElementById("glow"); g.style.setProperty("--mx", e.clientX + "px"); g.style.setProperty("--my", e.clientY + "px");
+  const c = e.target.closest && e.target.closest(".card");
+  if (c) { const r = c.getBoundingClientRect(); c.style.setProperty("--cx", (e.clientX - r.left) + "px"); c.style.setProperty("--cy", (e.clientY - r.top) + "px"); }
+});
+</script>
+</body>
+</html>
