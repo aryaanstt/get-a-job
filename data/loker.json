@@ -414,6 +414,24 @@
       "dicek": "Portal rekrutmen resmi recruitment.permatagroup.com, 10 Nov 2026",
       "fresh_grad": true,
       "sumber": "IG @disnakerjaid"
+    },
+    {
+      "id": "hasnur-hrs-fgdp-2027",
+      "perusahaan": "PT Hasnur Riung Sinergi (Hasnur Group)",
+      "program": "Fresh Graduate Development Program (FGDP) 2027",
+      "jalur": ["FGDP Engineering", "FGDP Production"],
+      "kategori": "Pertambangan",
+      "lokasi": "Seluruh lokasi kerja HRS (tambang batu bara di Kalimantan)",
+      "untuk": "Fresh graduate S1, atau pengalaman kerja maksimal 2 tahun",
+      "syarat": ["Dari situs lowongan: S1, IPK minimal 3,00", "Engineering: Teknik Geologi, Pertambangan, Geodesi, Sipil, atau Statistik/Matematika. Python/R dan analisis data jadi nilai tambah untuk Statistik/Matematika", "Production: S1 Teknik Pertambangan atau Sipil, atau D3 semua jurusan Teknik", "Bersedia ditempatkan di seluruh lokasi kerja HRS"],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Kontraktor tambang batu bara. Pendaftaran lewat Google Form yang ditautkan Disnakerja. Belum ketemu di portal resmi career.hasnurgroup.com per 10 Nov.",
+      "link": "https://www.disnakerja.com/lowongan-kerja-pt-hasnur-riung-sinergi-hrs/",
+      "status": "perlu dicek",
+      "dicek": "Belum ketemu sumber resmi, 10 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "IG @disnakerjaid"
     }
   ]
 }
