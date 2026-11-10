@@ -378,6 +378,24 @@
       "dicek": "Portal resmi mt-recruitment.dbc.co.id dan poster ITS Career Center, 10 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
+    },
+    {
+      "id": "geopersada-fgdp-plant",
+      "perusahaan": "PT Geopersada Mulia Abadi",
+      "program": "Fresh Graduate Development Program (FGDP) Plant Engineer",
+      "jalur": ["Plant Engineer"],
+      "kategori": "Pertambangan",
+      "lokasi": "Minahasa Utara, Sulawesi Utara (tambang emas Toka Tindung)",
+      "untuk": "Fresh graduate S1/D4 Teknik Mesin",
+      "syarat": ["Dari situs lowongan: S1/D4 Teknik Mesin, IPK minimal 3,00", "Usia maksimal 25 tahun", "Berdomisili di Sulawesi Utara", "Paham dasar maintenance alat berat", "Bisa Microsoft Office, khususnya Excel", "Bersedia kerja dengan sistem roster di area tambang"],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Kontraktor tambang dan alat berat. Lamaran lewat email perusahaan dengan subjek 'Plant Engineer - Nama'. Info dari situs lowongan, belum ketemu di halaman resmi perusahaan.",
+      "link": "https://www.disnakerja.com/lowongan-kerja-pt-geopersada-mulia-abadi/",
+      "status": "perlu dicek",
+      "dicek": "Belum ketemu sumber resmi, 10 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "IG @disnakerjaid"
     }
   ]
 }
