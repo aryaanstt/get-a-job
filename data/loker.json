@@ -1139,6 +1139,120 @@
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
+    },
+    {
+      "id": "hino-credit-analyst-sby",
+      "perusahaan": "Hino Finance Indonesia",
+      "program": "Credit Analyst Surabaya",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Surabaya",
+      "untuk": "Fresh graduate atau pengalaman maksimal 2 tahun",
+      "syarat": [
+        "S1, diutamakan Ekonomi atau Teknik Industri",
+        "Analytical thinking kuat",
+        "Bahasa Inggris tulis dan lisan baik"
+      ],
+      "dibuka": "2026-11-03",
+      "deadline": "2027-01-01",
+      "catatan": "",
+      "link": "https://www.kalibrr.id/id-ID/c/hino-finance-indonesia/jobs/275148/credit-analyst-surabaya-5",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Hino Finance), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "bfi-mt-credit-analyst-tgr",
+      "perusahaan": "BFI Finance",
+      "program": "Management Trainee Credit Analyst Area Tangerang",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Tangerang",
+      "untuk": "Lulusan S1",
+      "syarat": [
+        "S1 semua jurusan, Matematika atau Statistika lebih disukai",
+        "IPK minimal 3,00",
+        "Usia maksimal 27 tahun",
+        "Menyukai pekerjaan yang melibatkan data",
+        "Punya SIM A dan SIM C",
+        "Bersedia ditempatkan di Area Tangerang"
+      ],
+      "dibuka": "2025-12-19",
+      "deadline": "2026-12-16",
+      "catatan": "Postingan lama (Des 2025) tapi deadline-nya masih 16 Des 2026. Wajib punya SIM A dan C.",
+      "link": "https://www.kalibrr.id/id-ID/c/bfifinance/jobs/262223/management-trainee-credit-analyst-area-tangerang",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi BFI Finance), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "infokes-data-qa",
+      "perusahaan": "PT Infokes Indonesia",
+      "program": "Data Quality Assurance",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Bandung (WFO)",
+      "untuk": "Lulusan baru dan junior",
+      "syarat": [
+        "S1",
+        "Mahir SQL kompleks (MySQL, PostgreSQL)",
+        "Mahir Python untuk manipulasi data dan otomasi tes",
+        "Familiar dengan tools BI seperti QuickBI"
+      ],
+      "dibuka": "2026-10-06",
+      "deadline": "2026-12-04",
+      "catatan": "Di Bandung. Bisa jadi target setelah lu belajar SQL.",
+      "link": "https://www.kalibrr.id/id-ID/c/pt-infokes-indonesia/jobs/273243/data-quality-assurance",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Infokes), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "taf-mt-ops-29",
+      "perusahaan": "Toyota Astra Financial Services",
+      "program": "Management Trainee Operations Batch 29",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Jakarta Selatan, penempatan cabang seluruh Indonesia",
+      "untuk": "Fresh graduate atau pengalaman maksimal 2 tahun",
+      "syarat": [
+        "S1 semua jurusan, diutamakan Akuntansi, Keuangan, Teknik",
+        "IPK minimal 3,50"
+      ],
+      "dibuka": "2026-10-04",
+      "deadline": "2026-12-16",
+      "catatan": "",
+      "link": "https://www.kalibrr.id/id-ID/c/toyota-astra-financial-services/jobs/273152/management-trainee-operations-batch-29",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi TAF), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "gsk-lead-mt",
+      "perusahaan": "Gunung Sewu Kencana",
+      "program": "LEAD Management Trainee",
+      "jalur": [],
+      "kategori": "Konglomerasi",
+      "lokasi": "Jakarta Selatan, siap relokasi",
+      "untuk": "Fresh graduate atau pengalaman sampai 2 tahun",
+      "syarat": [
+        "S1 atau S2",
+        "IPK minimal 3,5",
+        "Fasih bahasa Indonesia dan Inggris",
+        "Siap relokasi ke luar Jakarta"
+      ],
+      "dibuka": "2026-08-19",
+      "deadline": "2026-11-29",
+      "catatan": "",
+      "link": "https://www.kalibrr.id/id-ID/c/gunung-sewu-group/jobs/271435/gunung-sewu-lead-management-trainee-3",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Gunung Sewu), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
     }
   ]
 }
