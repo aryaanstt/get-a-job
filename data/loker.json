@@ -60,8 +60,8 @@
         "Bersedia ditempatkan di entitas dan lokasi Zurich mana pun di Indonesia"
       ],
       "dibuka": "2026-11-06",
-      "deadline": null,
-      "catatan": "Lowongan resmi tayang 6 Nov 2026 di situs karier Zurich. Tanggal tutup belum tertulis di sana (beberapa career center kampus menyebut 30 Nov 2026).",
+      "deadline": "2026-11-15",
+      "catatan": "Lowongan resmi tayang 6 Nov 2026 di situs karier Zurich. Tanggal tutup 15 Nov 2026 dari ITS Career Center (12 Nov), belum tertulis di situs Zurich.",
       "link": "https://www.careers.zurich.com/job/Jakarta-Awe-inspiring-Next-Talent-of-Zurich/1366425857/",
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Zurich, 10 Nov 2026",
@@ -469,8 +469,8 @@
         "Bersedia ditempatkan di Jakarta, Cibitung, Cikarang, Surabaya, atau Ngoro"
       ],
       "dibuka": null,
-      "deadline": null,
-      "catatan": "Program satu tahun. Di portal bisa pilih sampai 3 prioritas jalur. Lamaran yang sudah dikirim tidak bisa diubah. CV PDF maksimal 1MB. Tanggal tutup tidak tertulis.",
+      "deadline": "2026-12-31",
+      "catatan": "Program satu tahun. Di portal bisa pilih sampai 3 prioritas jalur. Lamaran yang sudah dikirim tidak bisa diubah. CV PDF maksimal 1MB. Tanggal tutup 31 Des 2026 dari ITS Career Center (12 Nov).",
       "link": "https://mt-recruitment.dbc.co.id/",
       "status": "terverifikasi",
       "dicek": "Portal resmi mt-recruitment.dbc.co.id dan poster ITS Career Center, 10 Nov 2026",
@@ -875,6 +875,54 @@
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": false,
       "sumber": "ITB Career Center"
+    },
+    {
+      "id": "sgn-recruitment-2026",
+      "perusahaan": "PT Sinergi Gula Nusantara (SGN)",
+      "program": "Recruitment PT Sinergi Gula Nusantara",
+      "jalur": [
+        "Digital & Data",
+        "Business & Finance",
+        "dan divisi lain"
+      ],
+      "kategori": "Agribisnis",
+      "lokasi": "Belum disebut",
+      "untuk": "Fresh graduate D3 sampai S2",
+      "syarat": [
+        "D3, D4, S1, atau S2",
+        "Jurusan yang tercantum: Bisnis Digital, Teknologi Rekayasa Manufaktur",
+        "Pendidikan dan latar belakang relevan dengan posisi yang dilamar",
+        "Tugas termasuk analisis data, evaluasi proses, dan penyusunan laporan"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-15",
+      "catatan": "Daftar lewat ITS Career Center (perlu akun ITS Career). Divisi Digital & Data paling nyambung.",
+      "link": "https://careers.its.ac.id/lowongan/3257B29D-102A-41D0-BE08-6E4C3730342B",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "atlascopco-sheq-intern",
+      "perusahaan": "Atlas Copco Group",
+      "program": "SHEQ Internship",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Belum disebut",
+      "untuk": "Magang",
+      "syarat": [
+        "Komunikasi baik",
+        "Latar teknis diutamakan"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-01",
+      "catatan": "Magang, bukan kerja tetap. Halaman ga nyebut jenjang, jurusan, atau lokasi. Sertifikat SMK3 ISO 45001 lu nyambung ke bidang SHEQ.",
+      "link": "https://careers.its.ac.id/lowongan/68D95DC6-680B-4403-AD2B-25D712988CD3",
+      "status": "perlu dicek",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
     }
   ]
 }
