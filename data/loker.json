@@ -1,11 +1,14 @@
 {
-  "diperbarui": "2026-11-10",
+  "diperbarui": "2026-11-12",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
       "perusahaan": "BCA",
       "program": "Management Trainee Program 2026 Batch 2",
-      "jalur": ["Management Development Program (MDP)", "Wealth Management Program (WMP)"],
+      "jalur": [
+        "Management Development Program (MDP)",
+        "Wealth Management Program (WMP)"
+      ],
       "kategori": "Perbankan",
       "lokasi": "Seluruh Indonesia",
       "untuk": "Mahasiswa tingkat akhir dan fresh graduate",
@@ -27,7 +30,12 @@
       "kategori": "Perbankan",
       "lokasi": "Jakarta",
       "untuk": "S1 atau S2 dengan pengalaman kerja",
-      "syarat": ["S1 IPK di atas 3,30 atau S2 IPK di atas 3,50", "Pengalaman kerja 1–2 tahun (magang tidak dihitung)", "Pengalaman kepemimpinan dan kegiatan ekstrakurikuler", "Bahasa Inggris baik"],
+      "syarat": [
+        "S1 IPK di atas 3,30 atau S2 IPK di atas 3,50",
+        "Pengalaman kerja 1–2 tahun (magang tidak dihitung)",
+        "Pengalaman kepemimpinan dan kegiatan ekstrakurikuler",
+        "Bahasa Inggris baik"
+      ],
       "dibuka": "2026-11-07",
       "deadline": null,
       "catatan": "Butuh pengalaman kerja 1–2 tahun, jadi belum cocok untuk fresh graduate tanpa pengalaman.",
@@ -45,7 +53,12 @@
       "kategori": "Asuransi",
       "lokasi": "Jakarta",
       "untuk": "Fresh graduate",
-      "syarat": ["S1 semua jurusan, IPK minimal 3,25", "Lancar bahasa Inggris lisan dan tulisan", "Aktif di organisasi atau kepanitiaan", "Bersedia ditempatkan di entitas dan lokasi Zurich mana pun di Indonesia"],
+      "syarat": [
+        "S1 semua jurusan, IPK minimal 3,25",
+        "Lancar bahasa Inggris lisan dan tulisan",
+        "Aktif di organisasi atau kepanitiaan",
+        "Bersedia ditempatkan di entitas dan lokasi Zurich mana pun di Indonesia"
+      ],
       "dibuka": "2026-11-06",
       "deadline": null,
       "catatan": "Lowongan resmi tayang 6 Nov 2026 di situs karier Zurich. Tanggal tutup belum tertulis di sana (beberapa career center kampus menyebut 30 Nov 2026).",
@@ -59,11 +72,21 @@
       "id": "bri-bflp-specialist-w5",
       "perusahaan": "BRI",
       "program": "BFLP Specialist 2026 Wave 5",
-      "jalur": ["Commercial Banking", "Consumer & Retail Funding", "Wealth Management", "Risk Management", "Business Enabler"],
+      "jalur": [
+        "Commercial Banking",
+        "Consumer & Retail Funding",
+        "Wealth Management",
+        "Risk Management",
+        "Business Enabler"
+      ],
       "kategori": "Perbankan",
       "lokasi": "Seluruh Indonesia",
       "untuk": "Lulusan S1 dan S2",
-      "syarat": ["TOEFL minimal 500 atau sertifikat bahasa Inggris setara", "Bersedia ditempatkan di kantor BRI di seluruh Indonesia", "Syarat lengkap tiap jalur ada di PDF Program Description & FAQ dari BRI"],
+      "syarat": [
+        "TOEFL minimal 500 atau sertifikat bahasa Inggris setara",
+        "Bersedia ditempatkan di kantor BRI di seluruh Indonesia",
+        "Syarat lengkap tiap jalur ada di PDF Program Description & FAQ dari BRI"
+      ],
       "dibuka": "2026-11-06",
       "deadline": "2026-11-15",
       "catatan": "Daftar lewat lowongan resmi BRI di LinkedIn, pilih salah satu dari 5 jalur. Tanggal tutup 15 Nov dari pemberitaan media, belum tertulis di halaman resmi. FAQ resmi: bbri.id/DescFAQ-BFLPWave5",
@@ -99,7 +122,10 @@
       "kategori": "Retail",
       "lokasi": "Seluruh Indonesia",
       "untuk": "Fresh graduate",
-      "syarat": ["Dari artikel sebelumnya: S1 semua jurusan, IPK minimal 3,25", "Bersedia ditempatkan di toko EIGER mana saja"],
+      "syarat": [
+        "Dari artikel sebelumnya: S1 semua jurusan, IPK minimal 3,25",
+        "Bersedia ditempatkan di toko EIGER mana saja"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Disiapkan untuk jadi Store Head. Status kontrak, kerja shift, bidang Retail Business & Operation.",
@@ -117,7 +143,12 @@
       "kategori": "Konsultan",
       "lokasi": "Jakarta",
       "untuk": "Lulusan S1 yang tertarik ke dunia konsultan",
-      "syarat": ["Sudah lulus atau punya surat keterangan lulus, IPK minimal 3,30", "Diutamakan punya pengalaman organisasi, magang, atau kerja", "Minat kuat di management consulting", "Siap ikut program penuh 12 bulan"],
+      "syarat": [
+        "Sudah lulus atau punya surat keterangan lulus, IPK minimal 3,30",
+        "Diutamakan punya pengalaman organisasi, magang, atau kerja",
+        "Minat kuat di management consulting",
+        "Siap ikut program penuh 12 bulan"
+      ],
       "dibuka": null,
       "deadline": "2026-11-13",
       "catatan": "Program 12 bulan sebagai Associate Trainee. Seleksi: daftar online, tes matematika, FGD, wawancara panel. Form daftar ada di tombol Apply Now halaman resmi. Tanggal tutup 13 Nov dari unggahan LinkedIn, belum tertulis di halaman resmi.",
@@ -131,11 +162,21 @@
       "id": "susiair-mt-general",
       "perusahaan": "Susi Air",
       "program": "Management Trainee (General)",
-      "jalur": ["MT General", "MT Human Resource", "MT Marine (Susi Marine)"],
+      "jalur": [
+        "MT General",
+        "MT Human Resource",
+        "MT Marine (Susi Marine)"
+      ],
       "kategori": "Penerbangan",
       "lokasi": "Pangandaran",
       "untuk": "Fresh graduate S1 semua jurusan",
-      "syarat": ["S1 semua jurusan, IPK 3,25 diutamakan", "Pengalaman magang atau organisasi jadi nilai tambah", "Lancar bahasa Indonesia dan bahasa Inggris yang baik", "Bisa Word, Excel, PowerPoint", "Kemampuan analisis dan presentasi yang kuat"],
+      "syarat": [
+        "S1 semua jurusan, IPK 3,25 diutamakan",
+        "Pengalaman magang atau organisasi jadi nilai tambah",
+        "Lancar bahasa Indonesia dan bahasa Inggris yang baik",
+        "Bisa Word, Excel, PowerPoint",
+        "Kemampuan analisis dan presentasi yang kuat"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Status kontrak, mulai secepatnya. Tugasnya termasuk riset, analisis data, dan bikin laporan untuk manajemen. Tanggal tutup tidak tertulis.",
@@ -149,11 +190,16 @@
       "id": "kawanlama-mt",
       "perusahaan": "Kawan Lama Group",
       "program": "Management Trainee",
-      "jalur": ["Merchandising Management Trainee", "Operation Management Trainee"],
+      "jalur": [
+        "Merchandising Management Trainee",
+        "Operation Management Trainee"
+      ],
       "kategori": "Retail",
       "lokasi": "Jakarta Barat",
       "untuk": "Fresh graduate",
-      "syarat": ["Syarat lengkap ada di tombol Detail tiap posisi di portal resmi"],
+      "syarat": [
+        "Syarat lengkap ada di tombol Detail tiap posisi di portal resmi"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Program 3 fase dengan evaluasi di tiap akhir fase. Bisa ditempatkan di korporasi, fungsi bisnis, atau operasional di seluruh Indonesia. Tanggal tutup tidak tertulis.",
@@ -171,7 +217,11 @@
       "kategori": "Otomotif",
       "lokasi": "Jakarta atau Subang",
       "untuk": "Fresh graduate S1 atau S2",
-      "syarat": ["S1 atau S2 dari jurusan terkait, misalnya Akuntansi, Keuangan, Marketing, Statistika, IT, Hukum", "Bersedia ditempatkan di Jakarta atau Subang", "Komunikasi baik dalam bahasa Inggris atau Mandarin"],
+      "syarat": [
+        "S1 atau S2 dari jurusan terkait, misalnya Akuntansi, Keuangan, Marketing, Statistika, IT, Hukum",
+        "Bersedia ditempatkan di Jakarta atau Subang",
+        "Komunikasi baik dalam bahasa Inggris atau Mandarin"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Di bawah Finance Division. Tugasnya bantu operasional, administrasi, laporan, dan perbaikan proses. Tanggal tutup tidak tertulis.",
@@ -189,7 +239,10 @@
       "kategori": "Teknologi",
       "lokasi": "Jakarta",
       "untuk": "Fresh graduate atau pengalaman maksimal 2 tahun",
-      "syarat": ["Dari poster: S1 atau S2 dari universitas bereputasi", "Dari poster: latar belakang STEM, bisnis, atau bidang terkait"],
+      "syarat": [
+        "Dari poster: S1 atau S2 dari universitas bereputasi",
+        "Dari poster: latar belakang STEM, bisnis, atau bidang terkait"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Belum ketemu di situs karier resmi Sea (career.sea.com) saat dicek.",
@@ -225,7 +278,11 @@
       "kategori": "FMCG",
       "lokasi": "Jakarta",
       "untuk": "Fresh graduate atau pengalaman 0–2 tahun",
-      "syarat": ["Dari lowongan sebelumnya: S1, IPK minimal 3,0", "Dari lowongan sebelumnya: usia maksimal 27 tahun", "Lancar bahasa Inggris"],
+      "syarat": [
+        "Dari lowongan sebelumnya: S1, IPK minimal 3,0",
+        "Dari lowongan sebelumnya: usia maksimal 27 tahun",
+        "Lancar bahasa Inggris"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Pembukaan November 2026 belum ketemu di situs karier resmi FrieslandCampina. Syarat diambil dari lowongan sebelumnya.",
@@ -243,7 +300,9 @@
       "kategori": "FMCG",
       "lokasi": "Belum diketahui",
       "untuk": "Fresh graduate",
-      "syarat": ["Dari lowongan di Dealls: S1 semua jurusan, IPK minimal 3,5 untuk jalur marketing"],
+      "syarat": [
+        "Dari lowongan di Dealls: S1 semua jurusan, IPK minimal 3,5 untuk jalur marketing"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Produsen Nestlé Pure Life. Ada beberapa jalur trainee (marketing, sales operation, production) tapi belum ketemu di halaman resmi perusahaan.",
@@ -279,7 +338,10 @@
       "kategori": "Manufaktur",
       "lokasi": "Lokasi TAKA Group mana saja",
       "untuk": "Fresh graduate S1",
-      "syarat": ["Dari poster: jurusan teknik (mesin, elektro, industri, kelautan, dan lain-lain), Akuntansi, Manajemen", "Lancar bahasa Inggris untuk komunikasi bisnis"],
+      "syarat": [
+        "Dari poster: jurusan teknik (mesin, elektro, industri, kelautan, dan lain-lain), Akuntansi, Manajemen",
+        "Lancar bahasa Inggris untuk komunikasi bisnis"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Batch X tutup 10 Okt 2025. Batch terbaru belum ketemu di sumber resmi. Jurusan yang diminta kebanyakan teknik.",
@@ -297,7 +359,9 @@
       "kategori": "Properti",
       "lokasi": "Belum diketahui",
       "untuk": "Fresh graduate",
-      "syarat": ["Dari lowongan di Cake: tidak wajib pengalaman kerja"],
+      "syarat": [
+        "Dari lowongan di Cake: tidak wajib pengalaman kerja"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Rotasi lintas bisnis Lippo dengan mentoring. Belum ketemu di halaman resmi perusahaan.",
@@ -315,7 +379,10 @@
       "kategori": "F&B",
       "lokasi": "Beberapa kota (Malang, Surabaya, Jakarta, Semarang)",
       "untuk": "Fresh graduate D4 atau S1",
-      "syarat": ["Dari situs lowongan: D4 atau S1 jurusan terkait, IPK minimal 3,30", "Bahasa Inggris baik"],
+      "syarat": [
+        "Dari situs lowongan: D4 atau S1 jurusan terkait, IPK minimal 3,30",
+        "Bahasa Inggris baik"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Belajar seluruh operasional outlet. Info dari situs lowongan, belum ketemu di kanal resmi Mie Gacoan.",
@@ -333,7 +400,9 @@
       "kategori": "Manufaktur",
       "lokasi": "Banten",
       "untuk": "Fresh graduate S1",
-      "syarat": ["Dari situs lowongan: S1"],
+      "syarat": [
+        "Dari situs lowongan: S1"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Fokus di produksi. Info dari situs lowongan, belum ketemu di halaman resmi TOTO.",
@@ -347,11 +416,23 @@
       "id": "mitrabara-fgdp-2026",
       "perusahaan": "PT Mitrabara Adiperdana Tbk (Baramulti Group)",
       "program": "Fresh Graduate Development Program (FGDP) 2026",
-      "jalur": ["Energi Terbarukan", "Jasa Pertambangan", "Pertambangan", "Agroindustri"],
+      "jalur": [
+        "Energi Terbarukan",
+        "Jasa Pertambangan",
+        "Pertambangan",
+        "Agroindustri"
+      ],
       "kategori": "Pertambangan",
       "lokasi": "Penempatan di area operasional atau site",
       "untuk": "Campus hiring ITB, lulusan D4/S1/S2",
-      "syarat": ["D4, S1, atau S2 dari jurusan yang relevan", "IPK minimal 3,50", "Aktif di organisasi, kepanitiaan, komunitas, atau ekstrakurikuler", "Kemampuan analisis, problem solving, dan potensi kepemimpinan yang kuat", "Bersedia ditempatkan di area operasional atau site", "Jurusan: SBM, Teknik Tenaga Listrik, Elektro, Geodesi, Sipil, Lingkungan, Mesin, Industri, Metalurgi, Geofisika, Fisika, Pertambangan, Kimia"],
+      "syarat": [
+        "D4, S1, atau S2 dari jurusan yang relevan",
+        "IPK minimal 3,50",
+        "Aktif di organisasi, kepanitiaan, komunitas, atau ekstrakurikuler",
+        "Kemampuan analisis, problem solving, dan potensi kepemimpinan yang kuat",
+        "Bersedia ditempatkan di area operasional atau site",
+        "Jurusan: SBM, Teknik Tenaga Listrik, Elektro, Geodesi, Sipil, Lingkungan, Mesin, Industri, Metalurgi, Geofisika, Fisika, Pertambangan, Kimia"
+      ],
       "dibuka": "2026-11-10",
       "deadline": "2026-11-15",
       "catatan": "Rekrutmen tatap muka 17 Nov 2026. Daftar lewat q.me-qr.com/l/RegistrasiFGDP_MBAP_ITB (Google Form). Meteorologi tidak ada di daftar jurusan.",
@@ -365,11 +446,28 @@
       "id": "dbc-mt-2027",
       "perusahaan": "DBC Group (Djabesmen, Rucika, Royal, Tirta, Fortuna)",
       "program": "Management Trainee 2027",
-      "jalur": ["Manufacturing Data Analyst", "Marketing Data Analyst", "IT Data Visualization", "IT Business Analyst", "Business Development", "Finance", "Supply Chain", "HR", "Production", "Quality", "dan jalur lain di portal"],
+      "jalur": [
+        "Manufacturing Data Analyst",
+        "Marketing Data Analyst",
+        "IT Data Visualization",
+        "IT Business Analyst",
+        "Business Development",
+        "Finance",
+        "Supply Chain",
+        "HR",
+        "Production",
+        "Quality",
+        "dan jalur lain di portal"
+      ],
       "kategori": "Manufaktur",
       "lokasi": "Jakarta, Cibitung, Cikarang, Surabaya, atau Ngoro",
       "untuk": "Fresh graduate S1",
-      "syarat": ["Fresh graduate S1, IPK minimal 3,00", "Pengalaman kerja maksimal satu tahun", "Bersemangat dan mau belajar", "Bersedia ditempatkan di Jakarta, Cibitung, Cikarang, Surabaya, atau Ngoro"],
+      "syarat": [
+        "Fresh graduate S1, IPK minimal 3,00",
+        "Pengalaman kerja maksimal satu tahun",
+        "Bersemangat dan mau belajar",
+        "Bersedia ditempatkan di Jakarta, Cibitung, Cikarang, Surabaya, atau Ngoro"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Program satu tahun. Di portal bisa pilih sampai 3 prioritas jalur. Lamaran yang sudah dikirim tidak bisa diubah. CV PDF maksimal 1MB. Tanggal tutup tidak tertulis.",
@@ -383,11 +481,20 @@
       "id": "geopersada-fgdp-plant",
       "perusahaan": "PT Geopersada Mulia Abadi",
       "program": "Fresh Graduate Development Program (FGDP) Plant Engineer",
-      "jalur": ["Plant Engineer"],
+      "jalur": [
+        "Plant Engineer"
+      ],
       "kategori": "Pertambangan",
       "lokasi": "Minahasa Utara, Sulawesi Utara (tambang emas Toka Tindung)",
       "untuk": "Fresh graduate S1/D4 Teknik Mesin",
-      "syarat": ["Dari situs lowongan: S1/D4 Teknik Mesin, IPK minimal 3,00", "Usia maksimal 25 tahun", "Berdomisili di Sulawesi Utara", "Paham dasar maintenance alat berat", "Bisa Microsoft Office, khususnya Excel", "Bersedia kerja dengan sistem roster di area tambang"],
+      "syarat": [
+        "Dari situs lowongan: S1/D4 Teknik Mesin, IPK minimal 3,00",
+        "Usia maksimal 25 tahun",
+        "Berdomisili di Sulawesi Utara",
+        "Paham dasar maintenance alat berat",
+        "Bisa Microsoft Office, khususnya Excel",
+        "Bersedia kerja dengan sistem roster di area tambang"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Kontraktor tambang dan alat berat. Lamaran lewat email perusahaan dengan subjek 'Plant Engineer - Nama'. Info dari situs lowongan, belum ketemu di halaman resmi perusahaan.",
@@ -405,7 +512,12 @@
       "kategori": "Agribisnis",
       "lokasi": "Seluruh unit kerja Permata Group (Disnakerja menyebut Riau dan Sumatera Utara)",
       "untuk": "Fresh graduate D4/S1",
-      "syarat": ["Pria, maksimal 27 tahun", "Fresh graduate, IPK minimal 3,00", "D4/S1 Teknik Mesin, Teknik Elektro, Teknik Kimia, Ilmu Hukum, Manajemen, Akuntansi, atau Pertanian/Perkebunan", "Bersedia ditempatkan di seluruh unit kerja Permata Group"],
+      "syarat": [
+        "Pria, maksimal 27 tahun",
+        "Fresh graduate, IPK minimal 3,00",
+        "D4/S1 Teknik Mesin, Teknik Elektro, Teknik Kimia, Ilmu Hukum, Manajemen, Akuntansi, atau Pertanian/Perkebunan",
+        "Bersedia ditempatkan di seluruh unit kerja Permata Group"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Perusahaan sawit terintegrasi. Program 1 tahun. Daftar lewat tombol Apply di portal resmi (perlu login). Email resmi hanya dari domain permatagroup.com. Tanggal tutup tidak tertulis.",
@@ -419,11 +531,19 @@
       "id": "hasnur-hrs-fgdp-2027",
       "perusahaan": "PT Hasnur Riung Sinergi (Hasnur Group)",
       "program": "Fresh Graduate Development Program (FGDP) 2027",
-      "jalur": ["FGDP Engineering", "FGDP Production"],
+      "jalur": [
+        "FGDP Engineering",
+        "FGDP Production"
+      ],
       "kategori": "Pertambangan",
       "lokasi": "Seluruh lokasi kerja HRS (tambang batu bara di Kalimantan)",
       "untuk": "Fresh graduate S1, atau pengalaman kerja maksimal 2 tahun",
-      "syarat": ["Dari situs lowongan: S1, IPK minimal 3,00", "Engineering: Teknik Geologi, Pertambangan, Geodesi, Sipil, atau Statistik/Matematika. Python/R dan analisis data jadi nilai tambah untuk Statistik/Matematika", "Production: S1 Teknik Pertambangan atau Sipil, atau D3 semua jurusan Teknik", "Bersedia ditempatkan di seluruh lokasi kerja HRS"],
+      "syarat": [
+        "Dari situs lowongan: S1, IPK minimal 3,00",
+        "Engineering: Teknik Geologi, Pertambangan, Geodesi, Sipil, atau Statistik/Matematika. Python/R dan analisis data jadi nilai tambah untuk Statistik/Matematika",
+        "Production: S1 Teknik Pertambangan atau Sipil, atau D3 semua jurusan Teknik",
+        "Bersedia ditempatkan di seluruh lokasi kerja HRS"
+      ],
       "dibuka": null,
       "deadline": null,
       "catatan": "Kontraktor tambang batu bara. Pendaftaran lewat Google Form yang ditautkan Disnakerja. Belum ketemu di portal resmi career.hasnurgroup.com per 10 Nov.",
@@ -432,6 +552,329 @@
       "dicek": "Belum ketemu sumber resmi, 10 Nov 2026",
       "fresh_grad": true,
       "sumber": "IG @disnakerjaid"
+    },
+    {
+      "id": "tiktok-gdp-2027",
+      "perusahaan": "TikTok Shop",
+      "program": "Graduate Development Program (TikTok Shop E-commerce, Indonesia) 2027 Start",
+      "jalur": [
+        "Commerce Operations"
+      ],
+      "kategori": "Teknologi",
+      "lokasi": "Jakarta",
+      "untuk": "Mahasiswa tingkat akhir dan fresh graduate S1",
+      "syarat": [
+        "Sedang menyelesaikan atau baru lulus S1 jurusan apa pun",
+        "Diutamakan latar Analytics, Data Science, Engineering, Business, atau terkait",
+        "Kemampuan analitis kuat dan bisa mengolah data untuk rekomendasi",
+        "Komunikasi jelas",
+        "Nilai tambah: Excel, SQL, dashboard"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-30",
+      "catatan": "Lamaran direview bergelombang, jadi lebih cepat lebih baik. Mulai kerja 2027.",
+      "link": "https://lifeattiktok.com/search/7670920222039329029",
+      "status": "terverifikasi",
+      "dicek": "Situs karier resmi TikTok, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Pencarian Claude"
+    },
+    {
+      "id": "sutra-ba-2026",
+      "perusahaan": "PT Sutra Management Consultancies",
+      "program": "Business Analyst",
+      "jalur": [],
+      "kategori": "Konsultan",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate dan berpengalaman",
+      "syarat": [
+        "S1 Teknik, Ilmu Komputer, Keuangan, Matematika, Statistik, atau setara",
+        "Problem solving kuat dan pengalaman algoritma",
+        "Mau belajar bahasa pemrograman yang dibutuhkan",
+        "Lancar bahasa Inggris dan Indonesia",
+        "Bersedia dinas ke Timur Tengah kalau perlu",
+        "Nilai tambah: SQL, SAS, R, atau Python"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-25",
+      "catatan": "Daftar lewat ITB Career Center. Diminta lampirkan CV versi ATS terpisah. Kuota 2 orang.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431683",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "kompas-gramedia-da",
+      "perusahaan": "Kompas Gramedia",
+      "program": "Data Analyst",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Purwakarta",
+      "untuk": "Fresh graduate",
+      "syarat": [
+        "D3/S1 Teknik Industri, Matematika murni, atau Statistika",
+        "Bisa analisis, olah, dan rencanakan data",
+        "Komunikasi dan presentasi baik",
+        "Suka olah data",
+        "Bersedia ditempatkan di Purwakarta"
+      ],
+      "dibuka": "2026-10-19",
+      "deadline": "2026-11-18",
+      "catatan": "Tugasnya analisis performa produksi. Tidak ada syarat SQL atau Tableau.",
+      "link": "https://www.kalibrr.id/id-ID/c/kompas-gramedia/jobs/271238/data-analyst-10",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Kompas Gramedia), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "triputra-jba-adp",
+      "perusahaan": "Triputra Group (JBA)",
+      "program": "JBA Auction Development Program",
+      "jalur": [],
+      "kategori": "Otomotif",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "Fresh graduate atau pengalaman sampai 2 tahun",
+      "syarat": [
+        "S1 semua jurusan, IPK minimal 3,15",
+        "Analytical thinking dan data literacy",
+        "Problem solving, leadership, cepat belajar",
+        "Bersedia rotasi departemen dan lokasi"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-23",
+      "catatan": "Daftar lewat ITB Career Center.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431626",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "haquhara-da",
+      "perusahaan": "HAQUHARA",
+      "program": "Data Analyst (Haquhara Goes to ITB)",
+      "jalur": [
+        "Data Analyst",
+        "Product Researcher",
+        "Supply & Demand"
+      ],
+      "kategori": "Ritel",
+      "lokasi": "Belum disebut",
+      "untuk": "S1 dan S2",
+      "syarat": [],
+      "dibuka": null,
+      "deadline": "2026-11-24",
+      "catatan": "Halaman ITB ga nyebut syarat apa pun. Cek detailnya di halaman karier Haquhara dulu.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431644",
+      "status": "perlu dicek",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "astra-buana-wma",
+      "perusahaan": "Asuransi Astra (PT Asuransi Astra Buana)",
+      "program": "Automotive Workshop Management Analyst",
+      "jalur": [],
+      "kategori": "Asuransi",
+      "lokasi": "Jakarta Selatan",
+      "untuk": "Fresh graduate sampai 3 tahun pengalaman",
+      "syarat": [
+        "S1 Teknik Mesin, Statistika, Computer Science, atau Data Science",
+        "Minat di otomotif",
+        "Dasar machine learning tools jadi nilai tambah",
+        "Tugas: analisis data sampai pelaporan"
+      ],
+      "dibuka": "2026-09-23",
+      "deadline": "2026-11-30",
+      "catatan": "Butuh pemahaman dunia otomotif.",
+      "link": "https://www.kalibrr.id/id-ID/c/pt-asuransi-astra-buana/jobs/271839/automotive-workshop-management-analyst",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Asuransi Astra), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "miliki-rumah-cfba",
+      "perusahaan": "PT Miliki Rumah Indonesia",
+      "program": "Corporate Finance & Business Analyst",
+      "jalur": [],
+      "kategori": "Properti",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate sampai 3 tahun pengalaman",
+      "syarat": [
+        "S1 Keuangan, Akuntansi, Ekonomi, Bisnis, atau terkait",
+        "Wajib bahasa Inggris"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-18",
+      "catatan": "Daftar lewat ITB Career Center.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431658",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "impack-it-da",
+      "perusahaan": "PT Impack Pratama Industri Tbk",
+      "program": "IT & Data Analyst",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Bekasi (Lippo Cikarang)",
+      "untuk": "Lulusan baru dan junior",
+      "syarat": [
+        "S1 Sistem Informasi, Ilmu Komputer, Informatika, Matematika, Statistika, atau terkait",
+        "Mahir SQL",
+        "Mahir Excel dan Python atau R",
+        "Berpengalaman pakai Tableau, Power BI, Superset, atau Metabase"
+      ],
+      "dibuka": "2026-11-09",
+      "deadline": "2026-12-30",
+      "catatan": "Deadline masih panjang. Bisa jadi target setelah lu belajar SQL dan satu tools dashboard.",
+      "link": "https://www.kalibrr.id/id-ID/c/pt-impack-pratama-industri-tbk/jobs/275422/it-data-analyst",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Impack), 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "asw-mt-sales",
+      "perusahaan": "ASW Foods",
+      "program": "Management Trainee Program Sales",
+      "jalur": [],
+      "kategori": "FMCG",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "Fresh graduate S1",
+      "syarat": [
+        "S1 universitas terakreditasi",
+        "Program 6 bulan sampai selesai",
+        "Minat kuat di sales",
+        "Paham dasar rumus dan olah data Excel",
+        "Punya SIM A dan/atau SIM C",
+        "Pengalaman organisasi atau kepemimpinan"
+      ],
+      "dibuka": "2026-10-23",
+      "deadline": "2026-11-20",
+      "catatan": "Info dari artikel IDN Times, link daftarnya bit.ly. Belum dicek di situs resmi.",
+      "link": "https://bit.ly/ASW-MTPS",
+      "status": "perlu dicek",
+      "dicek": "Artikel IDN Times 9 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "IDN Times"
+    },
+    {
+      "id": "propan-mt",
+      "perusahaan": "PT Propan Raya",
+      "program": "Management Trainee",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "S1",
+      "syarat": [
+        "S1 semua jurusan teknik",
+        "Bersedia ditempatkan di seluruh Indonesia"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-23",
+      "catatan": "Daftar lewat ITB Career Center.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431630",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "propan-internship",
+      "perusahaan": "PT Propan Raya",
+      "program": "Propan Internship",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Indonesia",
+      "untuk": "S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-23",
+      "catatan": "Magang, bukan kerja tetap. Daftar lewat Google Form dari halaman ITB.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431639",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "sunthi-hse",
+      "perusahaan": "PT Sunthi Sepuri",
+      "program": "Human Safety & Environment Staff",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Belum disebut",
+      "untuk": "Fresh graduate",
+      "syarat": [
+        "S1 Teknik Lingkungan, Teknik Kimia, HSE, Manajemen Lingkungan, atau terkait",
+        "Usia maksimal 30 tahun",
+        "Tertulis khusus laki-laki",
+        "Terbuka untuk fresh graduate"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-30",
+      "catatan": "Ada syarat gender tertulis. Cek dulu cocok atau ngga buat lu. Link daftar bit.ly mengarah ke domain luar ITB, cek dulu sebelum isi data.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431641",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
+    },
+    {
+      "id": "pipit-plantation-mt",
+      "perusahaan": "Pipit Group",
+      "program": "Plantation Management Trainee",
+      "jalur": [
+        "Asisten Kebun",
+        "Asisten Pabrik"
+      ],
+      "kategori": "Perkebunan",
+      "lokasi": "Kebun dan pabrik sawit",
+      "untuk": "Fresh graduate",
+      "syarat": [
+        "S1 Pertanian, Agronomi, Kehutanan, atau Teknologi Industri Pertanian",
+        "IPK minimal 3,00",
+        "Usia maksimal 28, belum menikah",
+        "Bersedia ikatan dinas dan penempatan terpencil"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-14",
+      "catatan": "",
+      "link": "https://rekrutmen.pipit.co.id/career",
+      "status": "perlu dicek",
+      "dicek": "Artikel IDN Times 9 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "IDN Times"
+    },
+    {
+      "id": "schneider-yes-2026",
+      "perusahaan": "Schneider Electric Indonesia",
+      "program": "Schneider Young Energy Stars (YES) Academy",
+      "jalur": [],
+      "kategori": "Energi",
+      "lokasi": "Belum disebut",
+      "untuk": "Mahasiswa tingkat akhir",
+      "syarat": [
+        "Mahasiswa aktif D4/S1 yang lulus setelah Juli 2027",
+        "IPK minimal 3,00"
+      ],
+      "dibuka": "2026-10-12",
+      "deadline": "2026-11-12",
+      "catatan": "",
+      "link": "https://karir.itb.ac.id/vacancy/job/431675",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center, 12 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "ITB Career Center"
     }
   ]
 }
