@@ -923,6 +923,222 @@
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
+    },
+    {
+      "id": "bni-odp-data-analytics",
+      "perusahaan": "BNI",
+      "program": "Officer Development Program (ODP) Data Analytics",
+      "jalur": [],
+      "kategori": "Perbankan",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "Fresh graduate S1 dan S2",
+      "syarat": [
+        "S1 IPK minimal 3,00 (S2 3,25)",
+        "Jurusan Computer Science, IT, Business, Statistics, MIPA, Engineering, atau jurusan relevan",
+        "Usia maksimal 26 tahun (S1)",
+        "Belum pernah menikah dan bersedia tidak menikah selama program",
+        "Bersedia ditempatkan di seluruh Indonesia",
+        "TOEIC minimal 400 atau TOEFL minimal 450",
+        "Sertifikat data analyst nasional atau internasional jadi nilai tambah",
+        "Tidak ada keluarga inti yang bekerja di BNI"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-14",
+      "catatan": "Lowongan dari ITS Career Center. Syarat bahasa minta TOEIC atau TOEFL, EF SET ga disebut.",
+      "link": "https://careers.its.ac.id/lowongan/2DABB449-FAF5-46BB-B61F-3D57D4595320",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "mandiri-odp-2026",
+      "perusahaan": "Bank Mandiri",
+      "program": "Officer Development Program (ODP) Bank Mandiri 2026",
+      "jalur": [
+        "ODP IT (Data, Software Development, Cybersecurity, dll)",
+        "ODP Risk Management (Credit Risk, Risk Analytics)",
+        "dan jalur lain"
+      ],
+      "kategori": "Perbankan",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "Lulusan S1 dan S2",
+      "syarat": [
+        "S1 atau S2 bidang studi relevan, IPK minimal 3,00 (S1) atau 3,20 (S2)",
+        "Jurusan yang tercantum: DKV, Manajemen Bisnis, Sistem Informasi, Statistika, Teknik Industri, Teknik Komputer, Teknologi Informasi",
+        "Usia maksimal 25 tahun untuk S1",
+        "Lajang dan bersedia tidak menikah selama tahun pertama program",
+        "Bersedia ditempatkan di seluruh Indonesia",
+        "Fasih bahasa Inggris",
+        "Tidak ada keluarga inti yang bekerja di Bank Mandiri"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Lowongan dari ITS Career Center. Jalur Data dan Risk Analytics paling nyambung.",
+      "link": "https://careers.its.ac.id/lowongan/9D8CBF41-A63D-4BF4-AA39-DD5E7C13FDD9",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "bni-odp-gap",
+      "perusahaan": "BNI",
+      "program": "Officer Development Program (ODP) Global Analyst Program (GAP)",
+      "jalur": [],
+      "kategori": "Perbankan",
+      "lokasi": "Seluruh Indonesia",
+      "untuk": "Fresh graduate S1 dan S2",
+      "syarat": [
+        "S1 IPK minimal 3,00 (S2 3,25), jurusan relevan",
+        "Usia maksimal 26 tahun (S1)",
+        "Belum pernah menikah dan bersedia tidak menikah selama program",
+        "TOEIC minimal 700, TOEFL iBT minimal 60, atau IELTS minimal 6,0",
+        "Bersedia ditempatkan di seluruh Indonesia"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-14",
+      "catatan": "Lowongan dari ITS Career Center.",
+      "link": "https://careers.its.ac.id/lowongan/BE1E59FB-64A1-4D41-8443-29B4AE07AB05",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "btn-odp-2026",
+      "perusahaan": "Bank BTN",
+      "program": "Officer Development Program (ODP)",
+      "jalur": [],
+      "kategori": "Perbankan",
+      "lokasi": "Seleksi di kantor pusat dan kantor wilayah",
+      "untuk": "Fresh graduate S1",
+      "syarat": [
+        "Minimal S1, IPK minimal 3,00",
+        "WNI",
+        "Tidak punya hubungan keluarga dengan pegawai BTN"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-01",
+      "catatan": "Deskripsi tugas menyebut strategi penjualan dan produk digital. Daftar lewat ITS Career Center.",
+      "link": "https://careers.its.ac.id/lowongan/AC7D0ED6-411C-48CC-9198-BE95575887DF",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "iss-mt-2026",
+      "perusahaan": "PT ISS Indonesia",
+      "program": "ISS Management Trainee Programme (18 bulan)",
+      "jalur": [],
+      "kategori": "Layanan",
+      "lokasi": "Unit bisnis atau cabang ISS",
+      "untuk": "S1",
+      "syarat": [
+        "Minimal S1 semua jurusan (yang tercantum: Bisnis Digital, Manajemen Bisnis, Sistem Informasi, Teknik Industri)",
+        "Punya sertifikat TOEFL atau IELTS dari lembaga resmi",
+        "Bahasa Inggris lisan dan tulisan baik",
+        "Pengalaman kerja 1–3 tahun jadi nilai tambah",
+        "Bersedia ditempatkan sesuai kebutuhan"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-30",
+      "catatan": "Daftar lewat ITS Career Center.",
+      "link": "https://careers.its.ac.id/lowongan/653E3053-70B7-4E89-9C19-D1AA57B00D16",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "sigma-digital-bi",
+      "perusahaan": "PT Sigma Digital Nusantara",
+      "program": "Open Recruitment (termasuk Business Intelligence Development)",
+      "jalur": [
+        "Business Intelligence Development",
+        "Digital Sales",
+        "Human Capital & Support"
+      ],
+      "kategori": "Teknologi",
+      "lokasi": "Belum disebut",
+      "untuk": "Entry level",
+      "syarat": [
+        "S1",
+        "Jurusan yang tercantum: Manajemen Bisnis",
+        "Bersedia WFO"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-30",
+      "catatan": "Jalur BI tugasnya mengolah dan menganalisis data untuk insight bisnis, tapi juga ada tugas frontend dan backend.",
+      "link": "https://careers.its.ac.id/lowongan/18B57CE8-5313-4FE3-BD36-EA07E134BA05",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "toya-staff-mt",
+      "perusahaan": "PT Toya Indo Manunggal",
+      "program": "Staff MT (Management Trainee)",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Sidoarjo, Jawa Timur",
+      "untuk": "Lulusan baru D3 dan S1",
+      "syarat": [
+        "D3 atau S1 semua jurusan",
+        "Terbuka untuk lulusan baru"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-01",
+      "catatan": "Daftar lewat ITS Career Center.",
+      "link": "https://careers.its.ac.id/lowongan/409EB50B-CA63-4294-9ABF-60680419E143",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "traspac-ba",
+      "perusahaan": "PT Traspac Makmur Sejahtera",
+      "program": "Business Analyst",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Belum disebut",
+      "untuk": "Fresh graduate S1",
+      "syarat": [
+        "Minimal sarjana, diutamakan latar IT atau jurusan lain yang relevan"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Tugasnya analisis sistem: kebutuhan pengguna, alur proses, wireframe. Bukan analisis data.",
+      "link": "https://careers.its.ac.id/lowongan/6204721C-8C59-4390-B283-0744AF6F6D67",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
+    },
+    {
+      "id": "hutama-karya-talentpool",
+      "perusahaan": "PT Hutama Karya (Persero)",
+      "program": "Talent Pool Hutama Karya",
+      "jalur": [],
+      "kategori": "Konstruksi",
+      "lokasi": "Wilayah operasional Hutama Karya",
+      "untuk": "Fresh graduate dan berpengalaman",
+      "syarat": [
+        "D3 sampai S2 jurusan relevan (teknik, geomatika, manajemen, ekonomi, hukum, dll)",
+        "IPK minimal 2,75",
+        "Punya atau bersedia mengurus SKCK"
+      ],
+      "dibuka": null,
+      "deadline": "2027-01-14",
+      "catatan": "Bukan posisi spesifik, cuma daftar talenta.",
+      "link": "https://careers.its.ac.id/lowongan/3B1549B1-8B87-45C3-9B3C-98F92FA666A9",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center, 12 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
     }
   ]
 }
