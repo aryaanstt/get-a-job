@@ -12,13 +12,18 @@
       "kategori": "Perbankan",
       "lokasi": "Seluruh Indonesia",
       "untuk": "Mahasiswa tingkat akhir dan fresh graduate",
-      "syarat": [],
+      "syarat": [
+        "WNI, usia maksimal 24 tahun (S1) atau 26 tahun (S2)",
+        "S1 semua jurusan, IPK minimal 3,00",
+        "Bahasa Inggris lisan dan tulisan",
+        "Bersedia ditempatkan di seluruh Indonesia"
+      ],
       "dibuka": "2026-07-01",
       "deadline": "2026-11-30",
-      "catatan": "Diperpanjang sampai 30 November 2026 pukul 23.59 WIB.",
+      "catatan": "Diperpanjang sampai 30 November 2026 pukul 23.59 WIB. Lowongan MDP di Kalibrr resmi BCA tertulis tutup 30 Des 2026, tapi pakai tanggal portal BCA.",
       "link": "https://bca.id/mtbca2026-2",
       "status": "terverifikasi",
-      "dicek": "Halaman resmi karir.bca.co.id, 8 Nov 2026",
+      "dicek": "Halaman resmi karir.bca.co.id 8 Nov 2026, Kalibrr resmi BCA 13 Nov 2026",
       "fresh_grad": true,
       "sumber": "TikTok @jelasindongbin"
     },
