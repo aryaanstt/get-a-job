@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-12",
+  "diperbarui": "2026-11-14",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -1258,6 +1258,28 @@
       "dicek": "Kalibrr (akun resmi Gunung Sewu), 12 Nov 2026",
       "fresh_grad": true,
       "sumber": "Kalibrr"
+    },
+    {
+      "id": "kearney-ja-2027-jkt",
+      "perusahaan": "Kearney",
+      "program": "Junior Analyst 2027 (Jakarta)",
+      "jalur": [],
+      "kategori": "Konsultan",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate atau mahasiswa tingkat akhir yang lulus 2026",
+      "syarat": [
+        "Fresh graduate atau mahasiswa tingkat akhir yang lulus 2026",
+        "Pengalaman di konsultan, analitik, keuangan, atau bidang terkait lebih disukai (tidak wajib)",
+        "Fasih bahasa Inggris"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Tanggal tutup tidak tertulis di halaman resmi. Portal menulis diposting 6 hari lalu per 14 Nov 2026. IPK minimal tidak disebut. Seleksi: tes aptitude online, Excel case test, lalu wawancara case dan fit. Posisi 2027 Kearney Business Analyst minta pengalaman 1-3 tahun, jadi bukan yang ini.",
+      "link": "https://kearney.recsolu.com/jobs/i-D3ziAAx5_0h_grI4bvoQ",
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Kearney (kearney.recsolu.com, ditaut dari kearney.com), 14 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Portal karier resmi Kearney"
     }
   ]
 }
