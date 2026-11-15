@@ -1511,6 +1511,32 @@
       "dicek": "ITB Career Center (diposting perusahaan), 15 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITB Career Center"
+    },
+    {
+      "id": "bca-credit-analyst-program",
+      "perusahaan": "BCA",
+      "program": "Credit Analyst Program",
+      "jalur": [],
+      "kategori": "Perbankan",
+      "lokasi": "Jakarta, Surabaya, Bandung, Semarang, Medan",
+      "untuk": "Fresh graduate",
+      "syarat": [
+        "S1, IPK minimal 2,75",
+        "Latar belakang Ekonomi atau Teknik jadi nilai tambah",
+        "Usia maksimal 24 tahun (S1) atau 26 tahun (S2)",
+        "Kemampuan analisis yang baik, detail, dan teliti",
+        "Tertarik pada proses kerja bisnis",
+        "Mampu bekerja di bawah tekanan",
+        "Bersedia ditempatkan di Jakarta, Surabaya, Bandung, Semarang, dan Medan"
+      ],
+      "dibuka": "2026-04-21",
+      "deadline": "2026-12-31",
+      "catatan": "Program 1 tahun untuk jadi analis kredit, lulusannya langsung diangkat jadi karyawan tetap BCA. Kerjanya menganalisis kebutuhan kredit pakai rasio keuangan supaya kredit yang disalurkan sehat. Tahapan: seleksi administrasi, tes online, wawancara HR, wawancara user, pemeriksaan kesehatan. Lokasi tes dan penempatan di kelima kota itu, termasuk Bandung. Tanggal 21 Apr sampai 31 Des 2026 adalah periode tayang di portal BCA. Daftar lewat portal BCA Karir, perlu akun.",
+      "link": "https://karir.bca.co.id/candidate/id/career/credit-analyst-program",
+      "status": "terverifikasi",
+      "dicek": "Portal resmi karir.bca.co.id, 15 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Portal resmi BCA Karir"
     }
   ]
 }
