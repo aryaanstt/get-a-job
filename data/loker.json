@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-14",
+  "diperbarui": "2026-11-15",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -94,10 +94,10 @@
       ],
       "dibuka": "2026-11-06",
       "deadline": "2026-11-15",
-      "catatan": "Daftar lewat lowongan resmi BRI di LinkedIn, pilih salah satu dari 5 jalur. Tanggal tutup 15 Nov dari pemberitaan media, belum tertulis di halaman resmi. FAQ resmi: bbri.id/DescFAQ-BFLPWave5",
-      "link": "https://bbri.id/BFLP2026Wave5",
+      "catatan": "Daftar lewat Talentics, pilih salah satu dari 5 jalur. FAQ resmi: bbri.id/DescFAQ-BFLPWave5. Syarat tambahan dari FAQ: usia maksimal 25, belum menikah selama program, TOEFL 500 atau setara.",
+      "link": "https://jobs.talentics.id/bank-rakyat-indonesia-4273/brilian-future-leader-program-bflp-specialist-2026-wave-5",
       "status": "terverifikasi",
-      "dicek": "Link resmi bbri.id dan lowongan LinkedIn BRI, 10 Nov 2026",
+      "dicek": "Talentics (portal resmi BRI), 15 Nov 2026, tertulis Apply before 15 Nov 2026",
       "fresh_grad": true,
       "sumber": "TikTok @jelasindongbin"
     },
@@ -625,11 +625,11 @@
         "Bersedia ditempatkan di Purwakarta"
       ],
       "dibuka": "2026-10-19",
-      "deadline": "2026-11-18",
+      "deadline": "2026-11-19",
       "catatan": "Tugasnya analisis performa produksi. Tidak ada syarat SQL atau Tableau.",
       "link": "https://www.kalibrr.id/id-ID/c/kompas-gramedia/jobs/271238/data-analyst-10",
       "status": "terverifikasi",
-      "dicek": "Kalibrr (akun resmi Kompas Gramedia), 12 Nov 2026",
+      "dicek": "Kalibrr (akun resmi Kompas Gramedia), 15 Nov 2026",
       "fresh_grad": true,
       "sumber": "Kalibrr"
     },
@@ -959,7 +959,7 @@
     {
       "id": "mandiri-odp-2026",
       "perusahaan": "Bank Mandiri",
-      "program": "Officer Development Program (ODP) Bank Mandiri 2026",
+      "program": "Officer Development Program (ODP) Bank Mandiri 2027",
       "jalur": [
         "ODP IT (Data, Software Development, Cybersecurity, dll)",
         "ODP Risk Management (Credit Risk, Risk Analytics)",
@@ -978,11 +978,11 @@
         "Tidak ada keluarga inti yang bekerja di Bank Mandiri"
       ],
       "dibuka": null,
-      "deadline": "2026-12-31",
-      "catatan": "Lowongan dari ITS Career Center. Jalur Data dan Risk Analytics paling nyambung.",
-      "link": "https://careers.its.ac.id/lowongan/9D8CBF41-A63D-4BF4-AA39-DD5E7C13FDD9",
+      "deadline": "2027-07-31",
+      "catatan": "Ada lima stream, di antaranya IT (sub-stream Data, Engineering, Product), Wholesale Banking, Risk Management (termasuk risk analytics), dan Regional Business. Stream IT-Data dan Risk Management paling nyambung. Daftar lewat Talentics, perlu akun.",
+      "link": "https://jobs.talentics.id/pt-bank-mandiri-persero-tbk/officer-development-program-bank-mandiri-2027",
       "status": "terverifikasi",
-      "dicek": "ITS Career Center, 12 Nov 2026",
+      "dicek": "Talentics (portal resmi Bank Mandiri), 15 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
     },
