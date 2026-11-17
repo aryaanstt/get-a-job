@@ -1860,6 +1860,28 @@
       "dicek": "ITS Career Center (diposting PT Astra International Tbk Head Office), 17 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
+    },
+    {
+      "id": "medion-payroll-bdg",
+      "perusahaan": "PT Medion Farma Jaya",
+      "program": "Payroll",
+      "jalur": [],
+      "kategori": "Farmasi",
+      "lokasi": "Bandung",
+      "untuk": "D4/S1, lulusan baru dipersilakan",
+      "syarat": [
+        "D4/S1 Akuntansi atau Manajemen",
+        "IPK minimal 2,75 dari program studi terakreditasi",
+        "Pengalaman relevan minimal 1 tahun, namun lulusan baru dipersilakan melamar"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-30",
+      "catatan": "Kerjanya menghitung payroll dan PPh 21 sesuai ketentuan. Medion perusahaan farmasi peternakan sejak 1976. Daftar lewat applyonline.medionindonesia.com dan pilih ITB Career Center sebagai sumber informasi. Kuota 1.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431672",
+      "status": "terverifikasi",
+      "dicek": "ITB Career Center (diposting PT Medion Farma Jaya), 17 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
     }
   ]
 }
