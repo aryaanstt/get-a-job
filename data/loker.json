@@ -1827,6 +1827,39 @@
       "dicek": "Kalibrr (akun resmi BFI Finance), 17 Nov 2026",
       "fresh_grad": false,
       "sumber": "Kalibrr"
+    },
+    {
+      "id": "astra-auto2000-tso-its",
+      "perusahaan": "PT Astra International Tbk (Auto2000, Toyota Sales Operation)",
+      "program": "Auto2000 - Toyota Sales Operation, rekrutmen fresh graduate",
+      "jalur": [
+        "CRM & Data Analyst",
+        "Finance Coordinator",
+        "Finance Operation Analyst",
+        "After Sales Analyst",
+        "Trainer",
+        "Sales Planning Analyst",
+        "Project Establishment Analyst",
+        "Account Executive",
+        "Counter Executive",
+        "Legal Analyst"
+      ],
+      "kategori": "Otomotif",
+      "lokasi": null,
+      "untuk": "Fresh graduate",
+      "syarat": [
+        "S1",
+        "Level fresh graduate",
+        "Syarat IPK, jurusan, pengalaman, dan lokasi tidak tertulis di halaman"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-01",
+      "catatan": "Halaman hanya berisi daftar posisi tanpa jobdesk. Yang paling nyambung: CRM & Data Analyst dan Sales Planning Analyst. Diposting di ITS Career Center sekitar Okt 2026, kemungkinan bagian dari Job Fair ITS. Daftar lewat tombol Lamar Sekarang di ITS Career Center yang perlu login akun pelamar ITS. Belum jelas apakah terbuka untuk lulusan non-ITS.",
+      "link": "https://careers.its.ac.id/lowongan/43D657B2-8281-405B-AF0C-2A1CE5A23EE5",
+      "status": "terverifikasi",
+      "dicek": "ITS Career Center (diposting PT Astra International Tbk Head Office), 17 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
     }
   ]
 }
