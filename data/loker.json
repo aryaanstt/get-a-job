@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-16",
+  "diperbarui": "2026-11-17",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -1774,6 +1774,59 @@
       "dicek": "Careers page resmi Bester & Co. dan ITB Career Center (diposting perusahaan), 16 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITB Career Center"
+    },
+    {
+      "id": "kgmedia-pasangiklan-admin",
+      "perusahaan": "Kompas Gramedia",
+      "program": "Pasangiklan Admin & Package Support",
+      "jalur": [],
+      "kategori": "Media",
+      "lokasi": "Palmerah Selatan, Jakarta Pusat (full WFO)",
+      "untuk": "Terima lulusan baru",
+      "syarat": [
+        "Lulus S1 (jurusan tidak disebut)",
+        "Mampu menggunakan Google Docs dan Google Sheets dengan baik",
+        "Mampu berkoordinasi dengan banyak pihak, tim internal maupun klien",
+        "Teliti, rapi dalam administrasi, dan bisa bekerja dengan deadline",
+        "Responsif, inisiatif, dan bisa bekerja mandiri",
+        "Diutamakan yang berpengalaman di bidang administrasi atau klerikal",
+        "Bersedia bekerja full WFO"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Kerjanya membuat dan menghitung paket pasangiklan, menjawab chatbox customer service dan approve iklan dari website, rekap revenue pasangiklan berkala, membuat order dan memo internal, plus administrasi lain. Statusnya pekerja lepas (freelance). Daftar lewat Kalibrr (akun resmi Kompas Gramedia), perlu akun. Diposting sekitar 13 Nov 2026.",
+      "link": "https://www.kalibrr.com/id-ID/c/kompas-gramedia/jobs/275692/pasangiklan-admin-package-support",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Kompas Gramedia), 17 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "bfi-admin-operations-specialist",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Admin Operations Specialist",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Kantor Pusat BFI Tower, BSD City, Tangerang Selatan",
+      "untuk": "Minta pengalaman 1 sampai 2 tahun",
+      "syarat": [
+        "Minimal S1 semua jurusan",
+        "Pengalaman minimal 1 sampai 2 tahun di bidang operations, khususnya administrasi atau operasional",
+        "Pengalaman di industri multifinance atau perbankan lebih disukai",
+        "Mahir Microsoft Office, terutama Excel",
+        "Analytical thinking, critical thinking, dan problem solving",
+        "Teliti dan detail",
+        "Komunikasi dan koordinasi yang baik",
+        "Bisa kerja mandiri maupun kolaborasi"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-30",
+      "catatan": "Kerjanya cek dan validasi kelengkapan dokumen dan data aset, analisis dokumen supaya aktivasi kontrak sesuai prosedur, proses aktivasi kontrak (Go Live), dan koordinasi dengan cabang. Ada 5 lowongan. Kalibrr menandai levelnya Supervisor/Asisten Manager. Daftar lewat Kalibrr (akun resmi BFI Finance), perlu akun.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/272414/admin-operations-specialist",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi BFI Finance), 17 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "Kalibrr"
     }
   ]
 }
