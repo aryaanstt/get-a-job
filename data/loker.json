@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-17",
+  "diperbarui": "2026-11-18",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -1882,6 +1882,30 @@
       "dicek": "ITB Career Center (diposting PT Medion Farma Jaya), 17 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITB Career Center"
+    },
+    {
+      "id": "telunjuk-freelance-data-qa",
+      "perusahaan": "Telunjuk",
+      "program": "Freelance Data Quality Assurance (Data & Analytics)",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": null,
+      "untuk": "S1, fresh graduate dan mahasiswa tingkat akhir boleh",
+      "syarat": [
+        "S1 Sistem Informasi, IT, Ilmu Komputer, Statistika, Matematika, atau bidang terkait (fresh graduate dan mahasiswa tingkat akhir boleh)",
+        "Berpikir analitis, teliti, dan bisa memecahkan masalah",
+        "Familiar dengan SQL dan Excel/Google Sheets",
+        "Python, Regex, dan tools visualisasi data jadi nilai tambah",
+        "Familiar dengan AI tools untuk analisis dan validasi data"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-18",
+      "catatan": "Kontrak freelance 3 bulan di tim Data & Analytics. Kerjanya QA dan validasi data untuk SKU mapping, product mapping, brand mapping, dan segmentasi kategori, review data klien, cari selisih data dan akar masalahnya, dokumentasi temuan QA, dan koordinasi perbaikan. Daftar dengan kirim CV lewat email ke rekruter Telunjuk (alamatnya ada di pesan grup), batas 23:59 WIB. Info cuma dari share grup alumni, belum ada halaman resmi.",
+      "link": null,
+      "status": "perlu dicek",
+      "dicek": "Pesan share di grup alumni Meteorologi ITB (dikirim Arya), 18 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Grup alumni Meteorologi ITB"
     }
   ]
 }
