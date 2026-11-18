@@ -2056,6 +2056,33 @@
       "dicek": "Situs karier resmi Djarum (career.djarum.com), 18 Nov 2026",
       "fresh_grad": true,
       "sumber": "career.djarum.com"
+    },
+    {
+      "id": "bfi-operation-data-analysis-specialist",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Operation Data & Analysis Specialist",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Kantor Pusat BFI Tower, BSD City, Tangerang Selatan",
+      "untuk": "Minta pengalaman 1 sampai 2 tahun, fresh graduate dengan skill teknis memadai bisa dipertimbangkan",
+      "syarat": [
+        "S1 Statistika, Matematika, Informatika, Sistem Informasi, Teknik Industri, atau jurusan relevan lain",
+        "Pengalaman minimal 1 sampai 2 tahun di Data Analytics, Business Intelligence, Data Processing, atau bidang terkait; fresh graduate dengan skill teknis memadai bisa dipertimbangkan",
+        "Microsoft Excel minimal intermediate (Pivot Table, olah data, fungsi dan formula)",
+        "SQL minimal intermediate (complex queries, JOIN, subquery, CTE, agregasi dan window function, manipulasi dan validasi data)",
+        "Python minimal intermediate (Pandas dan NumPy, cleaning dan transformasi data, EDA, scripting dan otomasi)",
+        "Analitis, problem solving, dan logika kuat",
+        "Paham struktur database, relasi data, dan kualitas data",
+        "Teliti, proaktif, bisa kerja mandiri maupun tim"
+      ],
+      "dibuka": null,
+      "deadline": "2027-01-16",
+      "catatan": "Olah dan analisis data operasional, query SQL, skrip Python untuk cleaning dan otomasi, dashboard dan laporan monitoring, serta validasi data. Kalibrr menandai level Supervisor/Asisten Manager, 1 lowongan. Kalibrr cuma nulis batas '16 Jan' tanpa tahun; diposting sekitar 17 Nov 2026 jadi kemungkinan 16 Jan 2027. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/275818/operation-data-analysis-specialist",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi BFI Finance), 18 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "Kalibrr"
     }
   ]
 }
