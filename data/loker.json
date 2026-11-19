@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-18",
+  "diperbarui": "2026-11-19",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -2082,6 +2082,54 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BFI Finance), 18 Nov 2026",
       "fresh_grad": false,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "sis-weather-scientist",
+      "perusahaan": "PT Saptaindra Sejati (AlamTri Group)",
+      "program": "Engineer – Weather Scientist",
+      "jalur": [],
+      "kategori": "Pertambangan",
+      "lokasi": "Remote area, Kalimantan Tengah",
+      "untuk": "S1 Meteorologi dan Klimatologi atau jurusan relevan, tidak ada syarat pengalaman atau IPK di poster",
+      "syarat": [
+        "S1 Meteorologi dan Klimatologi atau jurusan relevan",
+        "Paham kuat ilmu atmosfer, meteorologi, klimatologi, dan sistem cuaca",
+        "Mampu mengolah, menganalisis, dan menginterpretasi data meteorologi dan atmosfer",
+        "Bersedia kerja di remote area (Kalimantan Tengah)"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-10",
+      "catatan": "Tugas: kajian ilmiah, studi kelayakan, perencanaan strategis, dan pelaksanaan operasi modifikasi cuaca untuk mendukung kegiatan cloud seeding yang efektif dan berkelanjutan. SIS adalah kontraktor tambang anak usaha PT Alamtri Resources Indonesia Tbk. Daftar lewat Typeform, pilih 'MACO' lalu 'Engineer – Weather Scientist'. Kode poster MC-2026-024. Hanya kandidat terpilih yang dihubungi, dan AlamTri tidak memungut biaya.",
+      "link": "https://form.typeform.com/to/FpC6VCx0",
+      "status": "terverifikasi",
+      "dicek": "Poster resmi SIS dari grup alumni Meteorologi ITB, form Typeform berjudul 'PT. Saptaindra Sejati Job Application', 19 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Grup alumni Meteorologi ITB"
+    },
+    {
+      "id": "ruangguru-admin-cluster-pontianak",
+      "perusahaan": "Ruangguru (PT Ruang Raya Indonesia)",
+      "program": "Admin Cluster (Academics & Operations Officer) Pontianak",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Pontianak, on-site",
+      "untuk": "S1 semua jurusan, Kalibrr menandai terima lulusan baru",
+      "syarat": [
+        "S1 jurusan apa pun",
+        "Pengalaman administrasi, business operation, atau sales operation diutamakan, tidak wajib",
+        "Mahir Microsoft Excel, Google Sheets, dan tools administrasi lain",
+        "Pivot Table dan Lookup diutamakan",
+        "Teliti dan terbiasa dengan deadline",
+        "Bersedia kerja on-site, Senin sampai Jumat 7 jam dan Sabtu 6 jam"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-14",
+      "catatan": "Kontrak. Administrasi akademik harian (jadwal kelas, absensi siswa dan guru), layanan informasi produk, dan koordinasi dengan sekolah mitra serta tim komersial dan regional. 1 lowongan, gaji tidak diumumkan. Daftar lewat Kalibrr atau career.ruangguru.com.",
+      "link": "https://www.kalibrr.com/id-ID/c/ruangguru/jobs/274130/admin-cluster",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (akun resmi Ruangguru), 19 Nov 2026",
+      "fresh_grad": true,
       "sumber": "Kalibrr"
     }
   ]
