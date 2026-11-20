@@ -2812,6 +2812,53 @@
       "dicek": "Kalibrr (halaman perusahaan), 20 Nov 2026",
       "fresh_grad": false,
       "sumber": "Kalibrr"
+    },
+    {
+      "id": "maybank-ymp",
+      "perusahaan": "Maybank Indonesia",
+      "program": "Young Maybanker Program (YMP)",
+      "jalur": [],
+      "kategori": "Bank",
+      "lokasi": "Tidak disebut",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan dari universitas bereputasi di Indonesia atau luar negeri",
+        "IPK minimal 3,30",
+        "Usia maksimal 25 tahun",
+        "Fresh graduate",
+        "Analitis, bahasa Inggris dan presentasi baik, interpersonal bagus"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Program percepatan karier (fast-track): kelas dan belajar lapangan dengan bimbingan senior manager. Halaman resmi punya tombol Apply Now tapi tidak menyebut periode buka atau tanggal tutup, jadi cek dulu apakah batch-nya masih menerima lamaran.",
+      "link": "https://www.maybank.co.id/en/Career/FreshGraduates",
+      "status": "terverifikasi",
+      "dicek": "Situs resmi Maybank Indonesia, 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Maybank Indonesia"
+    },
+    {
+      "id": "maybank-dmdp",
+      "perusahaan": "Maybank Indonesia",
+      "program": "Digital Management Development Program (DMDP)",
+      "jalur": [],
+      "kategori": "Bank",
+      "lokasi": "Tidak disebut",
+      "untuk": "Fresh graduate atau pengalaman maksimal 2 tahun, S1 Ekonomi, Matematika, Sains, TI, Sistem Informasi, dan lainnya",
+      "syarat": [
+        "S1 Ekonomi, Matematika, Sains, TI, Sistem Informasi, atau jurusan lain dari universitas bereputasi",
+        "IPK minimal 3,00 dari 4,00",
+        "Fresh graduate atau pengalaman maksimal 2 tahun",
+        "Pengetahuan UI/UX dan bahasa Inggris jadi nilai tambah"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Program percepatan karier di perbankan digital. Halaman resmi tidak menyebut periode buka atau tanggal tutup, jadi cek dulu apakah masih menerima lamaran.",
+      "link": "https://www.maybank.co.id/en/Career/FreshGraduates",
+      "status": "terverifikasi",
+      "dicek": "Situs resmi Maybank Indonesia, 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Maybank Indonesia"
     }
   ]
 }
