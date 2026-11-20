@@ -2586,6 +2586,63 @@
       "dicek": "LinkedIn Jobs (akun resmi Park Hyatt), 20 Nov 2026",
       "fresh_grad": true,
       "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "algoritma-ai-trainee",
+      "perusahaan": "Algoritma (Enterprise AI Education)",
+      "program": "Artificial Intelligence Trainee",
+      "jalur": [],
+      "kategori": "Pendidikan data dan AI",
+      "lokasi": "RDTX Square, Jakarta Selatan (hybrid)",
+      "untuk": "Fresh graduate S1 dengan dasar Python dan SQL",
+      "syarat": [
+        "Lulus S1, terima fresh graduate",
+        "Dasar Python dan SQL yang kuat",
+        "Paham konsep AI dasar (LLM, RAG, generative AI)",
+        "Suka mengajar dan komunikasi baik",
+        "Percaya diri presentasi",
+        "Cepat belajar dan terbuka sama feedback",
+        "Fasih bahasa Indonesia dan Inggris"
+      ],
+      "dibuka": "2026-11-19",
+      "deadline": "2026-12-20",
+      "catatan": "Bantu lalu ikut memimpin workshop dan training korporat, nyusun materi dan notebook coding, belajar produk AI Supertype (Sectors Financial AI Suite), ikut diskusi sama klien bareng tim bisnis. Gaji Rp 6.500.000 sampai 8.000.000 per bulan. Kalibrr: Apply before 20 Dec, jadi hari terakhir 19 Des 2026. Daftar lewat tombol Lamar di Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/algoritma/jobs/275893/artificial-intelligence-trainee-2",
+      "status": "terverifikasi",
+      "dicek": "Halaman perusahaan Algoritma di Kalibrr, 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "catib-campus-hiring-2026",
+      "perusahaan": "PT Contemporary Amperex Technology Indonesia Battery (CATIB)",
+      "program": "CATIB Campus Hiring 2026",
+      "jalur": [
+        "Production",
+        "Process Engineering",
+        "Industrial Engineering",
+        "Quality Assurance",
+        "EHS"
+      ],
+      "kategori": "Manufaktur baterai",
+      "lokasi": "Karawang, Jawa Barat",
+      "untuk": "D3/S1 teknik (Elektro, Fisika, Industri, Kimia, Lingkungan, Material, Mesin)",
+      "syarat": [
+        "D3 atau S1 Teknik Industri, Mesin, Kimia, Elektro, Lingkungan, Fisika, Material, atau relevan",
+        "Fresh graduate dipersilakan, pengalaman relevan diutamakan",
+        "Analitis, problem solving, komunikasi baik",
+        "Paham K3, standar kualitas, dan proses produksi",
+        "Bersedia kerja shift",
+        "Bahasa Inggris jadi nilai tambah"
+      ],
+      "dibuka": "2026-11-17",
+      "deadline": "2026-11-25",
+      "catatan": "Rekrutmen kampus untuk pabrik baterai di Karawang. Daftar lewat tombol Lamar di ITS Career Center (kemungkinan perlu akun).",
+      "link": "https://careers.its.ac.id/lowongan/BC2597EA-2892-4B45-8B6F-D2B5A6B2E481",
+      "status": "terverifikasi",
+      "dicek": "Diposting di ITS Career Center, 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "ITS Career Center"
     }
   ]
 }
