@@ -2388,6 +2388,96 @@
       "dicek": "Listing dipasang PT Berkah Trijaya Indonesia sendiri di KitaLulus (Nganjuk, diposting sekitar 15 Nov 2026), dicek 20 Nov 2026",
       "fresh_grad": false,
       "sumber": "IG @lowonganbumn.id (promosi KitaLulus)"
+    },
+    {
+      "id": "mpm-corporate-mt",
+      "perusahaan": "MPM Group (PT Mitra Pinasthika Mustika Tbk)",
+      "program": "Corporate Management Trainee (12 bulan)",
+      "jalur": [
+        "Finance/Accounting",
+        "Strategy",
+        "HR",
+        "Corporate Planning",
+        "Business Development",
+        "Marketing",
+        "Business Operations"
+      ],
+      "kategori": "Otomotif dan konglomerasi",
+      "lokasi": "Jakarta, bersedia ditempatkan di unit bisnis dan cabang seluruh Indonesia",
+      "untuk": "Fresh graduate S1/S2 semua jurusan, IPK minimal 3,25 (S1)",
+      "syarat": [
+        "Fresh graduate S1 atau S2 semua jurusan",
+        "IPK minimal 3,25 (S1) atau 3,50 (S2)",
+        "Bersedia ditempatkan di unit bisnis dan cabang MPM Group di seluruh Indonesia",
+        "Kemampuan analitis kualitatif dan kuantitatif yang kuat",
+        "Rasa ingin tahu dan adaptif terhadap AI dan teknologi",
+        "Komunikasi, interpersonal, dan kerja tim yang baik",
+        "Pengalaman kepemimpinan lewat organisasi atau ekstrakurikuler"
+      ],
+      "dibuka": "2026-11-17",
+      "deadline": null,
+      "catatan": "Program 12 bulan dengan rotasi lintas fungsi (Finance/Accounting, Strategy, HR, Corporate Planning, Business Development, Marketing, Business Operations), proyek bisnis nyata, dan mentoring. Deadline tidak tertulis, pelamar lebih dari 200 saat dicek. Daftar lewat tombol Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/corporate-management-trainee-at-mpm-group-pt-mitra-pinasthika-mustika-tbk-4490297079",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi MPM Group), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "garena-development-program",
+      "perusahaan": "Garena",
+      "program": "Garena Development Program (Talent Pool)",
+      "jalur": [
+        "Marketing",
+        "Product",
+        "Growth & Monetization",
+        "Proyek strategis"
+      ],
+      "kategori": "Teknologi dan gaming",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate dan young professional, pengalaman maksimal 2 tahun",
+      "syarat": [
+        "Fresh graduate atau young professional dengan pengalaman maksimal 2 tahun",
+        "Cepat belajar, berpikir kritis, dan bagus dalam ambil keputusan",
+        "Passionate terhadap gaming dan paham apa yang bikin game berkembang",
+        "Proaktif dan bermotivasi tinggi"
+      ],
+      "dibuka": "2026-11-19",
+      "deadline": null,
+      "catatan": "Program early career dengan proyek di Marketing, Product, Growth & Monetization, dan proyek strategis lintas fungsi. Talent pool, jadi bisa dipanggil sesuai kebutuhan. IPK dan jurusan tidak tertulis. LinkedIn menulis seniority Internship walau full-time. Daftar lewat tombol Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/garena-development-program-talent-pool-at-garena-4492299983",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi Garena), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "daewoong-global-talent-6",
+      "perusahaan": "Daewoong Pharmaceutical",
+      "program": "Global Talent Recruitment Batch 6 (magang 3 bulan lalu penempatan)",
+      "jalur": [
+        "Research",
+        "Quality",
+        "Production",
+        "Packaging & Engineering",
+        "Application"
+      ],
+      "kategori": "Farmasi",
+      "lokasi": "Indonesia, lalu penempatan Korea atau Indonesia",
+      "untuk": "S1/S2 bidang farmasi, bioteknologi, dan teknik terkait",
+      "syarat": [
+        "Pendidikan S1 atau S2",
+        "Bidang: Research, Quality, Production, Packaging & Engineering, Application",
+        "Syarat rinci (IPK, jurusan, pengalaman) ada di tautan pendaftaran"
+      ],
+      "dibuka": "2026-11-16",
+      "deadline": "2026-12-17",
+      "catatan": "Program rekrutmen global farmasi dan bioteknologi: magang on-site 3 bulan, lalu penempatan di Korea atau Indonesia. Syarat rinci ada di bit.ly/Daewoong6thGlobalRecruitment.",
+      "link": "https://karir.itb.ac.id/vacancy/job/431695",
+      "status": "terverifikasi",
+      "dicek": "Diposting di ITB Career Center, 20 Nov 2026. Syarat rinci belum dibuka.",
+      "fresh_grad": true,
+      "sumber": "ITB Career Center"
     }
   ]
 }
