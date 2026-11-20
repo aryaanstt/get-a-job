@@ -2767,6 +2767,51 @@
       "dicek": "LinkedIn Jobs (akun resmi JAPFA), 20 Nov 2026",
       "fresh_grad": true,
       "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "passionabadi-admin-factory",
+      "perusahaan": "PT Passion Abadi Korpora",
+      "program": "Admin Factory",
+      "jalur": [],
+      "kategori": "Manufaktur (perhiasan)",
+      "lokasi": "Serpong Utara, Tangerang",
+      "untuk": "Lulusan baru/junior, minimal D3 Administrasi atau bidang terkait",
+      "syarat": [
+        "Minimal D3 Administrasi atau bidang terkait (ringkasan Kalibrr menyebut S1)",
+        "Minimal 1 tahun pengalaman sebagai admin, diutamakan di industri manufaktur",
+        "Menguasai Excel, data entry, dan reporting",
+        "Bersedia kerja di lingkungan pabrik"
+      ],
+      "dibuka": "2026-11-17",
+      "deadline": "2027-01-15",
+      "catatan": "Input, olah, dan rekap data administrasi pabrik, laporan harian produksi, catat barang masuk/keluar dan cocokkan dengan fisik barang, kelola dokumen produksi, koordinasi dengan produksi, QC, dan gudang. Kalibrr menulis batas lamaran 16 Jan, jadi hari terakhir 15 Jan. IPK dan gaji tidak disebut. Daftar lewat tombol Lamar di Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-passion-abadi-korpora/jobs/275852/admin-factory",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (halaman perusahaan), 20 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "saptatunas-sales-admin",
+      "perusahaan": "PT Sapta Tunas Teknologi",
+      "program": "Sales Admin (kontrak)",
+      "jalur": [],
+      "kategori": "Distribusi IT",
+      "lokasi": "Mangga Dua, Jakarta Pusat",
+      "untuk": "Lulusan baru/junior S1, berpengalaman admin sales",
+      "syarat": [
+        "Lulusan S1 (jurusan tidak disebut)",
+        "Berpengalaman sebagai admin sales, pernah di perusahaan IT bagian administrasi sales (lama tidak disebut)",
+        "Wajib Excel dengan rumus"
+      ],
+      "dibuka": "2026-11-05",
+      "deadline": "2026-12-04",
+      "catatan": "Buat dan kelola quotation, follow up principal dan distributor, kelola dokumen penawaran dan tender, buat PR/PO, pantau pengiriman, kelola database customer, laporan penjualan mingguan dan bulanan. Kalibrr menulis batas lamaran 5 Des, jadi hari terakhir 4 Des. IPK dan gaji tidak disebut.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-sapta-tunas-teknologi/jobs/275272/sales-admin",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (halaman perusahaan), 20 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "Kalibrr"
     }
   ]
 }
