@@ -2643,6 +2643,31 @@
       "dicek": "Diposting di ITS Career Center, 20 Nov 2026",
       "fresh_grad": true,
       "sumber": "ITS Career Center"
+    },
+    {
+      "id": "sirclo-associate-analyst",
+      "perusahaan": "SIRCLO",
+      "program": "Associate Analyst (KPI operasional gudang)",
+      "jalur": [],
+      "kategori": "E-commerce enabler",
+      "lokasi": "Tangerang Selatan, Banten",
+      "untuk": "Level entry, S1 (jurusan diutamakan Teknik Industri, Sistem Informasi, Statistik/Matematika, Business Analytics, Supply Chain)",
+      "syarat": [
+        "S1, jurusan diutamakan Teknik Industri, Sistem Informasi, Statistik/Matematika, Business Analytics, atau Supply Chain/Logistik",
+        "Analitis, problem solving, dan data-driven",
+        "Bisa bawa proyek dari awal sampai eksekusi",
+        "Detail dan terstruktur, kompeten Excel/Google Sheets",
+        "Looker Studio wajib",
+        "Paham proses supply chain (inventory planning, warehouse management)"
+      ],
+      "dibuka": "2026-11-16",
+      "deadline": null,
+      "catatan": "Mantau KPI gudang harian dan mingguan, bikin laporan dan update dashboard, cek data dasar, nandain KPI yang melenceng ke senior analyst, ngumpulin data buat root cause analysis, dan usul perbaikan. IPK dan deadline tidak tertulis, 141 pelamar saat dicek. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/associate-analyst-at-sirclo-4490138569",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi SIRCLO), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
     }
   ]
 }
