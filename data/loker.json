@@ -2668,6 +2668,55 @@
       "dicek": "LinkedIn Jobs (akun resmi SIRCLO), 20 Nov 2026",
       "fresh_grad": true,
       "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "inaco-data-management-analytics",
+      "perusahaan": "PT Niramas Utama (INACO)",
+      "program": "Data Management & Analytics Staff",
+      "jalur": [],
+      "kategori": "FMCG (makanan dan minuman)",
+      "lokasi": "Bekasi, Jawa Barat",
+      "untuk": "Fresh graduate S1 Statistika, Data Science, Sistem Informasi, Teknik Informatika, atau terkait",
+      "syarat": [
+        "S1 Statistika, Data Science, Sistem Informasi, Teknik Informatika, Teknik Komputer, atau bidang terkait",
+        "Menguasai Microsoft Office, khususnya Excel",
+        "Komunikasi lisan dan tulisan yang baik",
+        "Bisa kerja sama dalam tim",
+        "Paham Power Query, Google Colab, dan tools AI jadi nilai tambah",
+        "Bersedia ditempatkan di Bekasi"
+      ],
+      "dibuka": "2026-11-19",
+      "deadline": null,
+      "catatan": "Mantau dan evaluasi laporan harian, mingguan, dan bulanan dari account dan distributor, ngolah data account dan area, nyusun laporan kinerja MD dan SMD, ngembangin sistem analisis data, dan nyajiin hasil analisis secara statistik. IPK dan pengalaman ga tertulis, pelamar 200+. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/data-management-analytics-staff-at-recruitment-pt-niramas-utama-inaco-4492411049",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun rekrutmen PT Niramas Utama), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "xcmg-service-data-analyst",
+      "perusahaan": "XCMG Indonesia",
+      "program": "Service Data Analyst",
+      "jalur": [],
+      "kategori": "Alat berat",
+      "lokasi": "Marunda, Jakarta Utara (full WFO)",
+      "untuk": "S1 IT, Ilmu Komputer, Statistika, Data Analytics, atau terkait, wajib lancar Mandarin",
+      "syarat": [
+        "S1 ke atas, diutamakan IT, Ilmu Komputer, Statistika, Data Analytics, atau terkait",
+        "Mahir BI tools (Power BI, Tableau, atau FineBI) dan Excel tingkat lanjut",
+        "Lancar Mandarin (dengar, bicara, baca, tulis)",
+        "Teliti dan bertanggung jawab",
+        "Tahan tekanan dan cepat merespons perubahan data"
+      ],
+      "dibuka": "2026-11-19",
+      "deadline": null,
+      "catatan": "Bikin dan rawat dashboard indikator service regional, rawat data service, ajukan work order buat masalah data, koordinasi dengan tim service dan sales. Pelamar 120 saat dicek. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/service-data-analyst-at-xcmg-indonesia-4492113761",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi XCMG Indonesia), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
     }
   ]
 }
