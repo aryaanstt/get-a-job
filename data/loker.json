@@ -2478,6 +2478,114 @@
       "dicek": "Diposting di ITB Career Center, 20 Nov 2026. Syarat rinci belum dibuka.",
       "fresh_grad": true,
       "sumber": "ITB Career Center"
+    },
+    {
+      "id": "marriott-voyage-2027",
+      "perusahaan": "Marriott International",
+      "program": "Indonesia 2027 Voyage Program (Revenue, Finance, dan fungsi hotel lain)",
+      "jalur": [
+        "Revenue",
+        "Finance",
+        "Sales & Marketing",
+        "Rooms Operations",
+        "F&B Operations",
+        "Culinary"
+      ],
+      "kategori": "Perhotelan",
+      "lokasi": "Jakarta (kantor Pacific Place, SCBD) dan hotel Marriott",
+      "untuk": "Lulusan S1 dalam 1 tahun terakhir atau mahasiswa yang lulus dalam 12 bulan",
+      "syarat": [
+        "Lulus dari universitas atau sekolah perhotelan dalam 1 tahun terakhir",
+        "S1 atau setara",
+        "Critical thinking dan komunikasi interpersonal yang kuat",
+        "Bisa membangun relasi dan kerja kolaboratif",
+        "Mandiri dan self-starter",
+        "Punya izin kerja di Indonesia",
+        "Cantumkan estimasi tanggal lulus dan ketersediaan paling cepat di CV",
+        "Setelah submit ada video interview online"
+      ],
+      "dibuka": "2026-11-13",
+      "deadline": null,
+      "catatan": "Program kepemimpinan global 18 bulan, berbayar, dengan rotasi lintas fungsi dan pelatihan di hotel Marriott. Jalur paling dekat buat Arya: Revenue (analisis harga dan permintaan) atau Finance. Tiap jalur punya posting LinkedIn sendiri. Revenue: https://id.linkedin.com/jobs/view/indonesia-2027-voyage-program-revenue-at-marriott-international-4482456721 . IPK dan deadline tidak tertulis, pelamar 200+.",
+      "link": "https://id.linkedin.com/jobs/view/indonesia-2027-voyage-program-revenue-at-marriott-international-4482456721",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi Marriott International), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "victory-intl-graduate-mt",
+      "perusahaan": "PT Victory International (Jakarta Satrio)",
+      "program": "Graduate Management Trainee",
+      "jalur": [],
+      "kategori": "Pialang berjangka",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate S1 finance, bisnis, ekonomi, atau terkait",
+      "syarat": [
+        "S1 finance, bisnis, ekonomi, atau bidang terkait",
+        "Kemampuan analitis buat baca pasar keuangan dan bikin laporan",
+        "Komunikasi yang baik",
+        "Minat di training dan customer service",
+        "Bersedia kerja on-site di Jakarta"
+      ],
+      "dibuka": "2026-11-20",
+      "deadline": null,
+      "catatan": "Rotasi bisnis, produk keuangan, operasi, dan layanan nasabah. Deskripsinya umum dan ada unsur layanan nasabah dan business development, kemungkinan jualan produk trading. Cek dulu sebelum daftar. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/graduate-management-trainee-at-pt-victory-international-branch-jakarta-satrio-4492155687",
+      "status": "perlu dicek",
+      "dicek": "Posting LinkedIn 20 Nov 2026. Produk dan bentuk kerjanya belum jelas, kemungkinan sales broker.",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "glori-investama-mt-sby",
+      "perusahaan": "PT Glori Investama (Surabaya)",
+      "program": "Management Trainee Program",
+      "jalur": [],
+      "kategori": "Pialang berjangka",
+      "lokasi": "Surabaya",
+      "untuk": "S1 bisnis, finance, ekonomi, manajemen, atau terkait (preferred)",
+      "syarat": [
+        "S1 bisnis, finance, ekonomi, manajemen, atau terkait (preferred)",
+        "Analitis buat baca data pasar dan metrik operasional",
+        "Komunikasi tertulis dan lisan",
+        "Orientasi layanan nasabah",
+        "Minat di pasar modal, futures, forex, dan derivatif",
+        "Bisa spreadsheet, presentasi, dan platform trading online",
+        "Bersedia kerja on-site di Surabaya"
+      ],
+      "dibuka": "2026-11-17",
+      "deadline": null,
+      "catatan": "Pialang berjangka berizin BAPPEBTI (forex, futures, derivatif). Rotasi onboarding nasabah, trade support, manajemen risiko, dan analisis data pasar. Ada kemungkinan unsur jualan produk trading. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/management-trainee-program-at-pt-glori-investama-surabaya-4490255131",
+      "status": "perlu dicek",
+      "dicek": "Posting LinkedIn 17 Nov 2026. Kemungkinan ada unsur sales produk trading.",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "parkhyatt-corporate-mt-fnb",
+      "perusahaan": "Park Hyatt Jakarta (Hyatt)",
+      "program": "Corporate Management Trainee Food & Beverage",
+      "jalur": [],
+      "kategori": "Perhotelan",
+      "lokasi": "Jakarta",
+      "untuk": "S1 perhotelan atau terkait, WNI",
+      "syarat": [
+        "S1 perhotelan atau bidang terkait",
+        "Bahasa Inggris kerja yang baik",
+        "Pengalaman magang di hotel jadi nilai tambah",
+        "Komunikasi, problem solving, dan adaptasi yang baik",
+        "Warga negara Indonesia"
+      ],
+      "dibuka": "2026-11-06",
+      "deadline": null,
+      "catatan": "Program rotasi 12 bulan di departemen F&B hotel, dengan pelatihan kepemimpinan dan mentoring. Pelamar 200+. Daftar lewat Apply di LinkedIn.",
+      "link": "https://id.linkedin.com/jobs/view/corporate-management-trainee-food-beverage-park-hyatt-jakarta-at-park-hyatt-4477182895",
+      "status": "terverifikasi",
+      "dicek": "LinkedIn Jobs (akun resmi Park Hyatt), 20 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
     }
   ]
 }
