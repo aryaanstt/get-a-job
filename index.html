@@ -7,7 +7,8 @@
 <meta name="description" content="Rekap lowongan management trainee dan program fresh graduate di Indonesia, dicek ke sumber resmi.">
 <meta name="theme-color" content="#F2F4F7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B0F17" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230E1525'/><path d='M5 20h7l8-9h7' fill='none' stroke='%23FFB224' stroke-width='3.5' stroke-linecap='round'/><circle cx='16' cy='15.5' r='3.6' fill='%230E1525' stroke='%23fff' stroke-width='2'/></svg>">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=JetBrains+Mono:wght@400..700&family=Plus+Jakarta+Sans:wght@400..800&display=swap">
@@ -22,14 +23,17 @@
   --f-judul: 'Bricolage Grotesque', 'Plus Jakarta Sans', system-ui, sans-serif;
   --f-teks: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --f-kode: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+  --merek: #2F7BCF;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --merek: #6AABEE;
   --bg: #0B0F17; --panel: #121826; --panel-2: #182032; --ink: #E8ECF3; --ink-2: #C7CEDA; --redup: #8E98AA;
   --garis-ui: #232C3E; --garis-kuat: #36425C; --titik: rgba(232, 236, 243, .055);
   --amber-ink: #FFD27A; --amber-bg: rgba(255, 178, 36, .13); --ok: #3DD68C; --ok-bg: rgba(61, 214, 140, .12); --bad: #FF7A70; --bad-bg: rgba(255, 122, 112, .12); --mepet: #FF9248;
   --angkat: 0 18px 40px -18px rgba(0, 0, 0, .7); --bayang: 0 1px 0 rgba(0, 0, 0, .3); color-scheme: dark } }
 :root[data-theme="dark"] {
+  --merek: #6AABEE;
   --bg: #0B0F17; --panel: #121826; --panel-2: #182032; --ink: #E8ECF3; --ink-2: #C7CEDA; --redup: #8E98AA;
   --garis-ui: #232C3E; --garis-kuat: #36425C; --titik: rgba(232, 236, 243, .055);
   --amber-ink: #FFD27A; --amber-bg: rgba(255, 178, 36, .13); --ok: #3DD68C; --ok-bg: rgba(61, 214, 140, .12); --bad: #FF7A70; --bad-bg: rgba(255, 122, 112, .12); --mepet: #FF9248;
@@ -52,7 +56,12 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 /* atas */
 .atas { display: flex; align-items: center; gap: 10px; padding: 18px 0 }
 .logo { display: inline-flex; align-items: center; gap: 9px; text-decoration: none }
-.logo span { font: 750 20px/1 var(--f-judul); letter-spacing: -.035em }
+/* logo brand get it: "get" di kapsul garis tipis, "a" dan titik warna produk */
+.wm-get { font: 800 21px/1 var(--f-judul); letter-spacing: -.04em; white-space: nowrap; color: var(--ink) }
+.wm-get .kap { display: inline-block; border-radius: .32em; padding: .02em .17em .12em; margin-right: .02em; box-shadow: inset 0 0 0 max(1.5px, .04em) currentColor }
+.wm-get .aks { color: var(--merek) }
+.bagian-dari { text-decoration: none }
+.bagian-dari:hover { color: var(--ink) }
 .spasi { flex: 1 }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; border-radius: 12px; font-weight: 650; font-size: 14px; text-decoration: none; border: 1.5px solid transparent; transition: transform .12s, box-shadow .12s, border-color .15s, background .15s; white-space: nowrap }
 .btn.utama { background: var(--ink); color: var(--bg); box-shadow: 0 3px 0 0 color-mix(in srgb, var(--ink) 55%, #000) }
@@ -173,7 +182,7 @@ footer b { color: var(--ink) }
 <body>
 <div class="wrap">
   <header class="atas">
-    <a class="logo" href="./" aria-label="Get a Job"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M4 21h8l8-10h8" fill="none" stroke="#F2542D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 11h8l8 10h8" fill="none" stroke="#FFB224" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="12.5" y="12" width="7" height="8" rx="3.5" fill="var(--panel)" stroke="var(--ink)" stroke-width="2.2"/></svg><span>get a job</span></a>
+    <a class="logo" href="./" aria-label="get a job, beranda"><span class="wm-get" aria-hidden="true"><span class="kap">get</span> <span class="aks">a</span> job<span class="aks">.</span></span></a>
     <span class="spasi"></span>
     <a class="btn garis kecil" href="https://aryaanstt.github.io/get-a-skill/" target="_blank" rel="noopener"><svg class="ik" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span>Latihan skill</span></a>
     <button class="ikon-btn" id="tema" aria-label="Ganti tema"></button>
@@ -217,7 +226,7 @@ footer b { color: var(--ink) }
   <footer>
     <b>Selalu cek ulang di link resmi sebelum melamar.</b> Info bisa berubah sewaktu-waktu. Rekrutmen resmi ga pernah minta biaya.<br>
     <b>Terverifikasi</b>: ketemu di situs, form, atau akun resmi perusahaan. <b>Perlu dicek</b>: baru ketemu di TikTok, IG info loker, atau agregator. <b>Kemungkinan tutup</b>: sumber bilang pendaftarannya udah lewat.<br>
-    Sumber awal info dicatat di tiap tiket. Dirangkum oleh aryaanstt.
+    Sumber awal info dicatat di tiap tiket. Dirangkum oleh aryaanstt. <a class="bagian-dari" href="../get-it/">Bagian dari <b>get it</b></a>.
   </footer>
 </div>
 
