@@ -3072,6 +3072,100 @@
       "dicek": "Disnakerja (agregator), 21 Nov 2026",
       "fresh_grad": true,
       "sumber": "Disnakerja"
+    },
+    {
+      "id": "astro-product-operations-officer",
+      "perusahaan": "PT Astro Technologies Indonesia (Astro)",
+      "program": "Product Operations Officer (kontrak, hybrid)",
+      "jalur": [],
+      "kategori": "E-commerce (quick commerce)",
+      "lokasi": "Jakarta Barat (Graha Antero, Tomang)",
+      "untuk": "Lulusan baru/junior S1 atau D4",
+      "syarat": [
+        "S1 atau D4 jurusan relevan",
+        "Pengalaman sebagai admin, supply chain, PO processing, procurement, atau category (magang juga diterima)",
+        "Excel rumus dasar sampai menengah",
+        "Pengalaman FMS atau e-commerce jadi nilai plus"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-25",
+      "catatan": "Proses PO harian, pantau PR jadi PO, input PO, dan koordinasi dengan supplier serta tim supply chain, finance, dan operasional. Kalibrr menulis batas lamaran 26 Des, jadi hari terakhir 25 Des. IPK, usia, dan gaji tidak disebut. Daftar lewat tombol Lamar di Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/astro-technologies-indonesia/jobs/274968/product-operations-officer",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "ravindra-office-administration",
+      "perusahaan": "PT Ravindra Putrapratama",
+      "program": "Office Administration",
+      "jalur": [],
+      "kategori": "Distributor alat kesehatan",
+      "lokasi": "Jakarta Selatan (Pusat Niaga Duta Mas Fatmawati)",
+      "untuk": "Lulusan baru/junior S1",
+      "syarat": [
+        "S1 atau setara, jurusan tidak ditentukan",
+        "Pengalaman 1 sampai 3 tahun di administrasi atau klerikal",
+        "Mahir Microsoft Office atau Google Workspace",
+        "Familiar dengan aplikasi penjadwalan, video conference, database, dan pembukuan dasar"
+      ],
+      "dibuka": null,
+      "deadline": "2027-02-27",
+      "catatan": "Telepon dan email, penjadwalan, pengarsipan, stok alat tulis, dukungan invoice dan petty cash. Label Kalibrr 'terima lulusan baru' tapi syaratnya nulis pengalaman 1 sampai 3 tahun. Kalibrr menulis batas lamaran 28 Feb, jadi hari terakhir 27 Feb. IPK, usia, dan gaji tidak disebut.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-ravindra-putrapratama/jobs/275861/office-administration",
+      "status": "terverifikasi",
+      "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
+      "fresh_grad": false,
+      "sumber": "Kalibrr"
+    },
+    {
+      "id": "sigap-prima-astrea-mt-batch4",
+      "perusahaan": "PT Sigap Prima Astrea (Astra Group)",
+      "program": "Management Trainee Batch 4 dan Key Account Trainee",
+      "jalur": [],
+      "kategori": "Astra Group (jasa keamanan dan fasilitas)",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate atau pengalaman maksimal 1 sampai 2 tahun, S1 Teknik atau Kriminologi",
+      "syarat": [
+        "MT Batch 4: S1 Teknik atau Kriminologi",
+        "Key Account Trainee: S1 Teknik (Industri, Listrik, Mesin diutamakan)",
+        "Fresh graduate atau pengalaman maksimal 1 sampai 2 tahun",
+        "IPK minimal 3,00",
+        "Pengalaman organisasi atau kepanitiaan (MT), kemampuan analisis dan Microsoft Office (Key Account)"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Disnakerja menyebut dibuka November 2026 (diperbarui 18 Nov). Belum ketemu postingan resmi Sigap Prima Astrea, jadi cek dulu sebelum daftar. Tanggal tutup tidak disebut. Rekrutmen Astra gratis, waspada yang minta biaya.",
+      "link": "https://www.disnakerja.com/lowongan-kerja-pt-sigap-prima-astrea-astra-group/",
+      "status": "perlu dicek",
+      "dicek": "Disnakerja (agregator), 21 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Disnakerja"
+    },
+    {
+      "id": "asahimas-mt-2026",
+      "perusahaan": "PT Asahimas Flat Glass Tbk",
+      "program": "Management Trainee (Electrical Maintenance, Production Planning Order Control, Technical Advisory Services)",
+      "jalur": [],
+      "kategori": "Manufaktur (kaca)",
+      "lokasi": "Cikampek. Technical Advisory juga Jakarta atau Sidoarjo",
+      "untuk": "S1 teknik, fresh graduate diterima",
+      "syarat": [
+        "Electrical Maintenance: S1 Mekatronika atau Teknik Elektro",
+        "PPOC: S1 Teknik Industri, menguasai Excel, SAP, Python, Macro VBA, atau Power Automate",
+        "Technical Advisory: S1 Teknik Kimia, Mesin, Sipil, atau terkait",
+        "IPK minimal 3,00",
+        "Pengalaman 1 tahun di bidang serupa, tapi fresh graduate dipersilakan"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Tiga jalur MT. PPOC (perencanaan produksi) paling dekat ke data karena nyebut Excel, Python, dan VBA. Disnakerja memperbarui info ini 15 Nov 2026. Belum ketemu postingan resmi Asahimas, dan tanggal tutup tidak disebut.",
+      "link": "https://www.disnakerja.com/lowongan-kerja-pt-asahimas-flat-glass-tbk/",
+      "status": "perlu dicek",
+      "dicek": "Disnakerja (agregator), 21 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Disnakerja"
     }
   ]
 }
