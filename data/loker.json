@@ -3584,6 +3584,56 @@
       "dicek": "Postingan LinkedIn rekruter HR PT Dizamatra Powerindo, 22 Nov 2026",
       "fresh_grad": true,
       "sumber": "Postingan LinkedIn rekruter"
+    },
+    {
+      "id": "astra-smi-data-analyst-aid",
+      "perusahaan": "Astra Financial - PT Sedaya Multi Investama (Astra Group)",
+      "program": "Data Analyst - AID",
+      "jalur": [],
+      "kategori": "Astra Group (jasa keuangan)",
+      "lokasi": null,
+      "untuk": "Lulusan baru dan profesional, S1 Data Science, Ilmu Komputer, TI, Matematika, Statistika, atau bidang kuantitatif relevan",
+      "syarat": [
+        "Minimal S1 Data Science, Ilmu Komputer, Teknologi Informasi, Matematika, Statistika, atau bidang kuantitatif lain yang relevan",
+        "Paham kuat machine learning dan predictive modeling dari persiapan data, feature engineering, pengembangan model, sampai evaluasi",
+        "Menguasai SQL",
+        "Memahami konsep big data dan data warehouse, terbiasa dengan dataset besar",
+        "Mampu exploratory data analysis",
+        "Pemahaman dasar AI/GenAI",
+        "Pengalaman dashboard Power BI, Tableau, atau sejenisnya jadi nilai tambah"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Menerjemahkan kebutuhan bisnis ke pendekatan data, eksplorasi dan pembersihan data, membangun dan menyetel model analisis, UAT, dashboard, dan dokumentasi. Lokasi, IPK, usia, dan minimal pengalaman tidak disebut. Ada lowongan terkait Data Visualization - AID di portal yang sama. Daftar lewat tombol Lamar di portal karier resmi Astra.",
+      "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/14466/Data%20Analyst%20-%20AID",
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra"
+    },
+    {
+      "id": "astra-dso-mt-admin-supervisor",
+      "perusahaan": "Astra International (Daihatsu Sales Operation)",
+      "program": "MT Administration Supervisor - DSO",
+      "jalur": [],
+      "kategori": "Astra Group (otomotif)",
+      "lokasi": "Cabang Astra Daihatsu di seluruh Indonesia",
+      "untuk": "Lulusan baru, S1 Ekonomi, Akuntansi, Manajemen, Keuangan, atau Administrasi",
+      "syarat": [
+        "S1 Ekonomi, Akuntansi, Manajemen, Keuangan, atau Administrasi",
+        "Fresh graduate atau maksimal 2 tahun pengalaman",
+        "Passion di industri otomotif dan ambisi jadi pemimpin",
+        "Wajib bersedia ditempatkan di seluruh Indonesia",
+        "Interpersonal, komunikasi, kepemimpinan, naluri bisnis, dan orientasi target"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Development program jadi supervisor administrasi cabang: pencatatan akuntansi cabang, anggaran dan rencana bisnis cabang, administrasi sesuai SOP. IPK dan usia tidak disebut. Daftar lewat tombol Lamar di portal karier resmi Astra.",
+      "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/13603/MT%20Administration%20Supervisor%20-%20DSO",
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra"
     }
   ]
 }
