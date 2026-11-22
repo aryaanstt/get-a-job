@@ -3805,6 +3805,52 @@
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
       "sumber": "Situs resmi Astra"
+    },
+    {
+      "id": "paragon-mt-freshgraduate",
+      "perusahaan": "ParagonCorp",
+      "program": "Freshgraduate Program (Management Trainee)",
+      "jalur": [],
+      "kategori": "FMCG (kosmetik)",
+      "lokasi": null,
+      "untuk": "Fresh graduate dan early professional 0 sampai 2 tahun, S1 semua jurusan",
+      "syarat": [
+        "Minimal S1 dari kampus dalam atau luar negeri",
+        "Fresh graduate atau pengalaman 0 sampai 2 tahun",
+        "Semua jurusan, dengan preferensi jurusan tertentu per posisi",
+        "Ijazah atau SKL belum wajib saat melamar, wajib ada saat onboarding",
+        "Pengalaman kerja tidak wajib, tapi diharapkan punya dasar akademik kuat, potensi kepemimpinan, dan pengalaman relevan seperti organisasi, magang, atau proyek",
+        "Wajib pakai template CV resmi ParagonCorp"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Tahapan: seleksi administrasi, self assessment online, tes tertulis, interview HR, final interview dengan CEO dan founder, lalu offering plus medical check up. Daftar posisi, IPK, dan tenggat baru kelihatan setelah login atau register di portal Rakamin ParagonCorp. ParagonCorp menyatakan tidak memungut biaya dan cuma pakai email domain @paracorpgroup.com.",
+      "link": "https://paragoncorp.rakamin.com/freshgraduate-program",
+      "status": "perlu dicek",
+      "dicek": "Portal rekrutmen resmi ParagonCorp (paragoncorp.rakamin.com), 22 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Portal rekrutmen resmi ParagonCorp"
+    },
+    {
+      "id": "flora-food-sales-performance-analyst",
+      "perusahaan": "Flora Food Group",
+      "program": "Sales Performance Analyst",
+      "jalur": [],
+      "kategori": "FMCG (makanan)",
+      "lokasi": "Tangerang, Banten",
+      "untuk": "Entry level, jurusan tidak disebut",
+      "syarat": [
+        "Kemampuan analitis kuat dan pengalaman analisis penjualan atau performa bisnis (jumlah tahun tidak disebut)",
+        "Bahasa Indonesia level bisnis dan bahasa Inggris kerja"
+      ],
+      "dibuka": null,
+      "deadline": "2026-11-23",
+      "catatan": "Permanen, kerja di kantor, penuh waktu, entry level. Pantau performa penjualan dan KPI, bikin laporan rutin buat Business Insight Manager dan Head of Sales, kerja bareng tim sales dan marketing. Jurusan, IPK, dan usia tidak disebut. Dipasang di LinkedIn sekitar 21 Nov 2026, pelamar sudah lebih dari 200. Belum dicek ke situs karier resmi Flora Food Group.",
+      "link": "https://id.linkedin.com/jobs/view/sales-performance-analyst-at-flora-food-group-4485312045",
+      "status": "perlu dicek",
+      "dicek": "LinkedIn Jobs, 22 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
     }
   ]
 }
