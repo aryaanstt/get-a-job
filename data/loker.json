@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-21",
+  "diperbarui": "2026-11-22",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -3411,6 +3411,57 @@
       "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/14953/Management%20System%20and%20Corporate%20Communication%20Analyst%20-%20TSM",
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra"
+    },
+    {
+      "id": "suzuki-corporate-planning-analyst",
+      "perusahaan": "PT Suzuki Indomobil Motor",
+      "program": "Corporate Planning Analyst",
+      "jalur": [],
+      "kategori": "Otomotif",
+      "lokasi": "Jakarta",
+      "untuk": "Entry level, S1 Statistika, Teknik, Ekonomi, atau bidang terkait",
+      "syarat": [
+        "S1 Statistika, Teknik, Ekonomi, atau bidang terkait",
+        "Wajib mahir Microsoft Excel tingkat lanjut dan database atau analisis data",
+        "Pengalaman alat visualisasi data atau pelaporan jadi nilai tambah",
+        "Kemampuan analitis dan pengelolaan data kuat, teliti",
+        "Mampu menganalisis data kompleks jadi insight yang bisa ditindaklanjuti",
+        "Pengalaman minimal 1 tahun di corporate planning, business planning, atau business analysis jadi nilai tambah (tidak wajib)",
+        "Fasih bahasa Inggris lisan dan tulisan"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Penuh waktu, entry level. Tugas: koordinasi perencanaan korporat (planning, monitoring, reporting, evaluasi), mengelola data bisnis dan operasional di Excel dan database, bikin laporan, dashboard, dan presentasi. IPK, usia, dan tenggat tidak disebut. Dipasang di LinkedIn sekitar 21 Nov 2026, pelamar sudah lebih dari 200. Belum ketemu di situs karier resmi Suzuki.",
+      "link": "https://id.linkedin.com/jobs/view/corporate-planning-analyst-at-pt-suzuki-indomobil-motor-4492562306",
+      "status": "perlu dicek",
+      "dicek": "LinkedIn Jobs, 22 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "gsi-ut-logistic-officer",
+      "perusahaan": "PT Global Service Indonesia (Astra Group, penempatan di United Tractors)",
+      "program": "Logistic Officer - GSI",
+      "jalur": [],
+      "kategori": "Astra Group (alat berat)",
+      "lokasi": "Penempatan di seluruh cabang dan site PT United Tractors Tbk",
+      "untuk": "Fresh graduate atau profesional, D3/S1 Manajemen Logistik, Manajemen Transportasi, Teknik Industri, atau bidang relevan",
+      "syarat": [
+        "Minimal D3/S1 Manajemen Logistik, Manajemen Transportasi, Teknik Industri, atau bidang studi lain yang relevan",
+        "Fresh graduate dipersilakan",
+        "Memahami dasar proses logistik, manajemen pergudangan, dan supply chain",
+        "Bisa MS Office (Word, Excel, PowerPoint)",
+        "Komunikasi dan kerja tim baik, adaptif, teliti",
+        "Bersedia ditempatkan di seluruh cabang dan site PT United Tractors Tbk"
+      ],
+      "dibuka": null,
+      "deadline": "2026-12-31",
+      "catatan": "Kerjaan admin dan analisis logistik: proses pesanan barang, pengendalian dan penyimpanan barang, distribusi, update data inventaris gudang, analisis persediaan (FIFO, LIFO, safety stock, peramalan stok). Karyawan GSI, ditempatkan di United Tractors. IPK, usia, dan status kerja tidak disebut. Daftar lewat tombol Lamar di portal karier resmi Astra.",
+      "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/15132/Logistic%20Officer%20-%20GSI",
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
       "sumber": "Situs resmi Astra"
     }
