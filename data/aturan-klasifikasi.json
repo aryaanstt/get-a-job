@@ -1,0 +1,55 @@
+{
+  "_catatan": "Aturan isi otomatis field bidang, jenis_kerja, tipe, dan wilayah di loker.json. Dipakai alat/isi_bidang.py dan index.html (cadangan kalau field belum ada). Pola regex dicocokkan ke teks huruf kecil, kecuali pola_kapital yang dicocokkan ke teks asli.",
+  "bidang": {
+    "sumber": ["untuk", "syarat"],
+    "_catatan_saring": "Dari syarat cuma baris soal pendidikan yang dibaca, biar skill kayak 'komunikasi baik' ga kebaca jurusan Komunikasi.",
+    "saring_baris": { "syarat": "\\b(s1|s2|s3|d3|d4|diploma|sarjana|jurusan|program studi|prodi|fakultas|latar belakang|latar pendidikan|lulusan|akademik|major|degree|bachelor|pendidikan (minimal|terakhir))\\b|^(s1|d3|d4)" },
+    "semua": "semua jurusan(?!\\s+(teknik|ekonomi|bisnis|kesehatan|sains))|jurusan apa ?pun|any (major|discipline)|all majors|tidak butuh latar pendidikan|jurusan tidak ditentukan|semua (program studi|prodi|disiplin)",
+    "daftar": [
+      { "id": "teknik", "label": "Teknik", "pola": "teknik(?!\\s+(informatika|komputer))|engineering|mekatronika|metalurgi|pertambangan|geodesi|geomatika|\\bsipil\\b|elektro|tenaga listrik|teknologi rekayasa|kelautan|survei pemetaan|perminyakan|\\bstem\\b|\\bhse\\b" },
+      { "id": "it", "label": "IT & ilmu komputer", "pola": "informatika|ilmu komputer|computer science|sistem informasi|information system|teknologi informasi|teknik komputer|software|perangkat lunak|\\bstem\\b", "pola_kapital": "\\b(IT|TI)\\b" },
+      { "id": "data", "label": "Data & statistik", "pola": "statisti|matematika|mathematics|\\bmath\\b|data science|sains data|aktuaria|actuar|kuantitatif|quantitative|business analytics|data analytics|\\bdata,|\\bstem\\b" },
+      { "id": "sains", "label": "Sains (MIPA)", "pola": "\\bmipa\\b|\\bsains\\b(?!\\s+data)|(?<!data )(?<!computer )\\bscience|(?<!teknik )\\b(fisika|kimia|biologi|geologi)|bioteknologi|geofisika|astronomi|astrofisika|meteorologi|klimatologi|ilmu kebumian|geosains|ilmu lingkungan|studi lingkungan|environmental stud|\\bmatematika|\\bstem\\b", "pola_kapital": "\\bMIPA\\b" },
+      { "id": "bisnis", "label": "Bisnis & manajemen", "pola": "manajemen|management|bisnis|business(?! analytics)|ekonomi|economics|commerce|administrasi|marketing|pemasaran|supply chain|logistik|perhotelan|hospitality", "pola_kapital": "\\bSBM\\b" },
+      { "id": "akuntansi", "label": "Akuntansi & keuangan", "pola": "akuntansi|accounting|keuangan|finance|perpajakan|perbankan" },
+      { "id": "kesehatan", "label": "Kesehatan", "pola": "farmasi|kedokteran|keperawatan|kesehatan|\\bgizi\\b|kebidanan|apoteker|pharmac|nursing|medis" },
+      { "id": "hukum", "label": "Hukum", "pola": "hukum|\\blaw\\b|\\blegal\\b" },
+      { "id": "komunikasi", "label": "Komunikasi & desain", "pola": "komunikasi|public relations|hubungan masyarakat|humas|jurnalis|desain|design|broadcast|periklanan|advertising|\\bdkv\\b", "pola_kapital": "\\bDKV\\b" },
+      { "id": "pertanian", "label": "Pertanian & kehutanan", "pola": "pertanian|agronomi|agroteknologi|kehutanan|perkebunan|peternakan|perikanan|agribisnis|teknologi pangan|ilmu pangan" },
+      { "id": "sosial", "label": "Psikologi, sosial & pendidikan", "pola": "psikologi|psychology|ilmu sosial|sosiologi|kebijakan publik|studi pembangunan|hubungan internasional|kriminologi|keguruan|ilmu pendidikan|administrasi publik|ilmu politik|antropologi|sastra" }
+    ]
+  },
+  "jenis_kerja": {
+    "sumber": ["program", "jalur"],
+    "daftar": [
+      { "id": "mt", "label": "MT & program trainee", "pola": "management trainee|\\bmt\\b|trainee|development program|graduate program|graduate development|graduate recruitment|freshgraduate program|\\b(odp|mdp|gdp|fgdp|bflp|ymp|dmdp|pdp|bdp|nedp|ladp|sgdp|tdp|pcpo|fgr|wmp)\\b|management associate|leadership|talent pool|next talent|academy|campus hiring|voyage program|ready4work|global talent|credit analyst program|expert program|auction development" },
+      { "id": "analis", "label": "Analis & data", "pola": "analy[sz]|analis|\\bassociate\\b(?! program)|\\bdata\\b|business intelligence|intelligence|analytics|planning|strategy|strategic|pdca|underwriter|credit|risk|global analyst" },
+      { "id": "teknik", "label": "Teknik & operasional", "pola": "engineer|teknik|technical|production|produksi|\\bplant\\b|maintenance|workshop|operation|operasional|\\bops\\b|\\bsite\\b|warehouse|logistic|logistik|inventory|\\bhse\\b|sheq|safety|drone|plantation|hauling|manufactur|\\bparts?\\b|sertifikasi|geophysicist|electrical|mining|tambang|\\bit\\b|developer|artificial intelligence|\\bai\\b" },
+      { "id": "admin", "label": "Admin, HR & support", "pola": "admin|administrasi|administration|\\bhr\\b|human resource|payroll|talent acquisition|talent development|organization development|compensation|purchasing|procurement|claim|office|support|governance|data protection|credit processing|sekretaris|secretary|management representative|management system" },
+      { "id": "sales", "label": "Sales, marketing & komunikasi", "pola": "sales|marketing|penjualan|account|business development|\\bconsultant\\b(?! as)|wealth|commercial|franchise|promotor|e-?commerce|customer|communication|komunikasi|auction" },
+      { "id": "riset", "label": "Riset & sains", "pola": "research|riset|scientist|climatolog|weather|geophysicist|market intelligence" }
+    ]
+  },
+  "tipe": {
+    "sumber": ["program", "untuk"],
+    "bawaan": "penuh waktu",
+    "daftar": [
+      { "id": "magang", "label": "Magang", "pola": "\\bintern(ship)?\\b|\\bmagang\\b(?!\\s+\\d+\\s+bulan\\s+lalu)" },
+      { "id": "kontrak", "label": "Kontrak", "pola": "kontrak|contract|freelance|\\bpkwt\\b|consultant as" }
+    ]
+  },
+  "wilayah": {
+    "sumber": ["lokasi"],
+    "daftar": [
+      { "id": "jabodetabek", "label": "Jabodetabek & Banten", "pola": "jakarta|bogor|depok|tangerang|bekasi|cikarang|cibitung|serpong|\\bbsd\\b|jabodetabek|banten|\\bdki\\b|marunda|sunter|pulogadung" },
+      { "id": "jabar", "label": "Jawa Barat", "pola": "jawa barat|bandung|karawang|purwakarta|subang|cikampek|pangandaran|cirebon|sukabumi|tasikmalaya|\\bjawa\\b(?!\\s+(tengah|timur))(?=,| dan)" },
+      { "id": "jateng", "label": "Jawa Tengah & DIY", "pola": "jawa tengah|semarang|\\bsolo\\b|surakarta|yogyakarta|jogja|\\bdiy\\b|\\bjawa\\b(?!\\s+(barat|timur))(?=,| dan)" },
+      { "id": "jatim", "label": "Jawa Timur", "pola": "jawa timur|surabaya|sidoarjo|malang|ngoro|lamongan|nganjuk|ngawi|gresik|kediri|\\bjawa\\b(?!\\s+(barat|tengah))(?=,| dan)" },
+      { "id": "bali", "label": "Bali & Nusa Tenggara", "pola": "\\bbali\\b|denpasar|lombok|\\bntb\\b|\\bntt\\b|nusa tenggara" },
+      { "id": "sumatera", "label": "Sumatera", "pola": "sumatera|sumatra|medan|lampung|riau|palembang|padang|aceh|jambi|bengkulu|batam|kandis|muara belida" },
+      { "id": "kalimantan", "label": "Kalimantan", "pola": "kalimantan|pontianak|balikpapan|samarinda|banjarmasin" },
+      { "id": "sulawesi", "label": "Sulawesi & Indonesia Timur", "pola": "sulawesi|makassar|manado|minahasa|mangkutana|kendari|palu|papua|maluku" },
+      { "id": "seluruh", "label": "Seluruh Indonesia", "pola": "seluruh (indonesia|wilayah|cabang|unit|lokasi|site)|di ?mana (saja|pun)|mana saja|siap relokasi|bersedia ditempatkan|banyak kota|^indonesia\\b|penempatan di (area|seluruh)|unit bisnis|wilayah operasional" }
+    ]
+  }
+}

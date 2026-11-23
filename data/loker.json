@@ -25,7 +25,18 @@
       "status": "terverifikasi",
       "dicek": "Halaman resmi karir.bca.co.id 8 Nov 2026, Kalibrr resmi BCA 13 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "uob-ma-2026",
@@ -48,7 +59,15 @@
       "status": "terverifikasi",
       "dicek": "Lowongan LinkedIn resmi UOB, 8 Nov 2026",
       "fresh_grad": false,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "zurich-antz",
@@ -71,7 +90,17 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Zurich, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bri-bflp-specialist-w5",
@@ -99,7 +128,17 @@
       "status": "terverifikasi",
       "dicek": "Talentics (portal resmi BRI), 15 Nov 2026, tertulis Apply before 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "cimory-clap",
@@ -117,7 +156,13 @@
       "status": "terverifikasi",
       "dicek": "Akun IG karier resmi Cimory @risingwithcimory, bio-nya link bit.ly/CLAP-FGDP ke Google Form CLAP-FGDP, 20 Nov 2026. Tenggat ga tertulis.",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "eiger-ladp-22",
@@ -138,7 +183,17 @@
       "status": "terverifikasi",
       "dicek": "Halaman resmi career.eigerindo.co.id, 8 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "skha-sgdp-4",
@@ -161,7 +216,15 @@
       "status": "terverifikasi",
       "dicek": "Halaman resmi skha.co.id, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @jelasindongbin"
+      "sumber": "TikTok @jelasindongbin",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "susiair-mt-general",
@@ -189,7 +252,18 @@
       "status": "terverifikasi",
       "dicek": "Halaman karier resmi susiair.com, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "kawanlama-mt",
@@ -212,7 +286,16 @@
       "status": "terverifikasi",
       "dicek": "Portal e-recruitment resmi Kawan Lama Group, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "byd-fgp",
@@ -234,7 +317,22 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi BYD Indonesia, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [
+        "it",
+        "data",
+        "bisnis",
+        "akuntansi",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar"
+      ]
     },
     {
       "id": "shopeepay-mt",
@@ -255,7 +353,21 @@
       "status": "kemungkinan tutup",
       "dicek": "Ga ketemu di situs karier Sea atau Shopee. Program Sea (Global Management Associate dan GDP 2027) menurut agregator buka 18 Agu sampai 31 Okt 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "komatsu-nedp",
@@ -273,7 +385,13 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: program NEDP belum ketemu di situs resmi Komatsu, cuma di agregator.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "frisianflag-mt",
@@ -295,7 +413,15 @@
       "status": "kemungkinan tutup",
       "dicek": "Lowongan Global Traineeship Program Commercial Indonesia di mycareers.frieslandcampina.com tertulis 'not available at this time', 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "akasha-dp-2026",
@@ -315,7 +441,16 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: cuma ada di Dealls (agregator), situs karier resmi Akasha belum ketemu.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [
+        "semua",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "kino-2026",
@@ -333,7 +468,14 @@
       "status": "kemungkinan tutup",
       "dicek": "Situs resmi ga bisa dibuka. Menurut agregator MT Operation & Manufacture 2026 buka 28 Sep sampai 4 Okt, Sales & Marketing Trainee 9 sampai 14 Nov 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "taka-mt",
@@ -354,7 +496,19 @@
       "status": "kemungkinan tutup",
       "dicek": "Ga ketemu di taka.co.id. Agregator nyebut MT Batch XI tutup 9 Okt 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [
+        "teknik",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "lippo-mdp-2026",
@@ -374,7 +528,13 @@
       "status": "kemungkinan tutup",
       "dicek": "Halaman lowongan MDP di lippokarawaci.co.id udah 404. Agregator nyebut sesi rekrutmen MDP 2026 di ITB tanggal 28 Apr 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "gacoan-mt-ops-2026",
@@ -395,7 +555,18 @@
       "status": "kemungkinan tutup",
       "dicek": "Ga ada situs karier resmi. Agregator nyebut seleksinya 3 sampai 4 Agu 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jateng",
+        "jatim"
+      ]
     },
     {
       "id": "toto-mt-production",
@@ -415,7 +586,16 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: situs karier resmi Surya Toto belum ketemu. Disnakerja nyebut pembukaan Juli 2026 tanpa tenggat.",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerfreshgraduate"
+      "sumber": "TikTok @lokerfreshgraduate",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "mitrabara-fgdp-2026",
@@ -445,7 +625,20 @@
       "status": "terverifikasi",
       "dicek": "Poster resmi campus hiring di IG @itbcareercenterofficial, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "dbc-mt-2027",
@@ -480,7 +673,20 @@
       "status": "terverifikasi",
       "dicek": "Portal resmi mt-recruitment.dbc.co.id dan poster ITS Career Center, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jatim"
+      ]
     },
     {
       "id": "geopersada-fgdp-plant",
@@ -507,7 +713,18 @@
       "status": "perlu dicek",
       "dicek": "Belum ketemu sumber resmi, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "IG @disnakerjaid"
+      "sumber": "IG @disnakerjaid",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sulawesi"
+      ]
     },
     {
       "id": "permata-mt-2026",
@@ -530,7 +747,22 @@
       "status": "terverifikasi",
       "dicek": "Portal rekrutmen resmi recruitment.permatagroup.com, 10 Nov 2026",
       "fresh_grad": true,
-      "sumber": "IG @disnakerjaid"
+      "sumber": "IG @disnakerjaid",
+      "bidang": [
+        "teknik",
+        "bisnis",
+        "akuntansi",
+        "hukum",
+        "pertanian"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera",
+        "seluruh"
+      ]
     },
     {
       "id": "hasnur-hrs-fgdp-2027",
@@ -556,7 +788,19 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: FGDP 2027 belum ketemu di sumber resmi. Yang ada cuma postingan 2023.",
       "fresh_grad": true,
-      "sumber": "IG @disnakerjaid"
+      "sumber": "IG @disnakerjaid",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "kalimantan",
+        "seluruh"
+      ]
     },
     {
       "id": "tiktok-gdp-2027",
@@ -582,7 +826,19 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi TikTok, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Pencarian Claude"
+      "sumber": "Pencarian Claude",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "sutra-ba-2026",
@@ -607,7 +863,21 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "sains",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "kompas-gramedia-da",
@@ -631,7 +901,19 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "triputra-jba-adp",
@@ -654,7 +936,18 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "haquhara-da",
@@ -676,7 +969,14 @@
       "status": "terverifikasi",
       "dicek": "Diposting HAQUHARA sendiri di ITB Career Center dengan website resmi haquhara.com. Halaman karier resminya haquhara.com/pages/haqucareers, 20 Nov 2026. Posisi Data Analyst cuma tertulis di ITB Career Center.",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "astra-buana-wma",
@@ -699,7 +999,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Asuransi Astra), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "it",
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "miliki-rumah-cfba",
@@ -720,7 +1033,18 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "impack-it-da",
@@ -743,7 +1067,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Impack), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "asw-mt-sales",
@@ -768,7 +1105,16 @@
       "status": "terverifikasi",
       "dicek": "Microsoft Form resmi 'ASW Foods Management Trainee Program Sales Application Form', masa registrasi 23 Okt sampai 20 Nov 2026, 20 Nov 2026.",
       "fresh_grad": true,
-      "sumber": "IDN Times"
+      "sumber": "IDN Times",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "propan-mt",
@@ -789,7 +1135,17 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "propan-internship",
@@ -809,7 +1165,17 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "lainnya"
+      ],
+      "tipe": "magang",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "sunthi-hse",
@@ -832,7 +1198,16 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "pipit-plantation-mt",
@@ -858,7 +1233,16 @@
       "status": "perlu dicek",
       "dicek": "Artikel IDN Times 9 Nov 2026",
       "fresh_grad": true,
-      "sumber": "IDN Times"
+      "sumber": "IDN Times",
+      "bidang": [
+        "pertanian"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "schneider-yes-2026",
@@ -879,7 +1263,13 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center, 12 Nov 2026",
       "fresh_grad": false,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "sgn-recruitment-2026",
@@ -906,7 +1296,16 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "atlascopco-sheq-intern",
@@ -927,7 +1326,13 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: ada di ITS Career Center (tutup 1 Des 2026), tapi ga ada di situs karier resmi Atlas Copco.",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "magang",
+      "wilayah": []
     },
     {
       "id": "bni-odp-data-analytics",
@@ -954,7 +1359,23 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "mandiri-odp-2026",
@@ -984,7 +1405,24 @@
       "status": "terverifikasi",
       "dicek": "Talentics (portal resmi Bank Mandiri), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "bisnis",
+        "komunikasi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "bni-odp-gap",
@@ -1008,7 +1446,17 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "btn-odp-2026",
@@ -1030,7 +1478,14 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "iss-mt-2026",
@@ -1054,7 +1509,20 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "semua",
+        "teknik",
+        "it",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "sigma-digital-bi",
@@ -1080,7 +1548,17 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "toya-staff-mt",
@@ -1101,7 +1579,17 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "traspac-ba",
@@ -1121,7 +1609,15 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "it"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "hutama-karya-talentpool",
@@ -1143,7 +1639,19 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center, 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "bisnis",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "hino-credit-analyst-sby",
@@ -1165,7 +1673,18 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Hino Finance), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "bfi-mt-credit-analyst-tgr",
@@ -1190,7 +1709,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BFI Finance), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "infokes-data-qa",
@@ -1213,7 +1745,15 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Infokes), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "taf-mt-ops-29",
@@ -1234,7 +1774,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi TAF), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "teknik",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "gsk-lead-mt",
@@ -1257,7 +1811,16 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Gunung Sewu), 12 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "kearney-ja-2027-jkt",
@@ -1279,7 +1842,15 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Kearney (kearney.recsolu.com, ditaut dari kearney.com), 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal karier resmi Kearney"
+      "sumber": "Portal karier resmi Kearney",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bcaf-business-risk-staff",
@@ -1302,7 +1873,17 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BCA Finance), 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "smart-climatology-scientist-riau",
@@ -1328,7 +1909,17 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn, unggahan resmi PT SMART Tbk, 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn"
+      "sumber": "LinkedIn",
+      "bidang": [
+        "sains"
+      ],
+      "jenis_kerja": [
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera"
+      ]
     },
     {
       "id": "bsi-bdp-2026",
@@ -1357,7 +1948,16 @@
       "status": "terverifikasi",
       "dicek": "Halaman lowongan BSI di jobs.talentics.id, 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "TikTok @lokerterbaru_"
+      "sumber": "TikTok @lokerterbaru_",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "bsi-new-odp-2026",
@@ -1385,7 +1985,17 @@
       "status": "terverifikasi",
       "dicek": "Halaman lowongan BSI di jobs.talentics.id, 14 Nov 2026",
       "fresh_grad": false,
-      "sumber": "TikTok @lokerterbaru_"
+      "sumber": "TikTok @lokerterbaru_",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "kgmedia-marketing-research-officer",
@@ -1409,7 +2019,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "admin",
+        "sales",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "kgmedia-market-research-intelligence",
@@ -1434,7 +2058,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 14 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bluegas-tdp-3",
@@ -1459,7 +2097,17 @@
       "status": "perlu dicek",
       "dicek": "Dicek ulang 20 Nov 2026: bit.ly-nya ngarah ke Google Form yang judulnya ga kebaca. Belum ada konfirmasi dari sumber resmi.",
       "fresh_grad": true,
-      "sumber": "Instagram @internship.time"
+      "sumber": "Instagram @internship.time",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "kgmedia-marketing-analytics-officer",
@@ -1485,7 +2133,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "ajcapital-entry-level-associate",
@@ -1510,7 +2172,21 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center (diposting perusahaan), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "semua",
+        "teknik",
+        "bisnis",
+        "akuntansi",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bca-credit-analyst-program",
@@ -1536,7 +2212,23 @@
       "status": "terverifikasi",
       "dicek": "Portal resmi karir.bca.co.id, 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal resmi BCA Karir"
+      "sumber": "Portal resmi BCA Karir",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jateng",
+        "jatim",
+        "sumatera"
+      ]
     },
     {
       "id": "astra-buana-underwriter-expert",
@@ -1565,7 +2257,19 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Asuransi Astra), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bcaf-pdp-2026",
@@ -1593,7 +2297,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BCA Finance), 15 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "bca-pcpo-2026",
@@ -1619,7 +2337,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BCA), 16 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera",
+        "sulawesi"
+      ]
     },
     {
       "id": "inconis-phr-assistant-analyst",
@@ -1649,7 +2380,17 @@
       "status": "terverifikasi",
       "dicek": "Poster LinkedIn resmi PT Inconis Nusa Jaya dan halaman lowongan inconis.com, 16 Nov 2026",
       "fresh_grad": false,
-      "sumber": "LinkedIn PT Inconis Nusa Jaya"
+      "sumber": "LinkedIn PT Inconis Nusa Jaya",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "astra-buana-talent-acquisition-analyst",
@@ -1673,7 +2414,18 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Asuransi Astra), 16 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bcaf-organization-development-staff",
@@ -1696,7 +2448,19 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BCA Finance), 16 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "kg-purchasing-officer-purwakarta",
@@ -1720,7 +2484,17 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 16 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "idx-procurement-officer",
@@ -1748,7 +2522,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Indonesia Stock Exchange), 16 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "it",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bester-r4w-11",
@@ -1773,7 +2560,20 @@
       "status": "terverifikasi",
       "dicek": "Careers page resmi Bester & Co. dan ITB Career Center (diposting perusahaan), 16 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik",
+        "it",
+        "sains",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "kgmedia-pasangiklan-admin",
@@ -1799,7 +2599,15 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Kompas Gramedia), 17 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bfi-admin-operations-specialist",
@@ -1826,7 +2634,18 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BFI Finance), 17 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "astra-auto2000-tso-its",
@@ -1859,7 +2678,15 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center (diposting PT Astra International Tbk Head Office), 17 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis",
+        "teknik",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "medion-payroll-bdg",
@@ -1881,7 +2708,18 @@
       "status": "terverifikasi",
       "dicek": "ITB Career Center (diposting PT Medion Farma Jaya), 17 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "telunjuk-freelance-data-qa",
@@ -1905,7 +2743,17 @@
       "status": "perlu dicek",
       "dicek": "Pesan share di grup alumni kampus, 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Grup alumni kampus"
+      "sumber": "Grup alumni kampus",
+      "bidang": [
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "kontrak",
+      "wilayah": []
     },
     {
       "id": "mitsui-fgr-2026",
@@ -1938,7 +2786,16 @@
       "status": "terverifikasi",
       "dicek": "Halaman karier resmi PT Mitsui Indonesia dan FAQ FGR 2026, 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn PT Mitsui Indonesia"
+      "sumber": "LinkedIn PT Mitsui Indonesia",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "gtech-mapclub-customer-data-analyst",
@@ -1963,7 +2820,16 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun GTech Group), 18 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "djarum-marketing-trainee",
@@ -1986,7 +2852,19 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Djarum (career.djarum.com), 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "career.djarum.com"
+      "sumber": "career.djarum.com",
+      "bidang": [
+        "semua",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "djarum-talent-development-staff",
@@ -2010,7 +2888,17 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Djarum (career.djarum.com), 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "career.djarum.com"
+      "sumber": "career.djarum.com",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "djarum-corporate-communication-staff",
@@ -2033,7 +2921,18 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Djarum (career.djarum.com), 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "career.djarum.com"
+      "sumber": "career.djarum.com",
+      "bidang": [
+        "semua",
+        "komunikasi"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "djarum-marketing-procurement-officer",
@@ -2055,7 +2954,18 @@
       "status": "terverifikasi",
       "dicek": "Situs karier resmi Djarum (career.djarum.com), 18 Nov 2026",
       "fresh_grad": true,
-      "sumber": "career.djarum.com"
+      "sumber": "career.djarum.com",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bfi-operation-data-analysis-specialist",
@@ -2082,7 +2992,21 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi BFI Finance), 18 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "sis-weather-scientist",
@@ -2105,7 +3029,18 @@
       "status": "terverifikasi",
       "dicek": "Diposting Recruitment Specialist PT Saptaindra Sejati di LinkedIn (19 Nov 2026) dengan link daftar yang sama, plus poster resmi SIS dari grup alumni kampus. Form Typeform berjudul 'PT. Saptaindra Sejati Job Application'",
       "fresh_grad": true,
-      "sumber": "Grup alumni kampus"
+      "sumber": "Grup alumni kampus",
+      "bidang": [
+        "sains"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "kalimantan"
+      ]
     },
     {
       "id": "ruangguru-admin-cluster-pontianak",
@@ -2130,7 +3065,18 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi Ruangguru), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "kalimantan"
+      ]
     },
     {
       "id": "sarana-packaging-staff-sertifikasi",
@@ -2156,7 +3102,17 @@
       "status": "terverifikasi",
       "dicek": "ITS Career, 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career"
+      "sumber": "ITS Career",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "smsfinance-hr-comben-staff",
@@ -2182,7 +3138,18 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (akun resmi SMS Finance), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "rystad-graduate-analyst-2027",
@@ -2211,7 +3178,20 @@
       "status": "terverifikasi",
       "dicek": "Workable resmi Rystad Energy dan LinkedIn, 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "data",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "ey-ccass-associate",
@@ -2237,7 +3217,20 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi EY), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "sains",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "seabank-bi-analyst",
@@ -2262,7 +3255,18 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi SeaBank Indonesia), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "it",
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "mondelez-analyst-analytics-6m",
@@ -2286,7 +3290,15 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Mondelez International), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "astra-ais-pdca-analyst",
@@ -2310,7 +3322,20 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Astra International), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "data",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "colgate-commercial-mt-ecommerce",
@@ -2339,7 +3364,18 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Colgate-Palmolive), 19 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "otgroup-dewata-mt-ops-bali",
@@ -2363,7 +3399,19 @@
       "status": "terverifikasi",
       "dicek": "Listing dipasang PT Dewata Kencana Distribusi sendiri di KitaLulus, diposting 10 Nov 2026, dicek 20 Nov 2026. Halaman karier ot.id/karir lagi 404.",
       "fresh_grad": true,
-      "sumber": "IG @lowonganbumn.id (promosi KitaLulus)"
+      "sumber": "IG @lowonganbumn.id (promosi KitaLulus)",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "bali",
+        "seluruh"
+      ]
     },
     {
       "id": "berkahtrijaya-admin-promotor-xlsmart",
@@ -2387,7 +3435,16 @@
       "status": "terverifikasi",
       "dicek": "Listing dipasang PT Berkah Trijaya Indonesia sendiri di KitaLulus (Nganjuk, diposting sekitar 15 Nov 2026), dicek 20 Nov 2026",
       "fresh_grad": false,
-      "sumber": "IG @lowonganbumn.id (promosi KitaLulus)"
+      "sumber": "IG @lowonganbumn.id (promosi KitaLulus)",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "mpm-corporate-mt",
@@ -2421,7 +3478,22 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi MPM Group), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "garena-development-program",
@@ -2449,7 +3521,16 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Garena), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "daewoong-global-talent-6",
@@ -2477,7 +3558,21 @@
       "status": "terverifikasi",
       "dicek": "Diposting di ITB Career Center, 20 Nov 2026. Syarat rinci belum dibuka.",
       "fresh_grad": true,
-      "sumber": "ITB Career Center"
+      "sumber": "ITB Career Center",
+      "bidang": [
+        "teknik",
+        "sains",
+        "kesehatan"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "marriott-voyage-2027",
@@ -2511,7 +3606,17 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Marriott International), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "teknik",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "victory-intl-graduate-mt",
@@ -2535,7 +3640,18 @@
       "status": "perlu dicek",
       "dicek": "Posting LinkedIn 20 Nov 2026. Produk dan bentuk kerjanya belum jelas, kemungkinan sales broker.",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "glori-investama-mt-sby",
@@ -2561,7 +3677,18 @@
       "status": "perlu dicek",
       "dicek": "Posting LinkedIn 17 Nov 2026. Kemungkinan ada unsur sales produk trading.",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "parkhyatt-corporate-mt-fnb",
@@ -2585,7 +3712,17 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Park Hyatt), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "algoritma-ai-trainee",
@@ -2611,7 +3748,17 @@
       "status": "terverifikasi",
       "dicek": "Halaman perusahaan Algoritma di Kalibrr, 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "catib-campus-hiring-2026",
@@ -2642,7 +3789,19 @@
       "status": "terverifikasi",
       "dicek": "Diposting di ITS Career Center, 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
     },
     {
       "id": "sirclo-associate-analyst",
@@ -2667,7 +3826,22 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi SIRCLO), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "it",
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "inaco-data-management-analytics",
@@ -2692,7 +3866,19 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun rekrutmen PT Niramas Utama), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "it",
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar"
+      ]
     },
     {
       "id": "xcmg-service-data-analyst",
@@ -2716,7 +3902,18 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi XCMG Indonesia), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "it",
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "arista-mt-market-intelligence",
@@ -2741,7 +3938,21 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi Arista Group), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "data",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "japfa-mt-manufacture-1",
@@ -2766,7 +3977,19 @@
       "status": "terverifikasi",
       "dicek": "LinkedIn Jobs (akun resmi JAPFA), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "passionabadi-admin-factory",
@@ -2789,7 +4012,17 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 20 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "saptatunas-sales-admin",
@@ -2811,7 +4044,16 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 20 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin",
+        "sales"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "maybank-ymp",
@@ -2835,7 +4077,15 @@
       "status": "terverifikasi",
       "dicek": "Situs resmi Maybank Indonesia, 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Maybank Indonesia"
+      "sumber": "Situs resmi Maybank Indonesia",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "maybank-dmdp",
@@ -2858,7 +4108,18 @@
       "status": "terverifikasi",
       "dicek": "Situs resmi Maybank Indonesia, 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Maybank Indonesia"
+      "sumber": "Situs resmi Maybank Indonesia",
+      "bidang": [
+        "it",
+        "data",
+        "sains",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "ptc-analis-muda-strategic-planning",
@@ -2881,7 +4142,16 @@
       "status": "perlu dicek",
       "dicek": "Instagram @lowonganbumn.id (bukan akun resmi), 20 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Instagram @lowonganbumn.id"
+      "sumber": "Instagram @lowonganbumn.id",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "ruangguru-star-banjar",
@@ -2905,7 +4175,19 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar",
+        "seluruh"
+      ]
     },
     {
       "id": "prismas-wealth-management",
@@ -2930,7 +4212,17 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan perekrut), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "cititrans-staf-admin-semarang",
@@ -2954,7 +4246,15 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jateng"
+      ]
     },
     {
       "id": "msi-mt-sales-sulawesi",
@@ -2980,7 +4280,20 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center (postingan perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [
+        "teknik",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sulawesi",
+        "seluruh"
+      ]
     },
     {
       "id": "wings-surabaya-24-posisi",
@@ -3002,7 +4315,16 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center (postingan perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "mekabox-procurement-specialist",
@@ -3027,7 +4349,15 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center (postingan perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
     },
     {
       "id": "merakjaya-hiring-2026",
@@ -3048,7 +4378,15 @@
       "status": "terverifikasi",
       "dicek": "ITS Career Center (postingan perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "ITS Career Center"
+      "sumber": "ITS Career Center",
+      "bidang": [],
+      "jenis_kerja": [
+        "teknik",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "schoters-education-consultant",
@@ -3071,7 +4409,24 @@
       "status": "perlu dicek",
       "dicek": "Disnakerja (agregator), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Disnakerja"
+      "sumber": "Disnakerja",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jateng",
+        "jatim",
+        "bali",
+        "sumatera",
+        "sulawesi",
+        "seluruh"
+      ]
     },
     {
       "id": "astro-product-operations-officer",
@@ -3094,7 +4449,16 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [],
+      "jenis_kerja": [
+        "teknik",
+        "admin"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "ravindra-office-administration",
@@ -3117,7 +4481,17 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": false,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "sigap-prima-astrea-mt-batch4",
@@ -3141,7 +4515,19 @@
       "status": "perlu dicek",
       "dicek": "Disnakerja (agregator), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Disnakerja"
+      "sumber": "Disnakerja",
+      "bidang": [
+        "teknik",
+        "sosial"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "asahimas-mt-2026",
@@ -3165,7 +4551,21 @@
       "status": "perlu dicek",
       "dicek": "Disnakerja (agregator), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Disnakerja"
+      "sumber": "Disnakerja",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jatim"
+      ]
     },
     {
       "id": "k24-mdp-batch37",
@@ -3190,7 +4590,17 @@
       "status": "terverifikasi",
       "dicek": "Situs rekrutmen resmi K-24 dan Disnakerja, 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi K-24"
+      "sumber": "Situs resmi K-24",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "bcaf-data-protection-governance-staff",
@@ -3215,7 +4625,20 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "it",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "astra-udso-mt-business-consultant",
@@ -3239,7 +4662,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "trimegah-corporate-strategy-officer",
@@ -3263,7 +4698,19 @@
       "status": "terverifikasi",
       "dicek": "Kalibrr (halaman perusahaan), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Kalibrr"
+      "sumber": "Kalibrr",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "astra-dso-data-analyst",
@@ -3287,7 +4734,17 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "traktor-nusantara-mt-admin-dept-head",
@@ -3312,7 +4769,20 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "tsm-operations-analyst",
@@ -3336,7 +4806,17 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "astra-tso-account-supervisor-dp",
@@ -3361,7 +4841,26 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "semua",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jateng",
+        "jatim",
+        "bali",
+        "sumatera",
+        "kalimantan",
+        "seluruh"
+      ]
     },
     {
       "id": "traktor-nusantara-mt-parts-dept-head",
@@ -3386,7 +4885,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "tsm-management-system-corcomm-analyst",
@@ -3412,7 +4923,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 21 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik",
+        "bisnis",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "suzuki-corporate-planning-analyst",
@@ -3438,7 +4961,19 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "data",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "gsi-ut-logistic-officer",
@@ -3463,7 +4998,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "alfamart-coordinator-trainee-27",
@@ -3486,7 +5033,19 @@
       "status": "perlu dicek",
       "dicek": "disnakerja.com, 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal berita loker"
+      "sumber": "Portal berita loker",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
     },
     {
       "id": "sgc-warehouse-inventory",
@@ -3512,7 +5071,17 @@
       "status": "terverifikasi",
       "dicek": "Portal rekrutmen Sugar Group Companies (recruit.kelolahr.id/sgc-career), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal rekrutmen resmi Sugar Group"
+      "sumber": "Portal rekrutmen resmi Sugar Group",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera"
+      ]
     },
     {
       "id": "sgc-drone-team",
@@ -3536,7 +5105,18 @@
       "status": "terverifikasi",
       "dicek": "Portal rekrutmen Sugar Group Companies (recruit.kelolahr.id/sgc-career), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal rekrutmen resmi Sugar Group"
+      "sumber": "Portal rekrutmen resmi Sugar Group",
+      "bidang": [
+        "semua",
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera"
+      ]
     },
     {
       "id": "sgc-plantation",
@@ -3561,7 +5141,21 @@
       "status": "terverifikasi",
       "dicek": "Portal rekrutmen Sugar Group Companies (recruit.kelolahr.id/sgc-career), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal rekrutmen resmi Sugar Group"
+      "sumber": "Portal rekrutmen resmi Sugar Group",
+      "bidang": [
+        "teknik",
+        "data",
+        "sains",
+        "pertanian"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera"
+      ]
     },
     {
       "id": "dizamatra-intern-hauling",
@@ -3583,7 +5177,17 @@
       "status": "perlu dicek",
       "dicek": "Postingan LinkedIn rekruter HR PT Dizamatra Powerindo, 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Postingan LinkedIn rekruter"
+      "sumber": "Postingan LinkedIn rekruter",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "magang",
+      "wilayah": [
+        "sumatera"
+      ]
     },
     {
       "id": "astra-smi-data-analyst-aid",
@@ -3609,7 +5213,17 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "astra-dso-mt-admin-supervisor",
@@ -3633,7 +5247,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "astra-tso-crm-data-intelligence",
@@ -3659,7 +5285,17 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "triatra-mt-site-ops-support",
@@ -3684,7 +5320,21 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "astra-dso-mt-part-supervisor",
@@ -3708,7 +5358,18 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "astra-dso-mt-sales-supervisor",
@@ -3732,7 +5393,18 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "triatra-mt-marketing-sales-site",
@@ -3757,7 +5429,19 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "astra-dso-mt-workshop-supervisor",
@@ -3781,7 +5465,18 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "bp-logistic-inventory-supervisor",
@@ -3804,7 +5499,15 @@
       "status": "terverifikasi",
       "dicek": "Portal karier resmi Astra (career.astra.co.id), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Situs resmi Astra"
+      "sumber": "Situs resmi Astra",
+      "bidang": [],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
     },
     {
       "id": "paragon-mt-freshgraduate",
@@ -3829,7 +5532,15 @@
       "status": "perlu dicek",
       "dicek": "Portal rekrutmen resmi ParagonCorp (paragoncorp.rakamin.com), 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Portal rekrutmen resmi ParagonCorp"
+      "sumber": "Portal rekrutmen resmi ParagonCorp",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
     },
     {
       "id": "flora-food-sales-performance-analyst",
@@ -3850,7 +5561,16 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 22 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "aia-claim-planning",
@@ -3875,7 +5595,19 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 23 Nov 2026",
       "fresh_grad": false,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "sgedts-data-analyst",
@@ -3900,7 +5632,19 @@
       "status": "perlu dicek",
       "dicek": "Dealls, 23 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Dealls"
+      "sumber": "Dealls",
+      "bidang": [
+        "it",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "bithealth-associate-data-analyst",
@@ -3925,7 +5669,15 @@
       "status": "perlu dicek",
       "dicek": "Dealls, 23 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Dealls"
+      "sumber": "Dealls",
+      "bidang": [],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "yventures-ops-analyst-data",
@@ -3950,7 +5702,19 @@
       "status": "perlu dicek",
       "dicek": "Dealls, 23 Nov 2026",
       "fresh_grad": true,
-      "sumber": "Dealls"
+      "sumber": "Dealls",
+      "bidang": [
+        "it",
+        "data"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "viridien-imaging-geophysicist",
@@ -3975,7 +5739,20 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 23 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "data",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "teknik",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     },
     {
       "id": "baraka-mt-head-branch-ops",
@@ -4000,7 +5777,20 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 23 Nov 2026",
       "fresh_grad": true,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "kalimantan",
+        "sulawesi",
+        "seluruh"
+      ]
     },
     {
       "id": "wri-ra-epr-packaging",
@@ -4025,7 +5815,20 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 23 Nov 2026",
       "fresh_grad": false,
-      "sumber": "LinkedIn Jobs"
+      "sumber": "LinkedIn Jobs",
+      "bidang": [
+        "teknik",
+        "sains",
+        "bisnis",
+        "sosial"
+      ],
+      "jenis_kerja": [
+        "riset"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
     }
   ]
 }
