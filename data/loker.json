@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-22",
+  "diperbarui": "2026-11-23",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -3850,6 +3850,31 @@
       "status": "perlu dicek",
       "dicek": "LinkedIn Jobs, 22 Nov 2026",
       "fresh_grad": true,
+      "sumber": "LinkedIn Jobs"
+    },
+    {
+      "id": "aia-claim-planning",
+      "perusahaan": "AIA Indonesia",
+      "program": "Claim Planning (Claim Planning & Strategy)",
+      "jalur": [],
+      "kategori": "Asuransi",
+      "lokasi": "Jakarta",
+      "untuk": "S1 Matematika, Statistika, Aktuaria, Data Science, atau bidang kuantitatif lain",
+      "syarat": [
+        "S1 Matematika, Statistika, Ilmu Aktuaria, Data Science, atau bidang kuantitatif lain (diutamakan)",
+        "Kemampuan analitis dan problem solving kuat",
+        "Nyaman kerja dengan dataset besar dan analisis detail",
+        "Mahir Excel, paham Power BI, SQL, atau Python jadi nilai tambah",
+        "Bisa menyampaikan insight dalam bahasa Inggris lisan dan tulisan",
+        "Teliti, bertanggung jawab, mau belajar"
+      ],
+      "dibuka": "2026-11-20",
+      "deadline": null,
+      "catatan": "Penuh waktu. Bersihkan, validasi, dan standarkan data klaim, pelihara dashboard KPI klaim, analisis tren klaim buat deteksi pemakaian berlebih dan kebocoran biaya, siapkan ringkasan buat manajemen. Pengalaman, IPK, dan usia tidak disebut, tapi LinkedIn menandai levelnya Mid-Senior. Diposting akun resmi AIA di LinkedIn, belum dicek ke situs karier AIA.",
+      "link": "https://id.linkedin.com/jobs/view/claim-planning-at-aia-indonesia-4492531806",
+      "status": "perlu dicek",
+      "dicek": "LinkedIn Jobs, 23 Nov 2026",
+      "fresh_grad": false,
       "sumber": "LinkedIn Jobs"
     }
   ]
