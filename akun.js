@@ -10,7 +10,7 @@ const META_KOSONG = () => ({ t: {}, hapus: {}, terakhir: null })
 const bacaMeta = () => { try { return Object.assign(META_KOSONG(), JSON.parse(localStorage.getItem('gja-meta')) || {}) } catch (e) { return META_KOSONG() } }
 let akunMeta = bacaMeta()
 const simpanMeta = () => { try { localStorage.setItem('gja-meta', JSON.stringify(akunMeta)) } catch (e) { } }
-const KUNCI_SINKRON = { 'gaj-profil': 'profil', 'gaj-target': 'target', 'gaj-lewati-pilah': 'lewati' }
+const KUNCI_SINKRON = { 'gaj-profil': 'profil', 'gaj-target': 'target', 'gaj-lewati-pilah': 'lewati', 'gaj-nilai': 'nilai' }
 const tanpaT = l => { const { _t, ...r } = l || {}; return JSON.stringify(r) }
 let akunJejak = {}
 const jejakUlang = () => { akunJejak = {}; Object.entries(LM).forEach(([id, l]) => { akunJejak[id] = tanpaT(l) }) }
@@ -56,7 +56,7 @@ function gabungData(lokal, awan) {
     lamaran[id] = x
   })
   const out = { lamaran, hapus, t: {} }
-  ;['profil', 'target', 'lewati'].forEach(k => {
+  ;['profil', 'target', 'lewati', 'nilai'].forEach(k => {
     const tl = (lokal.t || {})[k] || 0, ta = (awan.t || {})[k] || 0
     const pakaiLokal = awan[k] == null || (lokal[k] != null && tl > ta)
     out[k] = pakaiLokal ? lokal[k] : awan[k]
@@ -81,7 +81,7 @@ function terapkanJobseeker(lamaran, js, hapus) {
   })
   return lamaran
 }
-const dataLokal = () => ({ lamaran: LM, profil: profil || null, target: bacaLS('gaj-target', null), lewati: bacaLS('gaj-lewati-pilah', null), t: akunMeta.t, hapus: akunMeta.hapus })
+const dataLokal = () => ({ lamaran: LM, profil: profil || null, target: bacaLS('gaj-target', null), lewati: bacaLS('gaj-lewati-pilah', null), nilai: NILAI || null, t: akunMeta.t, hapus: akunMeta.hapus })
 function terapkanKeLokal(m) {
   let ubah = false
   const tulis = (k, v) => { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)) } catch (e) { } }
@@ -89,6 +89,7 @@ function terapkanKeLokal(m) {
   if (stabil(m.profil ?? null) !== stabil(profil ?? null)) { profil = m.profil ?? null; tulis('gaj-profil', profil); ubah = true }
   if (m.target != null && m.target !== TARGET) { TARGET = m.target; tulis('gaj-target', TARGET); ubah = true }
   if (m.lewati && stabil(m.lewati) !== stabil([...LEWATI])) { LEWATI = new Set(m.lewati); tulis('gaj-lewati-pilah', m.lewati); ubah = true }
+  if (m.nilai && stabil(m.nilai) !== stabil(NILAI)) { NILAI = m.nilai; tulis('gaj-nilai', NILAI); ubah = true }
   akunMeta.hapus = m.hapus; akunMeta.t = m.t; simpanMeta()
   return ubah
 }

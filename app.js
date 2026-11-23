@@ -93,6 +93,9 @@ function siapkanAturan(A) {
 
 // profil dari survei, disimpan di perangkat ini aja
 let profil = bacaLS('gaj-profil', null)
+// Nilai pribadi (opsional): cuma ada kalau pemilik akun ngimpor penilaiannya sendiri. Ga ada di data publik.
+let NILAI = bacaLS('gaj-nilai', null)
+const nilaiKu = id => (NILAI && NILAI.isi && NILAI.isi[id]) || null
 let DATA = [], saring = 'buka', kat = '', jur = '', jen = ''
 let mode = bacaLS('gaj-mode', null) || (profil ? 'kamu' : 'semua')
 const FILTER = [['buka', 'Masih buka', buka], ['mepet', 'Tutup ≤ 7 hari', j => buka(j) && j.deadline && sisa(j.deadline) <= 7], ['fresh', 'Ramah fresh graduate', j => buka(j) && j.fresh_grad], ['ok', 'Terverifikasi', j => buka(j) && j.status === 'terverifikasi'], ['cek', 'Perlu dicek', j => buka(j) && j.status === 'perlu dicek'], ['baru', 'Baru', j => BARU.has(j.id)], ['lamar', 'Di Lamaranku', j => !!lamaranDari(j.id)], ['semua', 'Semua termasuk tutup', () => true]]
@@ -152,6 +155,8 @@ function tiket(j, c) {
   const lm = lamaranDari(j.id)
   if (lm) tags.unshift(`<span class="tag lm">${esc(lm.status)}</span>`)
   if (BARU.has(j.id)) tags.unshift('<span class="tag baru">Baru</span>')
+  const nk = nilaiKu(j.id)
+  if (nk) tags.unshift(nk.g ? '<span class="tag nl gugur">Gugur buatku</span>' : `<span class="tag nl n${Math.round(nk.n)}" title="Nilai pribadimu">Nilai ${esc(nk.n)}/5</span>`)
   const alasan = c ? `<div class="alasan" aria-label="Kenapa cocok">${c.alasan.map(a => `<span>${svg('cek', 12)}${esc(a)}</span>`).join('')}${c.beda.map(a => `<span class="beda">${esc(a)}</span>`).join('')}</div>` : ''
   return `<article class="tiket ${kelas}" id="t-${esc(j.id)}" data-id="${esc(j.id)}">
     <div class="stub" aria-label="${j.deadline ? 'Tutup ' + fmt(j.deadline) : 'Tanggal tutup belum diumumkan'}">${stub(j)}</div>
@@ -160,6 +165,7 @@ function tiket(j, c) {
       ${alasan}
       <div class="tags">${tags.join('')}</div>
       <div class="detail"><div>
+        ${nk ? `<p class="nilai-ku"><b>Nilai buatku ${esc(nk.n)}/5.</b> ${esc(nk.a || '')}${nk.g ? ` <b>Gugur:</b> ${esc(nk.g)}` : ''}${nk.rj ? ' <b>Risiko jurusan.</b>' : ''}</p>` : ''}
         <p><b>Untuk:</b> ${esc(j.untuk)}</p>${(j.jalur || []).length ? `<p><b>Jalur:</b> ${j.jalur.map(esc).join(', ')}</p>` : ''}
         ${(j.syarat || []).length ? `<ul>${j.syarat.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
         ${j.catatan ? `<p>${esc(j.catatan)}</p>` : ''}
@@ -176,6 +182,7 @@ function urutkan(list, u, skor) {
   return list.sort((a, b) => u === 'az' ? a.perusahaan.localeCompare(b.perusahaan)
     : u === 'baru' ? String(b.dibuka || '').localeCompare(String(a.dibuka || '')) || urutDl(a) - urutDl(b)
     : u === 'cocok' && skor ? skor(b) - skor(a) || urutDl(a) - urutDl(b)
+    : u === 'nilai' ? ((nilaiKu(b.id) || {}).n || 0) - ((nilaiKu(a.id) || {}).n || 0) || urutDl(a) - urutDl(b)
     : urutDl(a) - urutDl(b) || (a.status === 'terverifikasi' ? -1 : 1))
 }
 
@@ -184,6 +191,8 @@ function render() {
   let u = $('urut').value
   document.querySelectorAll('[data-semua]').forEach(e => e.hidden = mode !== 'semua')
   $('urut').querySelector('[value="cocok"]').hidden = mode !== 'kamu'
+  $('urut').querySelector('[value="nilai"]').hidden = !NILAI
+  if (!NILAI && u === 'nilai') { u = mode === 'kamu' ? 'cocok' : 'deadline'; $('urut').value = u }
   if (mode === 'semua' && u === 'cocok') { u = 'deadline'; $('urut').value = u }
   ;['kamu', 'semua'].forEach(m => $('tab-' + m).setAttribute('aria-selected', mode === m))
   const { pas, mirip } = daftarCocok()
