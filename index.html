@@ -211,7 +211,7 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 .ob-sambut .poin { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 16px }
 .ob-sambut .poin i { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: var(--biru-bg); color: var(--merek); font: 800 15px var(--f-judul); font-style: normal }
 .ungkap-angka { font: 800 clamp(64px, 14vw, 96px)/.9 var(--f-judul); color: var(--merek); letter-spacing: -.05em; font-variant-numeric: tabular-nums }
-.ungkap-list { display: grid; gap: 8px; margin-top: 22px }
+.ungkap-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin-top: 22px }
 .ungkap-list div { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 14px }
 .ungkap-list div > span:first-child { flex: 1; min-width: 0 }
 .ungkap-list small { display: block; color: var(--redup); font-size: 12px; font-weight: 600 }
