@@ -286,9 +286,10 @@ $('v-kalender').addEventListener('click', e => {
 const kunciKu = () => { try { return Object.keys(localStorage).filter(k => k.startsWith('gaj-')) } catch (e) { return [] } }
 function halamanPrivasi() {
   const nL = Object.keys(LM).length, nC = Object.values(LM).reduce((a, l) => a + l.riwayat.length, 0)
-  $('v-privasi').innerHTML = `<div class="kepala-hal"><span class="label">Privasi</span><h1>Datamu tinggal di perangkat ini.</h1><p>Get a Job bisa dipakai tanpa daftar akun. Semua yang kamu isi disimpan di browser HP atau laptop ini, bukan di server kami.</p></div>
+  $('v-privasi').innerHTML = `<div class="kepala-hal"><span class="label">Privasi dan akun</span><h1>Datamu, kamu yang atur.</h1><p>Get a Job bisa dipakai tanpa akun. Tanpa login, semua yang kamu isi cuma disimpan di browser HP atau laptop ini. Login cuma kalau kamu mau lamaranmu ikut ke perangkat lain.</p></div>
   <div class="priv">
-    <section class="blok data"><h2>Data saya di perangkat ini</h2>
+    <section class="blok data" id="akun-blok"></section>
+    <section class="blok"><h2>Data saya di perangkat ini</h2>
       <div class="isi-data"><span>${profil ? 'Jawaban survei' : 'Belum isi survei'}</span><span>${nL} lamaran</span><span>${nC} catatan riwayat</span><span>${LEWATI.size} loker dilewati</span><span>Target ${TARGET}/minggu</span></div>
       <p>Ganti HP atau browser, datanya ga ikut pindah. Simpan cadangan dulu, terus buka file itu lewat Impor di perangkat baru.</p>
       <div class="act" style="margin-top:12px"><button class="btn utama kecil" data-ekspor>Unduh cadangan (.json)</button><label class="btn garis kecil" style="cursor:pointer">Impor cadangan<input type="file" accept=".json,application/json" data-impor hidden></label><button class="btn garis kecil bahaya" data-hapus-semua>Hapus semua data saya</button></div>
@@ -300,8 +301,13 @@ function halamanPrivasi() {
       <li>Daftar loker yang udah ada pas kamu terakhir buka, biar loker baru bisa ditandai <b>Baru</b>.</li></ul>
       <p>Get a Job ga pernah minta CV, ijazah, NIK, atau nomor HP. Kamu kirim berkas langsung ke perusahaan lewat link resminya. Tolong jangan nulis data sensitif kayak NIK di kolom catatan.</p></section>
     <section class="blok"><h2>Di mana disimpannya</h2>
-      <p>Di penyimpanan browser (localStorage) perangkat ini. Situs ini file statis di GitHub Pages, jadi semua isian di atas ga dikirim ke kami. Satu-satunya pengecualian: kalau kamu nyalain notif loker (penjelasannya di bawah).</p>
-      <p>Yang tetap terjadi kayak buka situs apa pun: GitHub (tempat situs ini di-host) dan Google Fonts (sumber huruf) nerima permintaan biasa dari browsermu, misalnya alamat IP. Pas kamu buka link resmi, kamu pindah ke situs perusahaan itu dan aturan privasi mereka yang berlaku.</p></section>
+      <p>Di penyimpanan browser (localStorage) perangkat ini. Situs ini file statis di GitHub Pages, jadi kalau kamu ga login, semua isian di atas ga dikirim ke kami. Pengecualiannya dua: kalau kamu login, atau kalau kamu nyalain notif loker (penjelasannya di bawah).</p></section>
+    <section class="blok"><h2>Kalau kamu login (opsional)</h2>
+      <p>Akunnya akun get it, sama dengan Get a Skill. Email dan kata sandi diurus Supabase Auth (kata sandi disimpan dalam bentuk acak, kami ga bisa baca). Lamaran, checklist berkas, catatan, jawaban survei, target mingguan, dan loker yang kamu lewati disimpan di database get it (Supabase) biar sama di semua perangkat.</p>
+      <p>Data itu cuma bisa dibaca dan diubah akunmu sendiri. Pilihan tema dan notif tetap per perangkat.</p>
+      <p>Hapus kapan aja lewat tombol <b>Hapus data Get a Job dari akun</b> di atas.</p></section>
+    <section class="blok"><h2>Yang tetap terjadi</h2>
+      <p>Kayak buka situs apa pun: GitHub (tempat situs ini di-host), jsDelivr (sumber kode login), dan Google Fonts (sumber huruf) nerima permintaan biasa dari browsermu, misalnya alamat IP. Pas kamu buka link resmi, kamu pindah ke situs perusahaan itu dan aturan privasi mereka yang berlaku.</p></section>
     <section class="blok"><h2>Notif loker (opsional)</h2>
       <div id="notif-kendali" style="margin:6px 0 12px"></div>
       <p>Kalau kamu nyalain, browsermu bikin <b>alamat langganan</b>: deretan huruf acak dari layanan push browser (misalnya Google, Mozilla, atau Apple). Alamat itu kami simpan di database get it (Supabase) bareng pilihan survei kamu: rumpun jurusan, jenis kerja, daerah, dan tipe kerja.</p>
@@ -310,9 +316,9 @@ function halamanPrivasi() {
       <p><b>Bisa di:</b> Android (Chrome, Edge, Firefox, Samsung Internet), laptop (Chrome, Edge, Firefox, Safari Mac terbaru), dan iPhone atau iPad iOS 16.4 ke atas kalau get a job dipasang ke Layar Utama.</p>
       <details class="lipat"><summary>Cara pasang ke Layar Utama di iPhone</summary>${LANGKAH_IOS}</details></section>
     <section class="blok"><h2>Ga ada pelacak</h2><p>Situs ini ga pakai analitik, iklan, pelacak, atau cookie. Kodenya terbuka, bisa dicek di <a href="https://github.com/aryaanstt/get-a-job" target="_blank" rel="noopener">github.com/aryaanstt/get-a-job</a>.</p></section>
-    <section class="blok"><h2>Cara hapus</h2><p>Pencet <b>Hapus semua data saya</b> di atas. Kalau notif lagi nyala, langganannya ikut dimatiin dan dihapus dari database. Bisa juga lewat pengaturan browser (hapus data situs). Kalau buka pakai mode penyamaran, datanya hilang sendiri pas jendelanya ditutup.</p></section>
-    <section class="blok"><h2>Segera: akun get it (opsional)</h2><p>Nanti bakal ada pilihan masuk pakai akun get it biar data bisa sinkron antar perangkat. Itu tetap opsional. Tanpa akun, semuanya jalan kayak sekarang.</p></section>
+    <section class="blok"><h2>Cara hapus</h2><p>Pencet <b>Hapus semua data saya</b> di atas. Kalau notif lagi nyala, langganannya ikut dimatiin dan dihapus dari database. Kalau lagi login, kamu juga dikeluarin dari perangkat ini (data di akun tetap, hapusnya lewat tombol di bagian akun). Bisa juga lewat pengaturan browser (hapus data situs). Kalau buka pakai mode penyamaran, datanya hilang sendiri pas jendelanya ditutup.</p></section>
   </div>`
+  if (typeof gambarAkun === 'function') gambarAkun()
 }
 $('v-privasi').addEventListener('click', e => {
   if (e.target.closest('[data-ekspor]')) {
@@ -324,11 +330,11 @@ $('v-privasi').addEventListener('click', e => {
   const h = e.target.closest('[data-hapus-semua]')
   if (h) {
     if (!h.classList.contains('yakin')) { h.classList.add('yakin'); h.textContent = 'Yakin? Pencet lagi buat hapus permanen'; setTimeout(() => { if (document.contains(h)) { h.classList.remove('yakin'); h.textContent = 'Hapus semua data saya' } }, 5000); return }
-    ;(typeof matikanNotif === 'function' ? matikanNotif() : Promise.resolve()).catch(() => { }).then(() => { kunciKu().forEach(k => { try { localStorage.removeItem(k) } catch (x) { } }); try { sessionStorage.removeItem('gaj-baru') } catch (x) { }
+    ;(typeof matikanNotif === 'function' ? matikanNotif() : Promise.resolve()).catch(() => { }).then(() => typeof akunKeluarLokal === 'function' ? akunKeluarLokal() : null).catch(() => { }).then(() => { kunciKu().forEach(k => { try { localStorage.removeItem(k) } catch (x) { } }); try { sessionStorage.removeItem('gaj-baru'); localStorage.removeItem('gja-meta') } catch (x) { }
     location.hash = 'loker'; location.reload() })
   }
   const y = e.target.closest('[data-impor-ya]')
-  if (y) { const d = $('impor-tanya')._data; kunciKu().forEach(k => { try { localStorage.removeItem(k) } catch (x) { } }); Object.entries(d).forEach(([k, v]) => { if (k.startsWith('gaj-')) simpanLS(k, v) }); location.reload() }
+  if (y) { window.__gajImpor = true; const d = $('impor-tanya')._data; kunciKu().forEach(k => { try { localStorage.removeItem(k) } catch (x) { } }); Object.entries(d).forEach(([k, v]) => { if (k.startsWith('gaj-')) simpanLS(k, v) }); location.reload() }
   if (e.target.closest('[data-impor-batal]')) $('impor-tanya').innerHTML = ''
 })
 $('v-privasi').addEventListener('change', e => {

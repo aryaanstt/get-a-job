@@ -368,6 +368,15 @@ kbd { font: 11px var(--f-kode); border: 1px solid var(--garis-kuat); border-bott
 .priv .data { border: 2px solid var(--biru) }
 .isi-data { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px }
 .isi-data span { font-size: 12.5px; font-weight: 650; background: var(--panel-2); border-radius: 8px; padding: 4px 9px }
+.akun-isi { display: grid; gap: 6px; max-width: 420px; margin-top: 10px }
+.akun-isi input { width: 100%; padding: 11px 12px; border-radius: 12px; border: 1.5px solid var(--garis-kuat); background: var(--panel-2); font-size: 16px }
+.akun-isi input:focus-visible { outline: 2.5px solid var(--biru); outline-offset: 1px }
+.akun-isi .label { margin-top: 6px }
+.akun-isi .act { margin-top: 8px; align-items: center }
+.akun-pesan { margin: 8px 0 !important; padding: 9px 12px; border-radius: 10px; background: var(--amber-bg); color: var(--amber-ink) !important; font-size: 13.5px !important; font-weight: 600 }
+.sinkron-titik { display: inline-flex; align-items: center; gap: 7px }
+.sinkron-titik::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 3px var(--ok-bg) }
+.sinkron-titik.jalan::before { background: var(--biru); box-shadow: 0 0 0 3px var(--biru-bg) }
 .btn.bahaya { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 45%, var(--garis-kuat)) }
 .btn.bahaya.yakin { background: var(--bad); color: #fff; border-color: var(--bad) }
 
@@ -485,5 +494,7 @@ footer b { color: var(--ink) }
 <script src="app.js"></script>
 <script src="fase1.js"></script>
 <script src="notif.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="akun.js"></script>
 </body>
 </html>
