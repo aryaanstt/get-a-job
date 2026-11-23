@@ -5856,8 +5856,8 @@
         "sains"
       ],
       "jenis_kerja": [
-        "sales",
-        "riset"
+        "riset",
+        "analis"
       ],
       "tipe": "penuh waktu",
       "wilayah": [
@@ -5964,7 +5964,7 @@
         "mt",
         "sales"
       ],
-      "tipe": "penuh waktu",
+      "tipe": "kontrak",
       "wilayah": [
         "jabodetabek",
         "jabar",
