@@ -9,6 +9,9 @@
 <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="get a job">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=JetBrains+Mono:wght@400..700&family=Plus+Jakarta+Sans:wght@400..800&display=swap">
@@ -218,6 +221,169 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 @keyframes masuk { from { opacity: 0; transform: translateX(18px) } }
 body.terkunci { overflow: hidden }
 
+/* navigasi: header atas di laptop, tab bawah di HP */
+.nav { display: flex; gap: 2px; margin-left: 18px; align-self: stretch }
+.nav a, .tabbar a { display: flex; align-items: center; gap: 7px; text-decoration: none; color: var(--redup); font-weight: 700; font-size: 14px; position: relative }
+.nav a { padding: 0 12px; border-radius: 10px }
+.nav a:hover { color: var(--ink); background: var(--panel) }
+.nav a[aria-current="page"], .tabbar a[aria-current="page"] { color: var(--merek) }
+.nav a[aria-current="page"]::after { content: ''; position: absolute; left: 12px; right: 12px; bottom: 2px; height: 3px; border-radius: 3px; background: var(--biru) }
+.nav .bdg, .tabbar .bdg { font: 700 10.5px/1 var(--f-kode); background: var(--biru); color: #fff; border-radius: 99px; padding: 3px 6px }
+.tabbar { display: none }
+@media (max-width: 760px) {
+  .nav { display: none }
+  .tabbar { display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--panel); border-top: 1px solid var(--garis-ui); padding: 0 env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px) }
+  .tabbar a { flex-direction: column; justify-content: center; gap: 3px; height: 62px; font-size: 11px }
+  .tabbar .bdg { position: absolute; top: 6px; left: calc(50% + 6px) }
+  .wrap { padding-bottom: 100px }
+  .toast { bottom: calc(80px + env(safe-area-inset-bottom, 0px)) }
+}
+.toast { display: flex; align-items: center; gap: 14px }
+.toast button { color: #9CC8F5; font-weight: 700 }
+:root[data-theme="dark"] .toast button { color: var(--biru-tekan) }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .toast button { color: var(--biru-tekan) } }
+.tag.baru { background: var(--biru); color: #fff; border-color: transparent }
+.tag.lm { color: var(--ok); background: var(--ok-bg); border-color: transparent }
+.mau[aria-pressed="true"] { background: var(--biru); border-color: var(--biru); color: #fff }
+
+/* halaman dalam */
+.kepala-hal { padding: 14px 0 18px }
+.kepala-hal h1 { font-size: clamp(30px, 4.6vw, 46px); letter-spacing: -.035em; font-weight: 800; margin: 8px 0 8px; text-wrap: balance }
+.kepala-hal p { color: var(--redup); margin: 0; max-width: 60ch }
+.sec-h { display: flex; align-items: baseline; gap: 10px; margin: 26px 0 12px }
+.sec-h h2 { font-size: 20px }
+.sec-h .n { font: 600 12px var(--f-kode); color: var(--redup) }
+.papan { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 12px }
+.kartu { background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 18px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; box-shadow: var(--bayang) }
+.kartu .tags { margin-top: -2px }
+.mini { display: flex; align-items: center; padding: 6px 2px 0 }
+.mini .stn { width: 14px; height: 14px; border-radius: 50%; background: var(--panel); border: 2.5px solid var(--garis-kuat); flex: none; position: relative }
+.mini .stn::after { content: ''; position: absolute; inset: -11px }
+.mini .stn:hover { border-color: var(--biru) }
+.mini .stn.on { background: var(--biru); border-color: var(--biru) }
+.mini .stn.skrg { width: 18px; height: 18px; box-shadow: 0 0 0 5px var(--biru-bg) }
+.mini s { flex: 1; height: 3px; background: var(--garis-kuat); text-decoration: none }
+.mini s.on { background: var(--biru) }
+.mini-ket { display: flex; justify-content: space-between; font: 600 10.5px var(--f-kode); color: var(--redup); text-transform: uppercase; letter-spacing: .04em }
+.mini-ket b { color: var(--merek) }
+.ceklis { display: grid; gap: 6px }
+.ceklis button { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; align-items: center; text-align: left; background: var(--panel-2); border-radius: 10px; padding: 9px 11px; font-size: 13.5px; font-weight: 600 }
+.ceklis .kotak { width: 22px; height: 22px; border-radius: 7px; border: 2px solid var(--garis-kuat); background: var(--panel); display: grid; place-items: center; color: #fff }
+.ceklis [aria-checked="true"] .kotak { background: var(--ok); border-color: var(--ok) }
+.ceklis [aria-checked="true"] span:last-child { color: var(--redup); text-decoration: line-through }
+.lipat > summary { cursor: pointer; font-weight: 700; font-size: 13.5px; color: var(--ink-2); list-style: none; display: flex; align-items: center; gap: 8px }
+.lipat > summary::-webkit-details-marker { display: none }
+.lipat > summary::before { content: '▸'; color: var(--redup) }
+.lipat[open] > summary::before { content: '▾' }
+.lipat[open] > summary { margin-bottom: 8px }
+.prog-mini { flex: 1; height: 5px; border-radius: 5px; background: var(--garis-ui); overflow: hidden; max-width: 120px }
+.prog-mini i { display: block; height: 100%; background: var(--ok) }
+.agenda { font-size: 13px; background: var(--biru-bg); border-radius: 10px; padding: 8px 10px }
+.agenda b { color: var(--merek) }
+.riw { display: grid; gap: 3px; font-size: 12.5px; color: var(--ink-2); border-left: 3px solid var(--garis-ui); padding-left: 10px }
+.riw b { font: 600 12px var(--f-kode); color: var(--ink) }
+.act { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+select.pilih { border: 1.5px solid var(--garis-ui); background: var(--panel); border-radius: 10px; padding: 6px 8px; font-size: 13px; font-weight: 600 }
+.catat { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; background: var(--panel-2); border-radius: 12px; padding: 10px }
+.catat label { display: grid; gap: 4px; font-size: 12px; font-weight: 700; color: var(--ink-2); min-width: 0 }
+.catat input, .catat select { height: 38px; border-radius: 9px; border: 1.5px solid var(--garis-ui); background: var(--panel); padding: 0 8px; font-size: 14px; min-width: 0; width: 100% }
+.catat .lebar { grid-column: 1 / -1 }
+.arsip { margin-top: 26px }
+.arsip > summary { cursor: pointer; font-weight: 700; color: var(--ink-2); padding: 8px 0 }
+.target { display: flex; align-items: center; gap: 16px; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 18px; padding: 14px 16px; flex-wrap: wrap; box-shadow: var(--bayang) }
+.cincin { position: relative; width: 78px; height: 78px; flex: none }
+.cincin svg { display: block }
+.cincin .isi { transition: stroke-dashoffset .9s cubic-bezier(.2, .7, .2, 1) }
+.cincin b { position: absolute; inset: 0; display: grid; place-items: center; font: 800 20px var(--f-judul); font-variant-numeric: tabular-nums }
+.target .tx { flex: 1 1 220px; min-width: 0 }
+.target .tx b { font: 700 18px/1.25 var(--f-judul); display: block }
+.target .tx span { display: block; font-size: 13.5px; color: var(--ink-2); margin-top: 4px }
+.target select { border: 1.5px solid var(--garis-kuat); background: var(--panel); border-radius: 8px; padding: 2px 4px; font-weight: 700; font-size: 14px; margin: 0 2px }
+
+/* pilah */
+.pilah-wrap { max-width: 560px; margin: 0 auto }
+.bar { height: 6px; border-radius: 6px; background: var(--garis-ui); overflow: hidden; margin: 4px 0 16px }
+.bar i { display: block; height: 100%; background: var(--biru); transition: width .3s }
+.tumpuk { position: relative }
+.pk { position: relative; z-index: 1; background: var(--panel); border: 1px solid var(--garis-kuat); border-radius: 22px; padding: 20px; display: flex; flex-direction: column; gap: 12px; touch-action: pan-y; user-select: none; cursor: grab; box-shadow: var(--angkat); transition: transform .22s cubic-bezier(.2, .8, .2, 1), opacity .22s }
+.pk.seret { transition: none; cursor: grabbing }
+.pk-blk { position: absolute; inset: 12px 14px -10px; border-radius: 22px; background: var(--panel); border: 1px solid var(--garis-ui); opacity: .6 }
+.pk .prog { font-size: 24px }
+.pk ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: var(--ink-2) }
+.pk-tgl { display: flex; align-items: center; gap: 10px; border-top: 2px dashed var(--garis-ui); padding-top: 12px; font-size: 13px; color: var(--ink-2) }
+.pk-tgl b { font: 700 13px var(--f-kode); color: var(--ink); margin-left: auto }
+.stempel { position: absolute; top: 20px; padding: 4px 12px; border: 3px solid currentColor; border-radius: 8px; font: 800 21px var(--f-judul); text-transform: uppercase; letter-spacing: .04em; opacity: 0; pointer-events: none; background: var(--panel) }
+.stempel.mau { right: 18px; color: var(--merek); transform: rotate(8deg) }
+.stempel.lewat { left: 18px; color: var(--redup); transform: rotate(-8deg) }
+.pk[data-arah="mau"] .stempel.mau, .pk[data-arah="lewat"] .stempel.lewat { opacity: 1 }
+.aksi-pilah { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; margin-top: 22px }
+.aksi-pilah .btn { padding: 14px 10px; font-size: 15px }
+.btn.biru { background: var(--biru); color: #fff; border-color: var(--biru); box-shadow: 0 3px 0 var(--biru-tekan) }
+.petunjuk { text-align: center; font-size: 12.5px; color: var(--redup); margin-top: 12px }
+kbd { font: 11px var(--f-kode); border: 1px solid var(--garis-kuat); border-bottom-width: 2px; border-radius: 5px; padding: 0 5px; background: var(--panel) }
+
+/* kalender */
+.seg { display: inline-flex; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 12px; padding: 3px; gap: 2px }
+.seg button { padding: 7px 16px; border-radius: 9px; font-weight: 700; font-size: 14px; color: var(--redup) }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg) }
+.legenda { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 16px }
+.lg { display: flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px; border: 1.5px solid var(--garis-ui); background: var(--panel); font-size: 13px; font-weight: 600 }
+.lg i { width: 10px; height: 10px; border-radius: 50%; background: var(--w) }
+.lg[aria-pressed="false"] { opacity: .45 }
+.kal-tata { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 16px; align-items: start }
+@media (max-width: 860px) { .kal-tata { grid-template-columns: minmax(0, 1fr) } }
+.kal, .hari-panel { background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 18px; padding: 12px; box-shadow: var(--bayang) }
+.hari-panel { padding: 14px 16px }
+.kal-kepala { display: flex; align-items: center; gap: 6px; margin-bottom: 8px }
+.kal-kepala h2 { font-size: 20px; margin-right: auto; padding-left: 4px }
+.kal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px }
+.kal-hr { font: 600 10.5px var(--f-kode); text-transform: uppercase; color: var(--redup); text-align: center; padding: 4px 0 6px }
+.hr { height: clamp(48px, 7vw, 62px); border-radius: 10px; display: flex; flex-direction: column; align-items: center; padding: 6px 2px 4px; gap: 4px; font: 700 15px var(--f-judul) }
+.hr:hover { background: var(--panel-2) }
+.hr.luar { color: var(--garis-kuat) }
+.hr.skrg > span { background: var(--ink); color: var(--bg); border-radius: 99px; min-width: 26px; line-height: 24px }
+.hr[aria-pressed="true"] { background: var(--biru-bg); box-shadow: inset 0 0 0 2px var(--biru) }
+.hr .td { display: flex; gap: 2px; flex-wrap: wrap; justify-content: center; max-width: 34px }
+.hr .td i { width: 6px; height: 6px; border-radius: 50%; background: var(--w) }
+.kj { display: grid; grid-template-columns: 12px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-top: 1px solid var(--garis-ui); text-align: left; width: 100% }
+.kj:first-of-type { border-top: 0 }
+.kj > i { width: 12px; height: 12px; border-radius: 50%; background: var(--w); margin-top: 4px }
+.kj .j { font: 600 10.5px var(--f-kode); text-transform: uppercase; letter-spacing: .06em; color: var(--redup) }
+.kj .c { font-weight: 700; font-size: 14.5px; line-height: 1.3 }
+.kj .k { font-size: 13px; color: var(--ink-2) }
+.tl { position: relative; padding-left: 26px }
+.tl::before { content: ''; position: absolute; left: 8px; top: 6px; bottom: 6px; width: 3px; border-radius: 3px; background: var(--garis-ui) }
+.tl-tgl { position: relative; font: 600 12px var(--f-kode); color: var(--ink-2); margin: 18px 0 6px }
+.tl-tgl::before { content: ''; position: absolute; left: -23px; top: 3px; width: 11px; height: 11px; border-radius: 50%; background: var(--bg); border: 3px solid var(--garis-kuat) }
+.tl .kj { background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 12px; padding: 10px 12px; margin-bottom: 6px }
+.tl-batas { font: 800 18px var(--f-judul); margin: 22px 0 4px }
+
+/* privasi */
+.priv { display: grid; gap: 12px; max-width: 760px }
+.priv .blok { background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 18px; padding: 16px 18px; box-shadow: var(--bayang) }
+.priv .blok h2 { font-size: 19px; margin-bottom: 8px }
+.priv .blok p, .priv .blok li { color: var(--ink-2); font-size: 14.5px }
+.priv .blok p { margin: 6px 0 }
+.priv .blok ul { margin: 6px 0; padding-left: 20px }
+.priv .data { border: 2px solid var(--biru) }
+.isi-data { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px }
+.isi-data span { font-size: 12.5px; font-weight: 650; background: var(--panel-2); border-radius: 8px; padding: 4px 9px }
+.btn.bahaya { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 45%, var(--garis-kuat)) }
+.btn.bahaya.yakin { background: var(--bad); color: #fff; border-color: var(--bad) }
+
+/* notif */
+.notif-mini { position: relative; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 16px; padding: 12px 44px 12px 14px; box-shadow: var(--bayang) }
+.notif-baris { display: flex; align-items: center; gap: 12px; flex-wrap: wrap }
+.notif-baris > div { flex: 1 1 200px; min-width: 0 }
+.notif-baris b { display: block; font-size: 14.5px }
+.notif-baris span { display: block; font-size: 13px; color: var(--redup) }
+.notif-baris a { color: var(--merek) }
+.lonceng { flex: none; width: 36px; height: 36px; border-radius: 10px; display: grid !important; place-items: center; background: var(--biru-bg); color: var(--merek) !important }
+.lonceng.on { background: var(--biru); color: #fff !important }
+.tutup-mini { position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; border: 0; background: none }
+.ios-langkah { margin: 4px 0 6px; padding-left: 20px; font-size: 14px; color: var(--ink-2) }
+.ios-langkah li { margin: 3px 0 }
+
 /* kaki */
 .promo { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 30px; padding: 18px 20px; border-radius: 20px; background: var(--ink); color: var(--bg) }
 .promo div { flex: 1; min-width: 220px }
@@ -250,12 +416,13 @@ footer b { color: var(--ink) }
 <div class="wrap">
   <header class="atas">
     <a class="logo" href="./" aria-label="get a job, beranda"><span class="wm-get" aria-hidden="true"><span class="kap">get</span> <span class="aks">a</span> job<span class="aks">.</span></span></a>
+    <nav class="nav" id="nav-atas" aria-label="Menu"></nav>
     <span class="spasi"></span>
     <button class="btn garis kecil" id="buka-survei" aria-label="Atur profil loker"><svg class="ik" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></svg><span>Profilku</span></button>
-    <a class="btn garis kecil" href="https://aryaanstt.github.io/get-a-skill/" target="_blank" rel="noopener"><svg class="ik" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span>Latihan skill</span></a>
     <button class="ikon-btn" id="tema" aria-label="Ganti tema"></button>
   </header>
 
+  <section id="v-loker" data-view>
   <section class="hero">
     <div>
       <span class="label" id="diperbarui">Memuat data…</span>
@@ -281,6 +448,7 @@ footer b { color: var(--ink) }
 
   <section class="alat">
     <div class="profil" id="profil" hidden></div>
+    <div class="notif-mini" id="notif-mini" hidden></div>
     <div class="baris">
       <label class="cari"><svg class="ik" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Cari perusahaan, program, atau jalur" aria-label="Cari lowongan"></label>
       <span class="urut" data-semua>Jurusan <select id="jur" aria-label="Saring jurusan"><option value="">Semua</option></select></span>
@@ -298,6 +466,11 @@ footer b { color: var(--ink) }
     <div><b>Belum pede ngelamar?</b><span>Latihan psikotes, interview, Excel, SQL, sampai mock IELTS di Get a Skill. Gratis.</span></div>
     <a class="btn" href="https://aryaanstt.github.io/get-a-skill/" target="_blank" rel="noopener">Buka Get a Skill</a>
   </section>
+  </section>
+  <section id="v-pilah" data-view hidden></section>
+  <section id="v-lamaran" data-view hidden></section>
+  <section id="v-kalender" data-view hidden></section>
+  <section id="v-privasi" data-view hidden></section>
 
   <footer>
     <b>Selalu cek ulang di link resmi sebelum melamar.</b> Info bisa berubah sewaktu-waktu. Rekrutmen resmi ga pernah minta biaya.<br>
@@ -306,387 +479,11 @@ footer b { color: var(--ink) }
   </footer>
 </div>
 
+<nav class="tabbar" id="nav-bawah" aria-label="Menu"></nav>
 <div class="ob" id="survei" role="dialog" aria-modal="true" aria-label="Survei profil loker" hidden></div>
 
-<script>
-const BULAN = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des']
-const fmt = d => { const [y, m, dd] = d.split('-').map(Number); return `${dd} ${BULAN[m - 1]} ${y}` }
-const fmtPendek = d => { const [, m, dd] = d.split('-').map(Number); return `${dd} ${BULAN[m - 1]}` }
-const hariIni = () => { const n = new Date(Date.now() + 7 * 3600e3); return Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate()) }
-const sisa = d => { const [y, m, dd] = d.split('-').map(Number); return Math.round((Date.UTC(y, m - 1, dd) - hariIni()) / 864e5) }
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
-const simpanLS = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) { } }
-const bacaLS = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v ?? d } catch (e) { return d } }
-const $ = id => document.getElementById(id)
-const ikon = {
-  bulan: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
-  matahari: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
-  simpan: '<path d="M6 3h12v18l-6-4-6 4z"/>',
-  luar: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
-  cek: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
-  kiri: '<path d="M15 18l-6-6 6-6"/>',
-  kanan: '<path d="M9 18l6-6-6-6"/>',
-  tutup: '<path d="M6 6l12 12M18 6L6 18"/>',
-}
-const svg = (n, s = 18) => `<svg class="ik" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ikon[n]}</svg>`
-
-// tema
-const gelap = () => document.documentElement.dataset.theme === 'dark' || (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches)
-const pasangTema = t => { if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; $('tema').innerHTML = svg(gelap() ? 'matahari' : 'bulan', 20) }
-pasangTema(bacaLS('gaj-tema', null))
-$('tema').onclick = () => { const t = gelap() ? 'light' : 'dark'; simpanLS('gaj-tema', t); pasangTema(t) }
-
-// pilihan survei. id-nya sama dengan data/aturan-klasifikasi.json
-const OPSI = {
-  bidang: [
-    ['teknik', 'Teknik', 'Mesin, Elektro, Sipil, Industri, Kimia, Tambang'],
-    ['it', 'IT & ilmu komputer', 'Informatika, Sistem Informasi, Ilmu Komputer'],
-    ['data', 'Data & statistik', 'Statistika, Matematika, Aktuaria, Sains Data'],
-    ['sains', 'Sains (MIPA)', 'Fisika, Kimia, Biologi, Geologi, Astronomi'],
-    ['bisnis', 'Bisnis & manajemen', 'Manajemen, Bisnis, Ekonomi, Logistik'],
-    ['akuntansi', 'Akuntansi & keuangan', 'Akuntansi, Keuangan, Perpajakan, Perbankan'],
-    ['kesehatan', 'Kesehatan', 'Kedokteran, Farmasi, Keperawatan, Gizi, Kesmas'],
-    ['hukum', 'Hukum', 'Ilmu Hukum'],
-    ['komunikasi', 'Komunikasi & desain', 'Ilmu Komunikasi, PR, DKV, Desain'],
-    ['pertanian', 'Pertanian & kehutanan', 'Pertanian, Agribisnis, Kehutanan, Perikanan, Pangan'],
-    ['sosial', 'Psikologi, sosial & pendidikan', 'Psikologi, Sosiologi, HI, Pendidikan, Sastra'],
-    ['lainnya', 'Lainnya', 'Jurusanku ga ada di atas'],
-  ],
-  jenis: [
-    ['mt', 'MT & program trainee', 'Program 1 sampai 2 tahun, rotasi, jalur cepat jadi pemimpin'],
-    ['analis', 'Analis & data', 'Ngolah angka, laporan, riset bisnis, risiko'],
-    ['teknik', 'Teknik & operasional', 'Pabrik, tambang, site, produksi, gudang, IT'],
-    ['admin', 'Admin, HR & support', 'Administrasi, HR, procurement, payroll'],
-    ['sales', 'Sales, marketing & komunikasi', 'Jualan, konsultan, brand, e-commerce, PR'],
-    ['riset', 'Riset & sains', 'Peneliti, scientist, riset pasar'],
-  ],
-  wilayah: [
-    ['jabodetabek', 'Jabodetabek & Banten'], ['jabar', 'Jawa Barat'], ['jateng', 'Jawa Tengah & DIY'], ['jatim', 'Jawa Timur'],
-    ['bali', 'Bali & Nusa Tenggara'], ['sumatera', 'Sumatera'], ['kalimantan', 'Kalimantan'], ['sulawesi', 'Sulawesi & Indonesia Timur'],
-  ],
-  tipe: [
-    ['penuh waktu', 'Penuh waktu', 'Karyawan tetap atau program MT'],
-    ['kontrak', 'Kontrak', 'Durasi tertentu, misal 6 sampai 12 bulan'],
-    ['magang', 'Magang', 'Internship buat nambah pengalaman'],
-  ],
-}
-const LBL = Object.fromEntries(Object.entries(OPSI).map(([k, v]) => [k, Object.fromEntries(v.map(x => [x[0], x[1]]))]))
-LBL.wilayah.seluruh = 'Seluruh Indonesia'
-
-const STATUS = {
-  'terverifikasi': ['b-ok', 'Terverifikasi', 'Ketemu di situs, form, atau akun resmi perusahaan.'],
-  'perlu dicek': ['b-warn', 'Perlu dicek', 'Baru ketemu di TikTok, IG info loker, atau agregator. Cek dulu ke situs resmi sebelum daftar.'],
-  'kemungkinan tutup': ['b-mute', 'Kemungkinan tutup', 'Sumber bilang pendaftarannya udah lewat. Tetap dicatat buat jaga-jaga kalau dibuka lagi.'],
-}
-const status = j => STATUS[j.status] || STATUS['perlu dicek']
-const tutup = j => j.status === 'kemungkinan tutup'
-const buka = j => !tutup(j) && (!j.deadline || sisa(j.deadline) >= 0)
-const terimaJurusan = (j, b) => (j.bidang || []).includes(b) || (j.bidang || []).includes('semua')
-
-// cadangan: loker baru yang belum diisi alat/isi_bidang.py diklasifikasi di sini pakai aturan yang sama
-function klasifikasi(j, A) {
-  const teks = g => g.sumber.flatMap(k => { const v = j[k]; const b = Array.isArray(v) ? v.map(String) : v ? [String(v)] : []; const s = g._saring && g._saring[k]; return b.filter(x => !s || s.test(x)) }).join(' ; ')
-  const cocok = (daftar, t) => daftar.filter(d => (d._re && d._re.test(t.toLowerCase())) || (d._rek && d._rek.test(t))).map(d => d.id)
-  if (!j.bidang) { const t = teks(A.bidang); j.bidang = (A.bidang._semua && A.bidang._semua.test(t.toLowerCase()) ? ['semua'] : []).concat(cocok(A.bidang.daftar, t)) }
-  if (!j.jenis_kerja) { const c = cocok(A.jenis_kerja.daftar, teks(A.jenis_kerja)); j.jenis_kerja = c.length ? c : ['lainnya'] }
-  if (!j.tipe) j.tipe = cocok(A.tipe.daftar, teks(A.tipe))[0] || A.tipe.bawaan
-  if (!j.wilayah) j.wilayah = cocok(A.wilayah.daftar, teks(A.wilayah))
-}
-function siapkanAturan(A) {
-  const re = (p, f) => { try { return new RegExp(p, f) } catch (e) { return null } }
-  ;['bidang', 'jenis_kerja', 'tipe', 'wilayah'].forEach(g => {
-    A[g].daftar.forEach(d => { d._re = re(d.pola, 'i'); d._rek = d.pola_kapital ? re(d.pola_kapital, '') : null })
-    A[g]._saring = Object.fromEntries(Object.entries(A[g].saring_baris || {}).map(([k, p]) => [k, re(p, 'i')]))
-  })
-  A.bidang._semua = re(A.bidang.semua, 'i')
-  return A
-}
-
-// profil dari survei, disimpan di perangkat ini aja
-let profil = bacaLS('gaj-profil', null)
-let DATA = [], saring = 'buka', kat = '', jur = '', jen = '', disimpan = new Set(bacaLS('gaj-simpan', []))
-let mode = bacaLS('gaj-mode', null) || (profil ? 'kamu' : 'semua')
-const FILTER = [['buka', 'Masih buka', buka], ['mepet', 'Tutup ≤ 7 hari', j => buka(j) && j.deadline && sisa(j.deadline) <= 7], ['fresh', 'Ramah fresh graduate', j => buka(j) && j.fresh_grad], ['ok', 'Terverifikasi', j => buka(j) && j.status === 'terverifikasi'], ['cek', 'Perlu dicek', j => buka(j) && j.status === 'perlu dicek'], ['simpan', 'Disimpan', j => disimpan.has(j.id)], ['semua', 'Semua termasuk tutup', () => true]]
-
-// seberapa cocok satu loker sama profil. null = jurusan ga diterima
-function nilaiCocok(j, p) {
-  if (!buka(j)) return null
-  const B = j.bidang || [], J = j.jenis_kerja || [], W = j.wilayah || [], alasan = [], beda = []
-  let s = 0, pasti = true
-  if (p.jurusan !== 'lainnya' && B.includes(p.jurusan)) { s += 4; alasan.push('Jurusan ' + LBL.bidang[p.jurusan] + ' disebut') }
-  else if (B.includes('semua')) { s += 2; alasan.push('Semua jurusan') }
-  else if (!B.length) { pasti = false; beda.push('Jurusan belum disebut') }
-  else return null
-  if (p.minat.length) {
-    const sama = J.filter(x => p.minat.includes(x))
-    if (sama.length) { s += 3; alasan.push(LBL.jenis[sama[0]]) } else beda.push('Jenis kerja lain')
-  }
-  if (!p.lokasi.includes('mana')) {
-    const sama = W.filter(x => p.lokasi.includes(x))
-    if (sama.length) { s += 2; alasan.push(LBL.wilayah[sama[0]]) }
-    else if (W.includes('seluruh')) { s += 1; alasan.push('Penempatan seluruh Indonesia') }
-    else if (W.length) beda.push('Di luar lokasi pilihanmu')
-  }
-  if (!p.tipe.includes(j.tipe || 'penuh waktu')) beda.push(LBL.tipe[j.tipe] || j.tipe)
-  if (!j.fresh_grad) s -= 2
-  if (j.status === 'terverifikasi') s += .5
-  return { s, alasan, beda, pas: pasti && !beda.length }
-}
-function daftarCocok() {
-  const pas = [], mirip = []
-  if (!profil) return { pas, mirip }
-  DATA.forEach(j => { const c = nilaiCocok(j, profil); if (!c) return; if (c.pas) pas.push([j, c]); else if (c.beda.length <= 1) mirip.push([j, c]) })
-  return { pas, mirip }
-}
-
-function stub(j) {
-  if (tutup(j)) return `<small>Status</small><b style="font-size:20px">Tutup?</b>`
-  if (!j.deadline) return `<small>Tutup</small><b style="font-size:15px;line-height:1.15">Belum diumumkan</b>`
-  const n = sisa(j.deadline)
-  if (n < 0) return `<small>Udah</small><b style="font-size:22px">tutup</b><span class="tgl">${fmtPendek(j.deadline)}</span>`
-  if (n === 0) return `<small>Tutup</small><b style="font-size:22px">hari ini</b><span class="tgl">${fmtPendek(j.deadline)}</span>`
-  return `<b>${n}</b><small>hari lagi</small><span class="tgl">${fmtPendek(j.deadline)}</span>`
-}
-function tagJurusan(j) {
-  const B = j.bidang || []
-  if (B.includes('semua')) return '<span class="tag bd">Semua jurusan</span>'
-  if (!B.length) return ''
-  const nm = B.map(b => LBL.bidang[b] || b)
-  return `<span class="tag bd" title="${esc(nm.join(', '))}">${esc(nm.slice(0, 2).join(', '))}${nm.length > 2 ? ' +' + (nm.length - 2) : ''}</span>`
-}
-function tiket(j, c) {
-  const [kls, teks, arti] = status(j), n = j.deadline ? sisa(j.deadline) : null
-  const kelas = tutup(j) ? 'tutup' : n !== null && n < 0 ? 'tutup lewat' : n !== null && n <= 7 ? 'mepet' : ''
-  const tags = [c ? '' : tagJurusan(j)].concat([j.kategori, j.lokasi].filter(Boolean).map(t => `<span class="tag">${esc(t)}</span>`))
-  if (j.tipe && j.tipe !== 'penuh waktu') tags.unshift(`<span class="tag tp">${esc(LBL.tipe[j.tipe] || j.tipe)}</span>`)
-  if (!j.fresh_grad) tags.push('<span class="tag exp">Butuh pengalaman</span>')
-  const alasan = c ? `<div class="alasan" aria-label="Kenapa cocok">${c.alasan.map(a => `<span>${svg('cek', 12)}${esc(a)}</span>`).join('')}${c.beda.map(a => `<span class="beda">${esc(a)}</span>`).join('')}</div>` : ''
-  return `<article class="tiket ${kelas}" id="t-${esc(j.id)}" data-id="${esc(j.id)}">
-    <div class="stub" aria-label="${j.deadline ? 'Tutup ' + fmt(j.deadline) : 'Tanggal tutup belum diumumkan'}">${stub(j)}</div>
-    <div class="isi-t">
-      <div class="t-atas"><div><div class="co">${esc(j.perusahaan)}</div><div class="prog">${esc(j.program)}</div></div><span class="badge ${kls}" title="${esc(arti)}"><i></i>${teks}</span></div>
-      ${alasan}
-      <div class="tags">${tags.join('')}</div>
-      <div class="detail"><div>
-        <p><b>Untuk:</b> ${esc(j.untuk)}</p>${(j.jalur || []).length ? `<p><b>Jalur:</b> ${j.jalur.map(esc).join(', ')}</p>` : ''}
-        ${(j.syarat || []).length ? `<ul>${j.syarat.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
-        ${j.catatan ? `<p>${esc(j.catatan)}</p>` : ''}
-        <p class="src">${j.deadline ? 'Tutup ' + fmt(j.deadline) + ' · ' : ''}Dicek: ${esc(j.dicek)} · Info awal: ${esc(j.sumber)}</p>
-      </div></div>
-      <div class="aksi"><button class="btn garis kecil" data-detail aria-expanded="false">Detail</button><a class="btn utama kecil" href="${esc(j.link)}" target="_blank" rel="noopener">Link resmi ${svg('luar', 14)}</a><button class="simpan" data-simpan aria-pressed="${disimpan.has(j.id)}" aria-label="Simpan ${esc(j.program)}">${svg('simpan', 17)}</button></div>
-    </div>
-  </article>`
-}
-
-const cocokCari = (j, q) => !q || (j.perusahaan + ' ' + j.program + ' ' + (j.jalur || []).join(' ') + ' ' + (j.kategori || '') + ' ' + (j.lokasi || '')).toLowerCase().includes(q)
-const urutDl = j => { if (!buka(j)) return 2e9; return j.deadline ? sisa(j.deadline) : 1e9 }
-function urutkan(list, u, skor) {
-  return list.sort((a, b) => u === 'az' ? a.perusahaan.localeCompare(b.perusahaan)
-    : u === 'baru' ? String(b.dibuka || '').localeCompare(String(a.dibuka || '')) || urutDl(a) - urutDl(b)
-    : u === 'cocok' && skor ? skor(b) - skor(a) || urutDl(a) - urutDl(b)
-    : urutDl(a) - urutDl(b) || (a.status === 'terverifikasi' ? -1 : 1))
-}
-
-function render() {
-  const q = $('q').value.trim().toLowerCase()
-  let u = $('urut').value
-  document.querySelectorAll('[data-semua]').forEach(e => e.hidden = mode !== 'semua')
-  $('urut').querySelector('[value="cocok"]').hidden = mode !== 'kamu'
-  if (mode === 'semua' && u === 'cocok') { u = 'deadline'; $('urut').value = u }
-  ;['kamu', 'semua'].forEach(m => $('tab-' + m).setAttribute('aria-selected', mode === m))
-  const { pas, mirip } = daftarCocok()
-  $('n-kamu').textContent = profil ? pas.length : '?'
-  $('n-semua').textContent = DATA.filter(buka).length
-  segarProfil()
-  const g = $('grid')
-  if (mode === 'kamu') {
-    if (!profil) {
-      g.innerHTML = `<div class="ajak"><div><b>Biar ga scroll ratusan loker</b><span class="redup">Jawab 4 pertanyaan singkat soal jurusan, minat, lokasi, dan jenis kerja. Nanti loker yang pas buat kamu dikumpulin di sini.</span></div><button class="btn utama besar" data-survei>Mulai ${svg('kanan', 18)}</button></div>`
-      $('hasil-n').textContent = ''
-      return
-    }
-    const peta = new Map(pas.concat(mirip).map(([j, c]) => [j, c]))
-    const skor = j => peta.get(j).s
-    const A = urutkan(pas.map(x => x[0]).filter(j => cocokCari(j, q)), u, skor)
-    const B = urutkan(mirip.map(x => x[0]).filter(j => cocokCari(j, q)), u, skor)
-    let h = A.length ? A.map(j => tiket(j, peta.get(j))).join('') : `<div class="kosong">${q ? 'Ga ada loker cocok yang sesuai kata kunci itu.' : 'Belum ada loker yang pas banget sama jawabanmu. Coba liat yang mirip di bawah, atau ubah jawaban.'}</div>`
-    if (B.length) h += `<h3 class="sub-judul">Mungkin juga cocok <span>Beda satu hal dari jawabanmu, labelnya abu-abu</span></h3>` + B.map(j => tiket(j, peta.get(j))).join('')
-    g.innerHTML = h
-    $('hasil-n').textContent = `${A.length} cocok · ${B.length} mungkin juga`
-    return
-  }
-  const f = FILTER.find(x => x[0] === saring)[2]
-  const list = urutkan(DATA.filter(j => f(j) && (!kat || j.kategori === kat) && (!jur || terimaJurusan(j, jur)) && (!jen || (j.jenis_kerja || []).includes(jen)) && cocokCari(j, q)), u)
-  g.innerHTML = list.length ? list.map(j => tiket(j)).join('') : `<div class="kosong">${saring === 'simpan' ? 'Belum ada yang disimpan. Pencet ikon penanda di tiket buat nyimpen.' : 'Ga ada lowongan yang cocok. Coba kata kunci atau filter lain.'}</div>`
-  $('hasil-n').textContent = `${list.length} lowongan`
-  hitungChip()
-}
-function hitungChip() { document.querySelectorAll('#filter .chip').forEach(b => { const ff = FILTER.find(x => x[0] === b.dataset.f)[2]; b.querySelector('.n').textContent = DATA.filter(ff).length }) }
-function segarProfil() {
-  const el = $('profil')
-  el.hidden = !(mode === 'kamu' && profil)
-  if (el.hidden) return
-  const p = profil
-  const isi = [LBL.bidang[p.jurusan]]
-    .concat(p.minat.length ? p.minat.map(m => LBL.jenis[m]) : ['Semua jenis kerja'])
-    .concat(p.lokasi.includes('mana') ? ['Lokasi mana aja'] : p.lokasi.map(w => LBL.wilayah[w]))
-    .concat(p.tipe.map(t => LBL.tipe[t]))
-  el.innerHTML = `<span class="label">Profilmu</span><div class="profil-isi">${isi.map(x => `<span>${esc(x)}</span>`).join('')}</div><button class="btn garis kecil" data-survei>Ubah jawaban</button>`
-}
-function gantiMode(m) { mode = m; simpanLS('gaj-mode', m); if (m === 'kamu') $('urut').value = 'cocok'; render() }
-
-function rel() {
-  const H = 30, W = 1100, KIRI = 40, KANAN = 30, Y = 70
-  const x = n => KIRI + n / H * (W - KIRI - KANAN)
-  const item = DATA.filter(j => buka(j) && j.deadline && sisa(j.deadline) <= H).sort((a, b) => sisa(a.deadline) - sisa(b.deadline))
-  const perHari = {}
-  item.forEach(j => { const n = sisa(j.deadline); (perHari[n] = perHari[n] || []).push(j) })
-  let tik = ''
-  for (let n = 0; n <= H; n += 5) tik += `<line class="tik" x1="${x(n)}" x2="${x(n)}" y1="${Y + 12}" y2="${Y + 18}"/><text class="hari" x="${x(n)}" y="${Y + 32}" text-anchor="middle">${n === 0 ? 'hari ini' : '+' + n}</text>`
-  let st = '', i = 0
-  Object.entries(perHari).forEach(([n, js]) => {
-    n = Number(n)
-    const w = n <= 7 ? 'var(--mepet)' : 'var(--ink)'
-    const atas = i++ % 2 === 0
-    const nm = js[0].perusahaan.replace(/^PT\.?\s+/i, '').split(/[(,]/)[0].trim(), pendek = nm.length > 14 ? nm.slice(0, 13) + '…' : nm
-    const label = js.length > 1 ? pendek + ' +' + (js.length - 1) : pendek
-    st += `<g class="st" tabindex="0" role="link" data-id="${esc(js[0].id)}" aria-label="${esc(js.map(j => j.perusahaan + ' ' + j.program).join(', '))}, tutup ${fmt(js[0].deadline)}"><title>${esc(js.map(j => j.perusahaan + ': ' + j.program).join('\n'))}</title><circle cx="${x(n)}" cy="${Y}" r="8" style="stroke:${w}"/>${js.length > 1 ? `<text x="${x(n)}" y="${Y + 4}" text-anchor="middle" style="font:700 9px var(--f-kode);stroke-width:0">${js.length}</text>` : ''}<text x="${x(n)}" y="${atas ? Y - 18 : Y + 50}" text-anchor="middle">${esc(label)}</text></g>`
-  })
-  $('rel').innerHTML = item.length ? `<svg viewBox="0 0 ${W} 130" role="img" aria-label="Deadline lowongan 30 hari ke depan"><line class="trek" x1="${KIRI}" x2="${W - KANAN}" y1="${Y}" y2="${Y}"/>${tik}<circle class="denyut" cx="${KIRI}" cy="${Y}" r="9"/><circle class="hariini" cx="${KIRI}" cy="${Y}" r="7"/>${st}</svg>` : '<p class="redup">Ga ada deadline dalam 30 hari ke depan.</p>'
-  document.querySelectorAll('#rel .st').forEach(g => { const pergi = () => loncat(g.dataset.id); g.onclick = pergi; g.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pergi() } } })
-}
-function loncat(id) {
-  let el = document.getElementById('t-' + id)
-  if (!el) { mode = 'semua'; saring = 'semua'; kat = jur = jen = ''; $('q').value = ''; segarChip(); render(); el = document.getElementById('t-' + id) }
-  if (!el) return
-  el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' })
-  el.classList.remove('sorot'); void el.offsetWidth; el.classList.add('sorot')
-}
-function segarChip() {
-  document.querySelectorAll('#filter .chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.f === saring))
-  $('kat').value = kat; $('jur').value = jur; $('jen').value = jen
-}
-function toast(t) { const e = document.createElement('div'); e.className = 'toast'; e.setAttribute('role', 'status'); e.textContent = t; document.body.appendChild(e); setTimeout(() => e.remove(), 2200) }
-
-// ---------- survei: satu pertanyaan per layar ----------
-function bukaSurvei(dariAwal) {
-  const ob = Object.assign({ jurusan: null, minat: [], lokasi: [], tipe: ['penuh waktu'] }, profil ? JSON.parse(JSON.stringify(profil)) : {})
-  const el = $('survei'), balikFokus = document.activeElement
-  const ubin = (v, judul, ket, on, multi, putus) => `<button class="ubin ${multi ? 'multi' : ''} ${putus ? 'putus' : ''} ${on ? 'on' : ''}" data-v="${esc(v)}" aria-pressed="${on}"><b>${esc(judul)}</b>${ket ? `<span>${esc(ket)}</span>` : ''}</button>`
-  const LANGKAH = [
-    { tanya: 'Kamu lulusan jurusan apa?', sub: 'Pilih rumpun yang paling deket sama jurusanmu.', sah: () => !!ob.jurusan,
-      isi: () => `<div class="ubin-grid">${OPSI.bidang.map(([v, j, k]) => ubin(v, j, k, ob.jurusan === v)).join('')}</div>`,
-      pilih: v => { ob.jurusan = v; return true } },
-    { tanya: 'Pengen kerja di bidang apa?', sub: 'Boleh pilih lebih dari satu.', sah: () => true, multi: true,
-      isi: () => `<div class="ubin-grid">${OPSI.jenis.map(([v, j, k]) => ubin(v, j, k, ob.minat.includes(v), true)).join('')}${ubin('*', 'Belum tahu', 'Tunjukin semua jenis kerja', !ob.minat.length, true, true)}</div>`,
-      pilih: v => { ob.minat = v === '*' ? [] : ob.minat.includes(v) ? ob.minat.filter(x => x !== v) : ob.minat.concat(v) } },
-    { tanya: 'Mau kerja di mana?', sub: 'Boleh pilih beberapa daerah.', sah: () => ob.lokasi.length > 0, multi: true,
-      isi: () => `<div class="ubin-grid">${ubin('mana', 'Mana aja', 'Siap ditempatkan di seluruh Indonesia', ob.lokasi.includes('mana'), true, true)}${OPSI.wilayah.map(([v, j]) => ubin(v, j, '', ob.lokasi.includes(v), true)).join('')}</div>`,
-      pilih: v => { ob.lokasi = v === 'mana' ? (ob.lokasi.includes('mana') ? [] : ['mana']) : ob.lokasi.filter(x => x !== 'mana'); if (v !== 'mana') ob.lokasi = ob.lokasi.includes(v) ? ob.lokasi.filter(x => x !== v) : ob.lokasi.concat(v) } },
-    { tanya: 'Cari kerja yang kayak gimana?', sub: 'Boleh pilih lebih dari satu.', sah: () => ob.tipe.length > 0, multi: true,
-      isi: () => `<div class="ubin-grid">${OPSI.tipe.map(([v, j, k]) => ubin(v, j, k, ob.tipe.includes(v), true)).join('')}</div>`,
-      pilih: v => { ob.tipe = ob.tipe.includes(v) ? ob.tipe.filter(x => x !== v) : ob.tipe.concat(v) } },
-  ]
-  let i = profil && !dariAwal ? 0 : -1
-  const tutupSurvei = () => { el.hidden = true; el.innerHTML = ''; document.body.classList.remove('terkunci'); document.removeEventListener('keydown', tombol); if (balikFokus && balikFokus.focus) balikFokus.focus() }
-  const tombol = e => { if (e.key === 'Escape') { if (!profil) simpanLS('gaj-lewati', true); tutupSurvei() } }
-  const lewati = `<button class="link-tombol" data-lewat>${profil ? 'Batal' : 'Lewati, liat semua loker'}</button>`
-  function gambar() {
-    if (i === -1) {
-      el.innerHTML = `<header class="ob-atas"><span class="wm-get" aria-hidden="true"><span class="kap">get</span> <span class="aks">a</span> job<span class="aks">.</span></span></header>
-        <main class="ob-isi masuk"><h1>Kenalan dulu, biar lokernya pas buat kamu.</h1><p>Ada loker buat anak teknik, kesehatan, bisnis, hukum, sampai pertanian. Biar ga kecampur, jawab dulu 4 pertanyaan singkat.</p>
-        <div class="ob-jawab ob-sambut">
-          <div class="poin"><i>1</i><div><b>Jurusan dan minat kerja</b><br><span class="redup kecil">Loker yang nerima jurusanmu muncul duluan.</span></div></div>
-          <div class="poin"><i>2</i><div><b>Lokasi dan jenis kerja</b><br><span class="redup kecil">Penuh waktu, kontrak, atau magang, di daerah yang kamu mau.</span></div></div>
-          <div class="poin"><i>${svg('cek', 18)}</i><div><b>Ga perlu daftar akun</b><br><span class="redup kecil">Jawabanmu disimpan di perangkat ini aja. Bisa diubah kapan pun lewat tombol Profilku.</span></div></div>
-        </div></main>
-        <footer class="ob-bawah">${lewati}<button class="btn utama besar" data-maju>Mulai ${svg('kanan', 18)}</button></footer>`
-    } else if (i < LANGKAH.length) {
-      const L = LANGKAH[i]
-      el.innerHTML = `<header class="ob-atas"><button class="ikon-btn" data-balik aria-label="Sebelumnya" ${i === 0 && profil ? 'style="visibility:hidden"' : ''}>${svg('kiri', 20)}</button><div class="ob-ruas" aria-hidden="true">${LANGKAH.map((_, n) => `<i class="${n < i ? 'lewat' : n === i ? 'ini' : ''}"></i>`).join('')}</div><span class="kecil redup">${i + 1}/${LANGKAH.length}</span><button class="ikon-btn" data-lewat aria-label="Tutup survei">${svg('tutup', 18)}</button></header>
-        <main class="ob-isi masuk"><h1 id="ob-tanya">${L.tanya}</h1><p>${L.sub}</p><div class="ob-jawab" role="group" aria-labelledby="ob-tanya">${L.isi()}</div></main>
-        <footer class="ob-bawah">${lewati}<button class="btn utama besar" data-maju ${L.sah() ? '' : 'disabled'}>${i === LANGKAH.length - 1 ? 'Liat hasilnya' : 'Lanjut'} ${svg('kanan', 18)}</button></footer>`
-      el.querySelectorAll('.ubin').forEach(b => b.onclick = () => {
-        const lanjut = L.pilih(b.dataset.v)
-        if (!L.multi) { el.querySelectorAll('.ubin').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', x === b) }) }
-        else { const ob2 = el.querySelector('.ob-jawab'); ob2.innerHTML = L.isi(); pasangUbin() }
-        el.querySelector('[data-maju]').disabled = !L.sah()
-        if (lanjut) setTimeout(maju, 220)
-      })
-      function pasangUbin() { el.querySelectorAll('.ubin').forEach(b => b.onclick = () => { L.pilih(b.dataset.v); el.querySelector('.ob-jawab').innerHTML = L.isi(); pasangUbin(); el.querySelector('[data-maju]').disabled = !L.sah(); const f = el.querySelector(`.ubin[data-v="${CSS.escape(b.dataset.v)}"]`); if (f) f.focus() }) }
-      if (L.multi) pasangUbin()
-    } else {
-      const { pas, mirip } = daftarCocok()
-      const top = urutkan(pas.map(x => x[0]), 'cocok', j => pas.find(x => x[0] === j)[1].s).slice(0, 3)
-      el.innerHTML = `<header class="ob-atas"><span class="wm-get" aria-hidden="true"><span class="kap">get</span> <span class="aks">a</span> job<span class="aks">.</span></span></header>
-        <main class="ob-isi masuk"><span class="label">Hasilnya</span><div class="ungkap-angka" style="margin-top:12px">${pas.length}</div><h1 style="margin-top:6px">${pas.length ? 'loker cocok buat kamu.' : 'loker yang pas banget, untuk sekarang.'}</h1>
-        <p>${pas.length ? `Plus ${mirip.length} lagi yang mungkin juga cocok. Loker baru dicek tiap hari, jadi balik lagi ya.` : `Tapi ada ${mirip.length} yang mirip. Loker baru dicek tiap hari, coba balik lagi atau longgarin jawabanmu.`}</p>
-        ${top.length ? `<div class="ungkap-list">${top.map(j => `<div><span><small>${esc(j.perusahaan)}</small><b>${esc(j.program)}</b></span><span class="hr">${j.deadline ? sisa(j.deadline) + ' hari lagi' : 'Tanggal belum ada'}</span></div>`).join('')}</div>` : ''}
-        </main>
-        <footer class="ob-bawah"><button class="link-tombol" data-balik>Ubah jawaban</button><button class="btn utama besar" data-selesai>Liat loker buat kamu ${svg('kanan', 18)}</button></footer>`
-    }
-    const m = el.querySelector('[data-maju]'); if (m) m.onclick = maju
-    const b = el.querySelector('[data-balik]'); if (b) b.onclick = () => { i = i >= LANGKAH.length ? LANGKAH.length - 1 : Math.max(profil ? 0 : -1, i - 1); gambar() }
-    el.querySelectorAll('[data-lewat]').forEach(x => x.onclick = () => { if (!profil) simpanLS('gaj-lewati', true); tutupSurvei() })
-    const s = el.querySelector('[data-selesai]'); if (s) s.onclick = () => { tutupSurvei(); gantiMode('kamu'); scrollTo({ top: $('tab-kamu').getBoundingClientRect().top + scrollY - 12, behavior: 'smooth' }) }
-    el.scrollTop = 0
-    const f = el.querySelector('.ubin.on, .ubin, [data-maju], [data-selesai]'); if (f) f.focus({ preventScroll: true })
-  }
-  function maju() {
-    if (i >= 0 && !LANGKAH[i].sah()) return
-    i++
-    if (i === LANGKAH.length) { profil = { jurusan: ob.jurusan, minat: ob.minat, lokasi: ob.lokasi, tipe: ob.tipe, tgl: new Date().toISOString().slice(0, 10) }; simpanLS('gaj-profil', profil); render() }
-    gambar()
-  }
-  el.hidden = false; document.body.classList.add('terkunci'); document.addEventListener('keydown', tombol)
-  gambar()
-}
-
-function mulai(d, aturan) {
-  DATA = d.loker
-  if (aturan && DATA.some(j => !j.bidang || !j.jenis_kerja || !j.tipe || !j.wilayah)) { const A = siapkanAturan(aturan); DATA.forEach(j => klasifikasi(j, A)) }
-  $('diperbarui').textContent = 'Diperbarui ' + fmt(d.diperbarui)
-  $('s-buka').textContent = DATA.filter(buka).length
-  $('s-mepet').textContent = DATA.filter(j => buka(j) && j.deadline && sisa(j.deadline) <= 7).length
-  $('s-ok').textContent = DATA.filter(j => buka(j) && j.status === 'terverifikasi').length
-  $('filter').innerHTML = FILTER.map(([k, n]) => `<button class="chip" data-f="${k}" aria-pressed="false">${n} <span class="n"></span></button>`).join('')
-  const B = DATA.filter(buka)
-  const kats = [...new Set(B.map(j => j.kategori).filter(Boolean))].sort()
-  $('kat').insertAdjacentHTML('beforeend', kats.map(k => `<option>${esc(k)}</option>`).join(''))
-  $('jur').insertAdjacentHTML('beforeend', OPSI.bidang.filter(x => x[0] !== 'lainnya').map(([v, l]) => `<option value="${v}">${esc(l)} (${B.filter(j => terimaJurusan(j, v)).length})</option>`).join(''))
-  $('jen').insertAdjacentHTML('beforeend', OPSI.jenis.map(([v, l]) => `<option value="${v}">${esc(l)} (${B.filter(j => (j.jenis_kerja || []).includes(v)).length})</option>`).join(''))
-  document.querySelectorAll('#filter .chip').forEach(b => b.onclick = () => { saring = b.dataset.f; segarChip(); render() })
-  $('kat').onchange = e => { kat = e.target.value; render() }
-  $('jur').onchange = e => { jur = e.target.value; render() }
-  $('jen').onchange = e => { jen = e.target.value; render() }
-  if (mode === 'kamu') $('urut').value = 'cocok'
-  segarChip(); rel(); render()
-  const h = location.hash.slice(1)
-  if (h) setTimeout(() => loncat(h), 100)
-  else if (!profil && !bacaLS('gaj-lewati', false)) bukaSurvei(true)
-}
-
-const ambil = u => fetch(u, { cache: 'no-store' }).then(r => { if (!r.ok) throw r; return r.json() })
-Promise.all([ambil('data/loker.json'), ambil('data/aturan-klasifikasi.json').catch(() => null)]).then(([d, a]) => mulai(d, a)).catch(() => {
-  $('grid').innerHTML = '<div class="kosong">Data gagal dimuat. Coba muat ulang halaman.</div>'
-  $('diperbarui').textContent = 'Gagal memuat'
-})
-$('q').addEventListener('input', render)
-$('urut').addEventListener('change', render)
-$('buka-survei').onclick = () => bukaSurvei(!profil)
-document.querySelectorAll('.tab-seg button').forEach(b => b.onclick = () => gantiMode(b.dataset.mode))
-document.addEventListener('click', e => { if (e.target.closest('[data-survei]')) bukaSurvei(!profil) })
-$('grid').addEventListener('click', e => {
-  const d = e.target.closest('[data-detail]')
-  if (d) { const t = d.closest('.tiket'), on = t.classList.toggle('buka'); d.textContent = on ? 'Tutup' : 'Detail'; d.setAttribute('aria-expanded', on); return }
-  const s = e.target.closest('[data-simpan]')
-  if (s) {
-    const id = s.closest('.tiket').dataset.id
-    if (disimpan.has(id)) { disimpan.delete(id); toast('Dihapus dari simpanan') } else { disimpan.add(id); toast('Disimpan di perangkat ini') }
-    simpanLS('gaj-simpan', [...disimpan]); s.setAttribute('aria-pressed', disimpan.has(id))
-    if (mode === 'semua' && saring === 'simpan') render(); else hitungChip()
-  }
-})
-</script>
+<script src="app.js"></script>
+<script src="fase1.js"></script>
+<script src="notif.js"></script>
 </body>
 </html>

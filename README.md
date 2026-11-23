@@ -30,3 +30,11 @@ python alat/isi_bidang.py --ulang  # hitung ulang semua (nimpa koreksi manual)
 ```
 
 Field yang udah ada ga ditimpa, jadi koreksi manual aman. Kalau ada loker baru yang belum diisi, halaman ngitung sendiri pakai aturan yang sama.
+
+## Mode tamu (data di perangkat)
+
+Lamaranku, checklist berkas, Pilah, Kalender, target mingguan, dan ekspor/impor jalan tanpa akun. Semua disimpan di localStorage dengan awalan `gaj-` (kode di `fase1.js`), ga ada yang dikirim ke server.
+
+## Notif loker (opsional)
+
+`notif.js` + `sw.js` + `manifest.json`. Kalau pengguna nyalain notif, alamat langganan push dan pilihan survei disimpan di Supabase (`langganan_notif`, lewat RPC `langganan_simpan` / `langganan_hapus`). Edge Function `kirim-notif-loker` (kode di `supabase/functions/`) dipanggil abis loker.json diperbarui, pakai header `x-kunci` dari tabel `notif_kunci`. Kunci VAPID privat cuma ada di database.
