@@ -23,17 +23,17 @@
   --f-judul: 'Bricolage Grotesque', 'Plus Jakarta Sans', system-ui, sans-serif;
   --f-teks: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --f-kode: 'JetBrains Mono', ui-monospace, Consolas, monospace;
-  --merek: #2F7BCF; --biru: #378ADD; --biru-bg: rgba(55, 138, 221, .11);
+  --merek: #2F7BCF; --biru: #378ADD; --biru-bg: rgba(55, 138, 221, .11); --sorot: rgba(55, 138, 221, .34); --biru-tekan: #1F5FA3;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --merek: #6AABEE; --biru: #4F9BE8; --biru-bg: rgba(79, 155, 232, .14);
+  --merek: #6AABEE; --biru: #4F9BE8; --biru-bg: rgba(79, 155, 232, .14); --sorot: rgba(79, 155, 232, .42); --biru-tekan: #2E6FB3;
   --bg: #111110; --panel: #1A1A19; --panel-2: #21211F; --ink: #EDEDEA; --ink-2: #CFCFCA; --redup: #9A9A94;
   --garis-ui: #2B2B29; --garis-kuat: #3C3C39; --titik: transparent;
   --amber-ink: #FFD27A; --amber-bg: rgba(255, 178, 36, .13); --ok: #3DD68C; --ok-bg: rgba(61, 214, 140, .12); --bad: #FF7A70; --bad-bg: rgba(255, 122, 112, .12); --mepet: #FF9248;
   --angkat: 0 18px 40px -18px rgba(0, 0, 0, .7); --bayang: 0 1px 0 rgba(0, 0, 0, .3); color-scheme: dark } }
 :root[data-theme="dark"] {
-  --merek: #6AABEE; --biru: #4F9BE8; --biru-bg: rgba(79, 155, 232, .14);
+  --merek: #6AABEE; --biru: #4F9BE8; --biru-bg: rgba(79, 155, 232, .14); --sorot: rgba(79, 155, 232, .42); --biru-tekan: #2E6FB3;
   --bg: #111110; --panel: #1A1A19; --panel-2: #21211F; --ink: #EDEDEA; --ink-2: #CFCFCA; --redup: #9A9A94;
   --garis-ui: #2B2B29; --garis-kuat: #3C3C39; --titik: transparent;
   --amber-ink: #FFD27A; --amber-bg: rgba(255, 178, 36, .13); --ok: #3DD68C; --ok-bg: rgba(61, 214, 140, .12); --bad: #FF7A70; --bad-bg: rgba(255, 122, 112, .12); --mepet: #FF9248;
@@ -76,7 +76,7 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 /* hero */
 .hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 32px; align-items: end; padding: 22px 0 26px }
 .hero h1 { font-size: clamp(36px, 5vw, 60px); line-height: 1.02; letter-spacing: -.04em; font-weight: 800; margin: 12px 0 14px; text-wrap: balance }
-.hero h1 em { font-style: normal; background: linear-gradient(transparent 60%, var(--amber) 60%, var(--amber) 92%, transparent 92%) }
+.hero h1 em { font-style: normal; background: linear-gradient(transparent 60%, var(--sorot) 60%, var(--sorot) 92%, transparent 92%) }
 .hero p { color: var(--redup); font-size: 16.5px; max-width: 36em; margin: 0 }
 .angka { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px }
 .angka div { background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 16px; padding: 14px 16px; box-shadow: var(--bayang) }
@@ -97,15 +97,15 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 .rel .st circle { fill: var(--panel); stroke-width: 3.5; transition: r .15s }
 .rel .st:hover circle, .rel .st:focus-visible circle { r: 10 }
 .rel .st text { font: 650 11px var(--f-teks); fill: var(--ink); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round }
-.rel .hariini { fill: var(--amber); stroke: var(--ink); stroke-width: 3 }
-.rel .denyut { fill: none; stroke: var(--amber); stroke-width: 3; transform-box: fill-box; transform-origin: center; animation: denyut 2s ease-out infinite }
+.rel .hariini { fill: var(--biru); stroke: var(--ink); stroke-width: 3 }
+.rel .denyut { fill: none; stroke: var(--biru); stroke-width: 3; transform-box: fill-box; transform-origin: center; animation: denyut 2s ease-out infinite }
 @keyframes denyut { 0% { transform: scale(.7); opacity: .9 } 100% { transform: scale(2.2); opacity: 0 } }
 
 /* alat */
 .alat { display: grid; gap: 10px; margin-bottom: 16px }
 .baris { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
 .cari { display: flex; align-items: center; gap: 10px; flex: 1 1 260px; background: var(--panel); border: 1.5px solid var(--garis-kuat); border-radius: 14px; padding: 0 14px; color: var(--redup) }
-.cari:focus-within { border-color: var(--ink); box-shadow: 0 0 0 4px var(--amber-bg) }
+.cari:focus-within { border-color: var(--ink); box-shadow: 0 0 0 4px var(--biru-bg) }
 .cari input { border: 0; outline: none; background: transparent; padding: 11px 0; flex: 1; min-width: 0; color: var(--ink); font-size: 15px }
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border-radius: 99px; border: 1.5px solid var(--garis-ui); background: var(--panel); font-size: 13px; font-weight: 600; color: var(--ink-2); transition: background .15s, border-color .15s }
 .chip:hover { border-color: var(--garis-kuat) }
@@ -153,11 +153,11 @@ button { cursor: pointer; background: none; border: 0; padding: 0 }
 .aksi { display: flex; gap: 8px; margin-top: auto; padding-top: 4px; align-items: center }
 .aksi .btn { flex: 1 }
 .simpan { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; border: 1.5px solid var(--garis-ui); color: var(--redup); flex: none }
-.simpan[aria-pressed="true"] { background: var(--amber); border-color: var(--amber); color: #3D2600 }
+.simpan[aria-pressed="true"] { background: var(--biru); border-color: var(--biru); color: #fff }
 .simpan[aria-pressed="true"] svg { fill: currentColor }
 .kosong { grid-column: 1 / -1; text-align: center; padding: 48px 16px; color: var(--redup); border: 2px dashed var(--garis-kuat); border-radius: 20px }
 .sorot { animation: sorot 1.6s ease }
-@keyframes sorot { 0%, 40% { box-shadow: 0 0 0 4px var(--amber), var(--angkat) } }
+@keyframes sorot { 0%, 40% { box-shadow: 0 0 0 4px var(--biru), var(--angkat) } }
 
 /* tab buat kamu / semua */
 .tab-seg { display: inline-flex; gap: 4px; padding: 4px; background: var(--panel); border: 1px solid var(--garis-ui); border-radius: 14px; box-shadow: var(--bayang); margin-bottom: 14px }
@@ -222,7 +222,7 @@ body.terkunci { overflow: hidden }
 .promo { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 30px; padding: 18px 20px; border-radius: 20px; background: var(--ink); color: var(--bg) }
 .promo div { flex: 1; min-width: 220px }
 .promo b { font: 750 20px var(--f-judul); display: block }
-.promo .btn { background: var(--amber); color: #2A1B00; box-shadow: 0 3px 0 #9A6A00 }
+.promo .btn { background: var(--biru); color: #fff; box-shadow: 0 3px 0 var(--biru-tekan) }
 footer { margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--garis-ui); color: var(--redup); font-size: 12.5px; line-height: 1.6 }
 footer b { color: var(--ink) }
 .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 11px 16px; border-radius: 14px; box-shadow: var(--angkat); font-size: 14px; z-index: 50; animation: naik .25s ease }
