@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-23",
+  "diperbarui": "2026-11-24",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -5970,6 +5970,487 @@
         "jabar",
         "jateng",
         "jatim"
+      ]
+    },
+    {
+      "id": "djarum-internal-auditor-fg",
+      "perusahaan": "PT Djarum",
+      "program": "Internal Auditor (Fresh Graduate)",
+      "lokasi": "Jakarta, Kudus, Bandung, atau Surabaya",
+      "untuk": "Fresh graduate S1 Akuntansi",
+      "syarat": [
+        "Sarjana Akuntansi dengan predikat minimal sangat memuaskan",
+        "Memahami dasar akuntansi dan pembuatan laporan keuangan",
+        "Komunikasi baik, teliti, fokus target, bisa kerja tim",
+        "Bersedia ditempatkan di Jakarta, Kudus, Surabaya, atau Bandung dan dinas ke seluruh Indonesia"
+      ],
+      "catatan": "Penuh waktu. Audit keuangan dan operasional, susun laporan audit, kasih rekomendasi kontrol internal. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/163/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jateng",
+        "jabar",
+        "jatim"
+      ]
+    },
+    {
+      "id": "djarum-electrical-engineer-kudus",
+      "perusahaan": "PT Djarum",
+      "program": "Electrical Engineer (Fresh Graduate)",
+      "lokasi": "Kudus",
+      "untuk": "Fresh graduate S1 Teknik Elektro atau Mekatronika",
+      "syarat": [
+        "Sarjana Teknik Elektro atau Teknik Mekatronika, predikat sangat memuaskan",
+        "Paham sistem kelistrikan (PLC)",
+        "Bisa kerja tim, siap kerja di dalam ruangan maupun lapangan",
+        "Bersedia ditempatkan di Kudus"
+      ],
+      "catatan": "Penuh waktu. Pemeliharaan dan perbaikan mesin listrik sesuai EHS, dukung operator teknis, program continuous improvement. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/134/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
+    },
+    {
+      "id": "djarum-mechanical-engineer-kudus",
+      "perusahaan": "PT Djarum",
+      "program": "Mechanical Engineer (Fresh Graduate)",
+      "lokasi": "Kudus",
+      "untuk": "Fresh graduate S1 Teknik Mesin, Elektronika, atau Mekatronika",
+      "syarat": [
+        "Sarjana Teknik Mesin, Teknik Elektronika, atau Teknik Mekatronika, predikat sangat memuaskan",
+        "Berpikir teknis dan logis, analisa kuat, suka angka",
+        "Bersedia ditempatkan di Kudus"
+      ],
+      "catatan": "Penuh waktu. Rancang, kembangkan, dan pasang komponen mekanik, koordinasi operasi dan perawatan mesin. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/148/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
+    },
+    {
+      "id": "djarum-production-cashier-jateng",
+      "perusahaan": "PT Djarum",
+      "program": "Production Cashier (Fresh Graduate)",
+      "lokasi": "Seluruh area Jawa Tengah",
+      "untuk": "Fresh graduate S1, diutamakan Ekonomi",
+      "syarat": [
+        "Lulusan S1, diutamakan Ekonomi, predikat sangat memuaskan",
+        "Menguasai penggunaan dan analisis data dengan Microsoft Excel",
+        "Tertarik operasional produksi dan administrasi, detail",
+        "Bersedia ditempatkan di seluruh area Jawa Tengah"
+      ],
+      "catatan": "Penuh waktu. Administrasi keuangan produksi, hitung dan bagikan upah karyawan sesuai jadwal. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/240/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jateng"
+      ]
+    },
+    {
+      "id": "djarum-tobacco-trainee-kudus",
+      "perusahaan": "PT Djarum",
+      "program": "Tobacco Trainee (Fresh Graduate)",
+      "lokasi": "Kudus (dinas ke luar kota)",
+      "untuk": "Fresh graduate S1 Bioteknologi, Biologi, Pertanian, Teknik Kimia, atau Farmasi",
+      "syarat": [
+        "Lulusan sarjana predikat sangat memuaskan dari Bioteknologi, Biologi, Pertanian, Teknik Kimia, atau Farmasi",
+        "Mau belajar soal tembakau dan bersedia mencoba produk buat evaluasi kualitas",
+        "Analisa dan logika tajam, komunikasi baik",
+        "Bersedia ditempatkan di Kudus dan dinas ke luar kota"
+      ],
+      "catatan": "Penuh waktu. Grading tembakau, laporan hasil grading, saran perbaikan grading dan perawatan tembakau. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/176/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "sains",
+        "kesehatan",
+        "pertanian",
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "riset"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jateng"
+      ]
+    },
+    {
+      "id": "djarum-accounting-staff-sby",
+      "perusahaan": "PT Djarum",
+      "program": "Accounting Staff (Fresh Graduate)",
+      "lokasi": "Surabaya",
+      "untuk": "Fresh graduate S1 Akuntansi",
+      "syarat": [
+        "Latar belakang Akuntansi, predikat minimal sangat memuaskan",
+        "Paham dasar akuntansi, laporan keuangan, rekonsiliasi bank",
+        "Teliti dan kemampuan berhitung baik",
+        "Pengalaman ERP keuangan jadi nilai plus"
+      ],
+      "catatan": "Penuh waktu. Pembukuan, posting jurnal, laporan keuangan, verifikasi dokumen transaksi, rekonsiliasi. Portal Djarum ga nampilin tenggat. Daftar lewat tombol Lamar di portal karier resmi Djarum.",
+      "link": "https://career.djarum.com/jobs/174/show",
+      "jalur": [],
+      "kategori": "FMCG",
+      "dibuka": null,
+      "deadline": null,
+      "status": "terverifikasi",
+      "dicek": "Portal karier resmi Djarum (career.djarum.com), 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Djarum",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
+    },
+    {
+      "id": "deliveree-fg-mtp-onsite",
+      "perusahaan": "Deliveree Indonesia",
+      "program": "Fresh Graduate Management Training Program (Onsite)",
+      "kategori": "Teknologi",
+      "lokasi": "Hybrid, penempatan Jakarta, Bandung, Semarang, Yogyakarta, Surabaya, Lampung, Medan, Batam, Palembang, Jambi, Pekanbaru, atau Solo",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan, IPK minimal 3,0",
+        "Fresh graduate atau pengalaman 1-2 tahun",
+        "Bahasa Inggris sangat baik, lisan dan tulisan",
+        "Penalaran, logika, dan analisis kuat",
+        "Mandiri dan pekerja keras"
+      ],
+      "catatan": "Penuh waktu. Rotasi ke enterprise sales, digital marketing, operational excellence, supply chain, booking ops, fleet, telemarketing, finance, HR, dan admin. Gaji di Glints Rp6-7 juta. Daftarnya lewat email ke rekruter yang tertulis di halaman: cover email, CV PDF, form pra-interview, dan transkrip.",
+      "link": "https://glints.com/id/opportunities/jobs/fresh-graduate-management-training-program-onsite/2e14c671-080a-4a96-83dd-8a4741b8e52b",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jateng",
+        "jatim",
+        "sumatera"
+      ]
+    },
+    {
+      "id": "deliveree-fg-mtp-remote",
+      "perusahaan": "Deliveree Indonesia",
+      "program": "Fresh Graduate Management Training Program (Remote)",
+      "kategori": "Teknologi",
+      "lokasi": "Remote, Indonesia",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan, IPK minimal 3,0",
+        "Fresh graduate atau pengalaman 1-2 tahun",
+        "Punya laptop, monitor, headset, dan internet stabil"
+      ],
+      "catatan": "Penuh waktu, remote. Peran di Supply Management, Supply Acquisition, Business, atau Booking Operations. Gaji di Glints Rp4-5 juta. Sebagian teks syarat dan cara daftar terpotong di Glints, cek halamannya langsung.",
+      "link": "https://glints.com/id/opportunities/jobs/fresh-graduate-management-training-program-remote/eddfa102-9df4-426b-ac63-414a874a1aa0",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
+    },
+    {
+      "id": "amber-solusi-fg-business-analyst",
+      "perusahaan": "PT Amber Solusi Internasional",
+      "program": "Fresh Graduate Business Analyst",
+      "kategori": "Teknologi",
+      "lokasi": "Scientia Business Park, Gading Serpong, Tangerang (di Glints tertulis Jakarta Utara)",
+      "untuk": "Fresh graduate S1 Sistem Informasi, Ilmu Komputer, atau jurusan terkait",
+      "syarat": [
+        "S1 Sistem Informasi, Ilmu Komputer, atau terkait, IPK di atas 3,00",
+        "Fresh graduate dipersilakan",
+        "Magang sebagai Business Analyst, System Analyst, atau Functional Consultant jadi nilai plus",
+        "Paham metodologi pengembangan software",
+        "Bahasa Inggris cukup"
+      ],
+      "catatan": "Kontrak. Analisis kebutuhan bisnis dan user story, dokumen desain fungsional, diagram proses, testing dan UAT, pelatihan pengguna, dukungan pasca rilis. Gaji di Glints Rp6-7 juta. Perusahaan software kecil.",
+      "link": "https://glints.com/id/opportunities/jobs/fresh-graduate-business-analyst/f5caf7c3-6cb0-466d-8800-215866333419",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "it"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "amore-pelita-hati-finance-fg",
+      "perusahaan": "PT Amore Pelita Hati",
+      "program": "Staff Finance & Accounting (Fresh Graduate)",
+      "kategori": "Layanan",
+      "lokasi": "Jakarta Pusat (kerja di kantor)",
+      "untuk": "Fresh graduate S1 Akuntansi, Keuangan, atau terkait",
+      "syarat": [
+        "S1 Akuntansi, Keuangan, atau jurusan terkait",
+        "Fresh graduate diutamakan",
+        "Paham dasar akuntansi dan administrasi pajak",
+        "Bisa Microsoft Excel",
+        "Teliti dan kemampuan berhitung baik"
+      ],
+      "catatan": "Penuh waktu di agen perjalanan. Pencatatan transaksi, verifikasi invoice, rekonsiliasi kas dan bank, AP dan AR, laporan keuangan. Gaji di Glints Rp4-6 juta.",
+      "link": "https://glints.com/id/opportunities/jobs/staff-finance-and-accounting-fresh-graduate/9414f8f5-b9c0-4a05-bb25-c4f54096f11c",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "kjpp-karmanto-penilai-teknik-mesin",
+      "perusahaan": "KJPP Karmanto dan Rekan",
+      "program": "Penilai (Fresh Graduate Teknik Mesin)",
+      "kategori": "Konsultan",
+      "lokasi": "Tebet, Jakarta Selatan (kerja di kantor)",
+      "untuk": "Fresh graduate S1 Teknik Mesin",
+      "syarat": [
+        "S1 Teknik Mesin",
+        "Paham dasar desain, konstruksi, dan spesifikasi mesin",
+        "Bisa baca gambar teknik",
+        "CAD jadi nilai plus",
+        "Analitis dan teliti"
+      ],
+      "catatan": "Penuh waktu. Survei lapangan, gambar teknik, data teknis, laporan penilaian aset. Gaji di Glints Rp5,7-8 juta.",
+      "link": "https://glints.com/id/opportunities/jobs/penilai-fresh-graduate-teknik-mesin/0dc56ed0-f3d8-486e-9968-c1a8b14752a8",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "prima-subsea-junior-subsea-engineer",
+      "perusahaan": "Prima Subsea Services",
+      "program": "Junior Subsea Engineer (Fresh Graduate)",
+      "kategori": "Energi",
+      "lokasi": "Jakarta Utara, kerja offshore, di kapal, dan galangan",
+      "untuk": "Fresh graduate S1 Teknik Kelautan, Perkapalan, Marine Engineering, atau Sipil/Struktur",
+      "syarat": [
+        "Fresh graduate (atau pengalaman di bawah 1 tahun) S1 Teknik Kelautan, Naval Architecture, Marine Engineering, atau Sipil/Struktur",
+        "Bisa AutoCAD dan MS Excel",
+        "Bahasa Inggris baik",
+        "Siap kerja offshore"
+      ],
+      "catatan": "Penuh waktu. Dukungan diving, ROV, dan survei, dokumentasi teknis, data subsea. Gaji di Glints ditulis Rp2,5-3 juta per hari plus bonus harian, angka ini ga lazim jadi cek langsung ke perusahaan.",
+      "link": "https://glints.com/id/opportunities/jobs/junior-subsea-engineer-for-fresh-graduate/972ea48c-e935-4eaf-a2be-4d5fdf8fa758",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "era-awan-digital-b2b-sales-fg",
+      "perusahaan": "PT Era Awan Digital",
+      "program": "B2B Enterprise Sales (Fresh Graduate)",
+      "kategori": "Teknologi",
+      "lokasi": "Jakarta Pusat (hybrid)",
+      "untuk": "Fresh graduate S1 Bisnis, Pemasaran, Manajemen, Komunikasi, atau terkait",
+      "syarat": [
+        "S1 Bisnis, Pemasaran, Manajemen, Komunikasi, atau terkait",
+        "Komunikasi dan interpersonal kuat",
+        "Tertarik B2B sales dan business development",
+        "Siap meeting dan kunjungan klien",
+        "Di Glints ditandai khusus perempuan"
+      ],
+      "catatan": "Penuh waktu, layanan cloud. Prospecting, cold call, proposal, CRM, laporan pipeline, ada komisi. Gaji ga ditampilkan.",
+      "link": "https://glints.com/id/opportunities/jobs/b2b-enterprise-sales-fresh-graduate/a31d1bfc-3652-465f-9c89-958635243bbb",
+      "jalur": [],
+      "dibuka": null,
+      "deadline": null,
+      "status": "perlu dicek",
+      "dicek": "Glints, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Glints",
+      "bidang": [
+        "bisnis",
+        "komunikasi"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "fap-agri-graduate-trainee",
+      "perusahaan": "PT FAP Agri Tbk",
+      "program": "Graduate Trainee Program (Field, Mill, Administrasi, Traksi)",
+      "jalur": [
+        "FAT (Field)",
+        "MAT (Mill)",
+        "AAT (Administrasi)",
+        "TAT (Traksi)"
+      ],
+      "kategori": "Perkebunan",
+      "lokasi": "Kebun di Kalimantan Utara dan Kalimantan Timur",
+      "untuk": "Fresh graduate D4/S1, jurusan sesuai jalur",
+      "syarat": [
+        "D4/S1, sudah lulus dan wisuda",
+        "FAT: Agroteknologi, Ilmu Tanah, Kehutanan, Teknik Pengolahan Kelapa Sawit, Hama dan Penyakit Tanaman, Manajemen Perkebunan",
+        "MAT: Teknik Elektro, Mesin, Kimia",
+        "AAT: Akuntansi",
+        "TAT: Teknik Mesin, Otomotif, Alat Berat",
+        "Bersedia ikut pelatihan 6 bulan",
+        "Bersedia ditempatkan di kebun Kalimantan Utara dan Kalimantan Timur"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Program trainee 6 bulan, calon asisten kebun. Seleksi: psikotes, wawancara HRD, FGD dan wawancara user, tes kesehatan. Perusahaan menyatakan ga memungut biaya. Info baru dari situs berita loker, situs resmi FAP Agri belum bisa dibuka, jadi cek dulu sebelum daftar.",
+      "link": "https://www.disnakerja.com/lowongan-kerja-pt-fap-agri-tbk/",
+      "status": "perlu dicek",
+      "dicek": "disnakerja.com, 24 Nov 2026 (situs resmi belum bisa dibuka)",
+      "fresh_grad": true,
+      "sumber": "disnakerja.com",
+      "bidang": [
+        "pertanian",
+        "teknik",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "kalimantan"
       ]
     }
   ]
