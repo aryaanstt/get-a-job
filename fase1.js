@@ -5,13 +5,14 @@ const AKTIF = ['Udah daftar', 'Lolos berkas', 'Tes', 'Interview']
 const CEK = [['baca', 'Baca syarat sampai habis'], ['cv', 'Siapin CV terbaru'], ['ijazah', 'Siapin transkrip dan ijazah atau SKL'], ['cl', 'Tulis cover letter, kalau diminta'], ['kirim', 'Kirim lewat link resmi']]
 const JENIS_CATAT = [['kabar', 'Dihubungi / ada kabar', null], ['lolos', 'Lolos berkas', 'Lolos berkas'], ['tes', 'Undangan tes', 'Tes'], ['interview', 'Undangan interview', 'Interview'], ['terima', 'Diterima', 'Diterima'], ['tolak', 'Ditolak', 'Ditolak']]
 const JENIS_EV = { daftar: ['Daftar', '#378ADD'], kabar: ['Dihubungi', '#23A065'], agenda: ['Tes & interview', '#7B4FD6'], tutup: ['Tenggat', '#E39A00'], tolak: ['Ditolak & batal', '#D9473B'] }
-const VIEWS = ['loker', 'pilah', 'lamaran', 'kalender', 'privasi']
-const NAMA_VIEW = { loker: 'Loker', pilah: 'Pilah', lamaran: 'Lamaranku', kalender: 'Kalender', privasi: 'Privasi' }
+const VIEWS = ['loker', 'pilah', 'lamaran', 'kalender', 'notif', 'privasi']
+const NAMA_VIEW = { loker: 'Loker', pilah: 'Pilah', lamaran: 'Lamaranku', kalender: 'Kalender', notif: 'Notif', privasi: 'Privasi' }
 const IKON_NAV = {
   loker: '<rect x="3" y="7" width="18" height="13" rx="3"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
   pilah: '<rect x="6" y="4" width="12" height="16" rx="3"/><path d="M3 8v8M21 8v8"/>',
   lamaran: '<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><path d="M7 12h3M14 12h3"/>',
   kalender: '<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  notif: '<path d="M6 8a6 6 0 1 1 12 0c0 7 3 8 3 8H3s3-1 3-8"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/>',
   privasi: '<path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/>',
 }
 const hariStr = () => new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10)
@@ -72,11 +73,13 @@ function arahkan() {
   tampil()
   if (lama !== view && VIEWS.includes(h)) scrollTo(0, 0)
 }
-function tampil() { if (typeof segarNotif === 'function') segarNotif(); ({ pilah: halamanPilah, lamaran: halamanLamaran, kalender: halamanKalender, privasi: halamanPrivasi })[view]?.() ; navBadge() }
+function tampil() { if (typeof segarNotif === 'function') segarNotif(); if (typeof kabarSegar === 'function' && DATA.length && view !== 'notif') kabarSegar(); ({ pilah: halamanPilah, lamaran: halamanLamaran, kalender: halamanKalender, notif: typeof halamanNotif === 'function' ? halamanNotif : null, privasi: halamanPrivasi })[view]?.() ; navBadge() }
 function segarSemua() { if (DATA.length) render(); tampil() }
 function navBadge() {
   const n = Object.values(LM).filter(l => l.status === 'Mau daftar' || AKTIF.includes(l.status)).length
   document.querySelectorAll('a[data-v="lamaran"] .bdg').forEach(b => { b.hidden = !n; b.textContent = n })
+  const k = typeof belumDibaca === 'function' && view !== 'notif' ? belumDibaca() : 0
+  document.querySelectorAll('a[data-v="notif"] .bdg').forEach(b => { b.hidden = !k; b.textContent = k > 9 ? '9+' : k; b.classList.add('merah') })
 }
 addEventListener('hashchange', arahkan)
 

@@ -4,7 +4,7 @@ const fmtPendek = d => { const [, m, dd] = d.split('-').map(Number); return `${d
 const hariIni = () => { const n = new Date(Date.now() + 7 * 3600e3); return Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate()) }
 const sisa = d => { const [y, m, dd] = d.split('-').map(Number); return Math.round((Date.UTC(y, m - 1, dd) - hariIni()) / 864e5) }
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
-const simpanLS = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) { } if (window.akunUbah) window.akunUbah(k) }
+const simpanLS = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) { } if (window.akunUbah) window.akunUbah(k); if (window.kabarUbah) window.kabarUbah(k) }
 const bacaLS = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v ?? d } catch (e) { return d } }
 const $ = id => document.getElementById(id)
 const ikon = {
