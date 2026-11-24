@@ -6878,6 +6878,459 @@
       "wilayah": [
         "jabodetabek"
       ]
+    },
+    {
+      "id": "bca-relationship-officer-program",
+      "perusahaan": "BCA",
+      "program": "Relationship Officer Program",
+      "jalur": [
+        "Program"
+      ],
+      "kategori": "Perbankan",
+      "lokasi": "Tes dan penempatan sesuai kota tes: Bandung, Jabodetabek, Medan, Batam, Banjarmasin, Pontianak, Samarinda, Manado, Padang, Bukittinggi, Bengkulu, Kediri, dan kota lain di situs",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "WNI, usia maksimal 24 tahun (S1) atau 26 tahun (S2)",
+        "S1 semua jurusan, IPK minimal 2,75",
+        "Suka marketing, bisnis, dan menjalin relasi",
+        "Komunikasi baik",
+        "Bisa kerja dengan target dan di bawah tekanan",
+        "Bahasa Mandarin, Jepang, atau Korea jadi nilai plus"
+      ],
+      "dibuka": "2025-12-23",
+      "deadline": "2026-12-31",
+      "catatan": "Program pembekalan 1 tahun dengan uang saku, jaminan kesehatan, THR, lalu diangkat karyawan tetap di kantor cabang. Seleksi: administrasi, tes online, wawancara HR dan user, kesehatan. Daftar lewat situs karier BCA.",
+      "link": "https://karir.bca.co.id/candidate/id/career/relationship-officer-program",
+      "status": "terverifikasi",
+      "dicek": "Situs resmi BCA, 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi BCA",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "jabar",
+        "jatim",
+        "sumatera",
+        "kalimantan",
+        "sulawesi"
+      ]
+    },
+    {
+      "id": "bca-legal-officer-program",
+      "perusahaan": "BCA",
+      "program": "Legal Officer Program",
+      "jalur": [
+        "Program"
+      ],
+      "kategori": "Perbankan",
+      "lokasi": "Jakarta, bersedia ditempatkan di seluruh Indonesia",
+      "untuk": "Fresh graduate S1 Hukum",
+      "syarat": [
+        "WNI, usia maksimal 24 tahun (S1) atau 26 tahun (S2)",
+        "S1 Hukum, IPK minimal 3,00",
+        "Fresh graduate atau pengalaman 1-2 tahun di bidang hukum",
+        "Minat hukum di dunia perbankan",
+        "Bersedia ditempatkan di seluruh Indonesia"
+      ],
+      "dibuka": "2026-01-01",
+      "deadline": "2026-12-31",
+      "catatan": "Program 1 tahun: opini hukum, drafting dan review dokumen, kepatuhan hukum, litigasi. Seleksi: administrasi, tes online, wawancara HR dan user, kesehatan. Daftar lewat situs karier BCA.",
+      "link": "https://karir.bca.co.id/candidate/id/career/legal-officer-program",
+      "status": "terverifikasi",
+      "dicek": "Situs resmi BCA, 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi BCA",
+      "bidang": [
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
+    },
+    {
+      "id": "bca-recruitment-staff",
+      "perusahaan": "BCA",
+      "program": "Recruitment Staff",
+      "jalur": [],
+      "kategori": "Perbankan",
+      "lokasi": "Lokasi belum tertulis di halaman",
+      "untuk": "Lulusan S1 Psikologi",
+      "syarat": [
+        "S1 Psikologi",
+        "Antusias di bidang rekrutmen dan pengembangan SDM",
+        "Menguasai alat tes psikologi dan interpretasinya",
+        "Paham dasar teknik wawancara dan observasi",
+        "Bisa analisis data dan metode penelitian dasar"
+      ],
+      "dibuka": "2026-06-11",
+      "deadline": "2026-11-30",
+      "catatan": "Seleksi kandidat dari awal sampai akhir, koordinasi dengan unit kerja, kembangin metode seleksi. Syarat pengalaman ga kebaca penuh, cek di halamannya. Daftar lewat situs karier BCA.",
+      "link": "https://karir.bca.co.id/candidate/id/career/recruitment-staff",
+      "status": "terverifikasi",
+      "dicek": "Situs resmi BCA, 24 Nov 2026",
+      "fresh_grad": true,
+      "sumber": "Situs resmi BCA",
+      "bidang": [
+        "sosial"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": []
+    },
+    {
+      "id": "sany-mt-human-resources",
+      "perusahaan": "SANY Group",
+      "program": "Management Trainee Human Resources",
+      "jalur": [
+        "Management Trainee"
+      ],
+      "kategori": "Manufaktur",
+      "lokasi": "Kemayoran, Jakarta (rotasi ke seluruh cabang SANY)",
+      "untuk": "Fresh graduate S1 Psikologi atau Hukum",
+      "syarat": [
+        "S1 Psikologi atau Hukum",
+        "Fresh graduate atau pengalaman maksimal 1 tahun",
+        "Potensi kepemimpinan dan minat di manajemen SDM",
+        "Bersedia dirotasi ke seluruh cabang SANY",
+        "Komunikasi dan problem solving baik"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": null,
+      "catatan": "Program MT. Rotasi di HR: rekrutmen, onboarding, employer branding, HRIS, penilaian kinerja, hubungan karyawan. Gaji ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96092305",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "hukum",
+        "sosial"
+      ],
+      "jenis_kerja": [
+        "mt",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek",
+        "seluruh"
+      ]
+    },
+    {
+      "id": "berkat-semesta-business-associate",
+      "perusahaan": "Berkat Semesta Solutions",
+      "program": "Business Associate (Fresh Graduate)",
+      "jalur": [],
+      "kategori": "Konglomerasi",
+      "lokasi": "Jakarta Barat",
+      "untuk": "Fresh graduate D3/S1, diutamakan bisnis, pemasaran, atau komunikasi",
+      "syarat": [
+        "D3/S1, diutamakan bisnis, pemasaran, atau komunikasi, IPK minimal 3,00",
+        "Cepat belajar, mau turun lapangan",
+        "Rapi mencatat, akrab dengan media sosial",
+        "Punya kendaraan pribadi dan domisili Jakarta Barat diutamakan"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": null,
+      "catatan": "Penuh waktu. Bantu pengembangan usaha, pemasaran dan penjualan, riset dan perencanaan, nyusun laporan di salah satu unit usaha (F&B, media, pasar modal). Gaji tetap plus insentif, masa percobaan 3 bulan. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96089736",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "bisnis",
+        "komunikasi"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "cetakdong-business-development-bdg",
+      "perusahaan": "Cetakdong.com (PT Adi Jaya Montana)",
+      "program": "Business Development Executive",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Bandung, Jawa Barat",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan, fresh graduate dipersilakan",
+        "Minat di sales dan business development",
+        "Komunikasi dan negosiasi kuat",
+        "Bersedia kunjungan ke pelanggan"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": null,
+      "catatan": "Cari klien baru, kunjungan dan presentasi produk percetakan dan kemasan, nyiapin penawaran. Ada insentif, gaji pokok ga tertulis, tanyain dulu. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96091980",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
+    },
+    {
+      "id": "computrade-business-representative",
+      "perusahaan": "Computrade Technology",
+      "program": "Business Representative",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Jakarta",
+      "untuk": "Fresh graduate S1 semua jurusan",
+      "syarat": [
+        "S1 semua jurusan, fresh graduate diterima",
+        "Pengalaman sales atau business development 1-2 tahun diutamakan, bukan wajib",
+        "Minat penjualan teknologi B2B",
+        "Komunikasi dan interpersonal baik"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": null,
+      "catatan": "Kembangin peluang bisnis baru, relasi klien, presentasi dan demo produk, rekomendasi solusi IT enterprise. Gaji ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96089343",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "asta-bumi-cipta-business-development",
+      "perusahaan": "Asta Bumi Cipta",
+      "program": "Business Development Executive",
+      "jalur": [],
+      "kategori": "Layanan",
+      "lokasi": "Jakarta Selatan",
+      "untuk": "Fresh graduate semua jurusan (jenjang pendidikan belum tertulis)",
+      "syarat": [
+        "Fresh graduate dipersilakan",
+        "Pengalaman sales/BD 1-2 tahun diutamakan, bukan wajib",
+        "Bahasa Inggris fasih",
+        "Percaya diri presentasi ke pelanggan"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": null,
+      "catatan": "Prospecting klien baru, kelola akun, kejar target penjualan bulanan dan kuartalan. Jenjang pendidikan dan gaji ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96087934",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "bcaf-accounting-control-staff",
+      "perusahaan": "PT BCA Finance",
+      "program": "Accounting Control Staff",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Kantor Pusat Pondok Indah, Jakarta Selatan",
+      "untuk": "Fresh graduate S1 Akuntansi",
+      "syarat": [
+        "S1 Akuntansi, IPK minimal 3,00",
+        "Menguasai Microsoft Excel",
+        "Fresh graduate dipersilakan",
+        "Penempatan Kantor Pusat Pondok Indah"
+      ],
+      "dibuka": "2026-11-17",
+      "deadline": "2026-12-30",
+      "catatan": "Penuh waktu. Verifikasi dokumen transaksi, pantau jurnal harian, buku besar, dan rekonsiliasi bank. Hari terakhir daftar 30 Des 2026 (Kalibrr). Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-bca-finance/jobs/265918/accounting-control-staff-5",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "bcaf-payment-disbursement-staff",
+      "perusahaan": "PT BCA Finance",
+      "program": "Payment Disbursement Staff",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Kantor Pusat Pondok Indah, Jakarta Selatan",
+      "untuk": "Fresh graduate S1 semua jurusan, diutamakan Ekonomi/Akuntansi",
+      "syarat": [
+        "S1 semua jurusan, diutamakan Ekonomi/Akuntansi, IPK minimal 3,00",
+        "Teliti dan komunikasi baik",
+        "Fresh graduate dipersilakan",
+        "Penempatan Kantor Pusat Pondok Indah"
+      ],
+      "dibuka": "2026-11-18",
+      "deadline": "2026-12-30",
+      "catatan": "Penuh waktu. Administrasi dan kontrol pembayaran ke vendor, balancing harian, petty cash. Hari terakhir daftar 30 Des 2026 (Kalibrr). Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-bca-finance/jobs/275870/payment-disbursement-staff-3",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua",
+        "bisnis",
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "kg-ppic-officer-purwakarta",
+      "perusahaan": "Kompas Gramedia (pabrik packaging)",
+      "program": "PPIC Officer",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Bungursari, Purwakarta, Jawa Barat",
+      "untuk": "Lulusan S1 Teknik Industri",
+      "syarat": [
+        "S1 Teknik Industri",
+        "Paham alur produksi packaging, perencanaan produksi, dan inventory",
+        "Komunikasi dan kolaborasi baik",
+        "Bisa Microsoft Office, ERP/AX nilai plus"
+      ],
+      "dibuka": "2026-11-21",
+      "deadline": "2026-12-30",
+      "catatan": "Penuh waktu. Rencana produksi sesuai permintaan customer, dokumen produksi, kendali stok barang jadi, koordinasi gudang dan produksi. Syarat pengalaman ga tertulis. Hari terakhir daftar 30 Des 2026 (Kalibrr).",
+      "link": "https://www.kalibrr.com/id-ID/c/kompas-gramedia/jobs/270630/ppic-officer-25",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabar"
+      ]
+    },
+    {
+      "id": "sapta-tunas-accounting-staff",
+      "perusahaan": "PT Sapta Tunas Teknologi",
+      "program": "Accounting Staff",
+      "jalur": [],
+      "kategori": "Retail",
+      "lokasi": "Mangga Dua Selatan, Jakarta Pusat",
+      "untuk": "Fresh graduate akuntansi atau keuangan (jenjang pendidikan belum tertulis)",
+      "syarat": [
+        "Paham dasar akuntansi dan administrasi keuangan",
+        "Excel dasar dengan baik",
+        "Teliti, jujur, disiplin tenggat"
+      ],
+      "dibuka": "2026-11-13",
+      "deadline": "2026-12-25",
+      "catatan": "Penuh waktu. Cek dokumen transaksi, rekonsiliasi penjualan outlet dan pembayaran vendor, laporan penjualan dan cash flow sederhana. Jenjang pendidikan ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-sapta-tunas-teknologi/jobs/275695/accounting-staff",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "billstone-tax-audit-staff",
+      "perusahaan": "Billstone",
+      "program": "Tax & Audit Staff",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Menteng, Jakarta Pusat",
+      "untuk": "D3/S1 Akuntansi, Perpajakan, atau Keuangan, fresh graduate dengan dasar pajak kuat dipertimbangkan",
+      "syarat": [
+        "D3/S1 Akuntansi, Perpajakan, atau Keuangan",
+        "Pengalaman 1-3 tahun diutamakan, fresh graduate dengan dasar pajak kuat dipertimbangkan",
+        "Paham PPh 21, 23, 25, PPh Badan, PPN",
+        "Excel baik, terbiasa e-Faktur, e-Bupot, DJP Online"
+      ],
+      "dibuka": "2026-11-16",
+      "deadline": "2027-02-14",
+      "catatan": "Penuh waktu di tim finance, tax, dan accounting. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/billstone/jobs/275755/tax-audit-staff",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis",
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
     }
   ]
 }
