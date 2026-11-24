@@ -620,7 +620,7 @@
       ],
       "dibuka": "2026-11-10",
       "deadline": "2026-11-15",
-      "catatan": "Rekrutmen tatap muka 17 Nov 2026. Daftar lewat q.me-qr.com/l/RegistrasiFGDP_MBAP_ITB (Google Form). Meteorologi tidak ada di daftar jurusan.",
+      "catatan": "Rekrutmen tatap muka 17 Nov 2026. Daftar lewat q.me-qr.com/l/RegistrasiFGDP_MBAP_ITB (Google Form). Cek daftar jurusan yang diterima di form.",
       "link": "https://www.instagram.com/p/DfjBOcyExnM/",
       "status": "terverifikasi",
       "dicek": "Poster resmi campus hiring di IG @itbcareercenterofficial, 10 Nov 2026",
@@ -7535,6 +7535,142 @@
       ],
       "jenis_kerja": [
         "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "kg-medical-center-assistant-pharmacist",
+      "perusahaan": "Kompas Gramedia (Medical Center)",
+      "program": "Assistant Pharmacist",
+      "jalur": [],
+      "kategori": "Kesehatan",
+      "lokasi": "Palmerah, Jakarta Barat",
+      "untuk": "Lulusan baru D3 Farmasi",
+      "syarat": [
+        "Lulusan D3 Farmasi",
+        "Punya STR-TTK dan sertifikat kompetensi",
+        "Bisa membaca resep obat",
+        "Paham manajemen stok obat",
+        "Bisa pakai komputer dan software apotek",
+        "Bisa kerja sama dalam tim"
+      ],
+      "dibuka": "2026-11-03",
+      "deadline": "2027-01-30",
+      "catatan": "Kontrak. Kelola dan simpan obat, layani resep, edukasi obat, administrasi klinik. Gaji ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/kompas-gramedia/jobs/271877/assisstant-pharmacist-at-medical-center-kompas-gramedia",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "kesehatan"
+      ],
+      "jenis_kerja": [
+        "lainnya"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "bcaf-legal-staff",
+      "perusahaan": "PT BCA Finance",
+      "program": "Legal Staff",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Kantor pusat, Pondok Indah, Jakarta Selatan",
+      "untuk": "Fresh graduate S1 Hukum",
+      "syarat": [
+        "S1 Hukum (perdata, pidana internasional, atau hukum ekonomi)",
+        "IPK minimal 3,00",
+        "Fresh graduate boleh melamar",
+        "Pengalaman 1 tahun di corporate legal, corporate secretary, atau compliance perbankan diutamakan",
+        "Bisa MS Office"
+      ],
+      "dibuka": "2026-11-10",
+      "deadline": "2026-12-30",
+      "catatan": "Kontrak. Bikin dan review dokumen serta perjanjian dengan pihak ketiga dan afiliasi, surat persetujuan atau kuasa, opini hukum. Ada asuransi kesehatan. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-bca-finance/jobs/275531/legal-staff-5",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "bisnis",
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "kontrak",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "impack-permit-ga-staff",
+      "perusahaan": "PT Impack Pratama Industri Tbk",
+      "program": "Permit & GA Staff",
+      "jalur": [],
+      "kategori": "Manufaktur",
+      "lokasi": "Sunter, Jakarta Utara",
+      "untuk": "S1 Hukum (Kalibrr nandain level lulusan baru atau junior)",
+      "syarat": [
+        "S1 Hukum",
+        "Pernah ngurus perizinan perusahaan (dokumen legal korporat, izin usaha/OSS, izin operasional), lama pengalaman ga tertulis",
+        "Paham izin terkait pajak jadi nilai plus",
+        "Siap kerja lapangan dan koordinasi dengan pihak luar"
+      ],
+      "dibuka": "2026-11-24",
+      "deadline": "2026-12-30",
+      "catatan": "Penuh waktu. Bantu urus izin perusahaan, pantau dokumen legal, draf dan review kontrak vendor, jaga kepatuhan regulasi. Kalibrr nandain level lulusan baru, tapi syaratnya nyebut pengalaman perizinan, jadi cek dulu sebelum daftar.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-impack-pratama-industri-tbk/jobs/269563/permit-ga-staff",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "bfi-legal-management-specialist",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Legal Management Retail & Corporate Specialist",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "BFI Tower, BSD City, Tangerang Selatan",
+      "untuk": "S1 Hukum atau jurusan terkait, fresh graduate dipersilakan",
+      "syarat": [
+        "S1 Hukum atau jurusan terkait",
+        "Pengalaman 2 sampai 4 tahun di legal multifinance, perusahaan pembiayaan, atau law firm, tapi fresh graduate dipersilakan melamar",
+        "Paham hukum perdata, hukum perusahaan, hukum jaminan (fidusia, hak tanggungan)",
+        "Bisa legal drafting, negosiasi, dan analisis"
+      ],
+      "dibuka": "2026-09-02",
+      "deadline": "2026-12-29",
+      "catatan": "Penuh waktu. Susun dan review perjanjian transaksi retail, alat berat, mesin, dan fidusia, mitigasi risiko hukum, kepatuhan OJK. Syarat pengalaman 2 sampai 4 tahun ditulis bareng 'fresh graduate dipersilakan', jadi cek dulu. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/271922/legal-management-retail-corporate-specialist",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 24 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "hukum"
+      ],
+      "jenis_kerja": [
+        "admin"
       ],
       "tipe": "penuh waktu",
       "wilayah": [
