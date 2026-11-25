@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-24",
+  "diperbarui": "2026-11-25",
   "loker": [
     {
       "id": "bca-mt-2026-b2",
@@ -7673,6 +7673,449 @@
         "admin"
       ],
       "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "aal-data-science-analyst",
+      "perusahaan": "PT Astra Agro Lestari Tbk",
+      "program": "Data Science Analyst",
+      "jalur": [],
+      "kategori": "Perkebunan",
+      "lokasi": "Ga tertulis",
+      "untuk": "S1 Matematika, Statistika, Ilmu Komputer, Teknik, atau bidang kuantitatif lain, fresh graduate boleh",
+      "syarat": [
+        "S1 Matematika, Statistika, Ilmu Komputer, Teknik, atau bidang kuantitatif lain",
+        "Terbuka buat fresh graduate maupun berpengalaman",
+        "Bisa Python, SQL dan/atau R, Excel, Power BI, Looker",
+        "Paham GIS dan familiar sama cloud",
+        "Komunikasi baik, kritis, dokumentasi rapi"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Bangun model berbasis data buat produktivitas operasional, prediksi produksi, dan computer vision di kebun dan pabrik. Daftar lewat career.astra.co.id. Tanggal ga tertulis, cek masih buka atau ga.",
+      "link": "https://www.astra-agro.co.id/id/lowongan-pekerjaan/",
+      "status": "terverifikasi",
+      "dicek": "astra-agro.co.id, 25 Nov 2026 (tanggal buka dan tutup ga tertulis)",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra Agro Lestari",
+      "bidang": [
+        "data",
+        "it",
+        "sains"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
+    },
+    {
+      "id": "aal-planter-development-program",
+      "perusahaan": "PT Astra Agro Lestari Tbk",
+      "program": "Planter Development Program (calon Asisten kebun)",
+      "jalur": [],
+      "kategori": "Perkebunan",
+      "lokasi": "Sumatera, Kalimantan, Sulawesi",
+      "untuk": "Lulusan D4/S1: pertanian, kehutanan, biologi, teknik (sipil, mesin, pertanian, elektro, kimia, industri, lingkungan), ekonomi, manajemen, perpajakan, hukum, psikologi, agribisnis, sosiologi, ilmu sosial dan politik",
+      "syarat": [
+        "Minimal D4/S1 sesuai jalur (PDP-TAN, PDP-TEK, PDP-PAB, PDP-ADM, PDP-STY, PDP-CDO)",
+        "Tertarik kerja di industri kelapa sawit",
+        "Siap ditempatkan di Sumatera, Kalimantan, atau Sulawesi",
+        "Seleksi: psikotes, LGD, wawancara"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Program pengembangan calon Asisten. Daftar per kode jalur di halaman program. Tanggal dan status buka ga tertulis, cek dulu batch-nya.",
+      "link": "https://www.astra-agro.co.id/id/planter-development-program/",
+      "status": "terverifikasi",
+      "dicek": "astra-agro.co.id, 25 Nov 2026 (tanggal buka dan tutup ga tertulis)",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra Agro Lestari",
+      "bidang": [
+        "pertanian",
+        "teknik",
+        "bisnis",
+        "hukum",
+        "sosial"
+      ],
+      "jenis_kerja": [
+        "mt"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "sumatera",
+        "kalimantan",
+        "sulawesi"
+      ]
+    },
+    {
+      "id": "aal-accounting-analyst",
+      "perusahaan": "PT Astra Agro Lestari Tbk",
+      "program": "Accounting Analyst",
+      "jalur": [],
+      "kategori": "Perkebunan",
+      "lokasi": "Ga tertulis",
+      "untuk": "Fresh graduate S1 Akuntansi",
+      "syarat": [
+        "S1 Akuntansi",
+        "Bisa Office",
+        "Fresh graduate dipersilakan",
+        "Bahasa Inggris lisan dan tulisan"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Laporan keuangan interim triwulanan, audit, input laporan laba rugi konsolidasi. Daftar lewat career.astra.co.id. Tanggal ga tertulis.",
+      "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/14912/Accounting",
+      "status": "terverifikasi",
+      "dicek": "astra-agro.co.id, 25 Nov 2026 (tanggal buka dan tutup ga tertulis)",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra Agro Lestari",
+      "bidang": [
+        "akuntansi"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
+    },
+    {
+      "id": "aal-corporate-finance-analyst",
+      "perusahaan": "PT Astra Agro Lestari Tbk",
+      "program": "Corporate Finance Analyst",
+      "jalur": [],
+      "kategori": "Perkebunan",
+      "lokasi": "Head Office, Jakarta Timur",
+      "untuk": "Fresh graduate S1 Akuntansi, Manajemen Bisnis, atau Ekonomi",
+      "syarat": [
+        "S1 Akuntansi, Manajemen Bisnis, atau Ekonomi",
+        "Fresh graduate dipersilakan",
+        "Siap ditempatkan di Head Office"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Analisis laporan manajemen, analisis data, forecasting bisnis. Daftar lewat career.astra.co.id. Tanggal ga tertulis.",
+      "link": "https://career.astra.co.id/lowongan/lowongan-detail-page/13666/AAL",
+      "status": "terverifikasi",
+      "dicek": "astra-agro.co.id, 25 Nov 2026 (tanggal buka dan tutup ga tertulis)",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra Agro Lestari",
+      "bidang": [
+        "akuntansi",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "aal-programmer-analyst",
+      "perusahaan": "PT Astra Agro Lestari Tbk",
+      "program": "Programmer Analyst",
+      "jalur": [],
+      "kategori": "Perkebunan",
+      "lokasi": "Ga tertulis",
+      "untuk": "Fresh graduate S1 Teknik Informatika, Ilmu Komputer, Sistem Informasi",
+      "syarat": [
+        "S1 Teknik Informatika, Ilmu Komputer, Sistem Informasi, atau terkait",
+        "Fresh graduate dipersilakan",
+        "Web PHP (Laravel/CodeIgniter), Android Studio",
+        "Database Oracle dan SQL",
+        "Paham SDLC"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Analisis kebutuhan, desain sistem, bikin web dan aplikasi Android, integrasi API, UAT. Daftar lewat career.astra.co.id. Tanggal ga tertulis.",
+      "link": "https://www.astra-agro.co.id/id/lowongan-pekerjaan/",
+      "status": "terverifikasi",
+      "dicek": "astra-agro.co.id, 25 Nov 2026 (tanggal buka dan tutup ga tertulis)",
+      "fresh_grad": true,
+      "sumber": "Situs resmi Astra Agro Lestari",
+      "bidang": [
+        "it"
+      ],
+      "jenis_kerja": [
+        "teknik"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "seluruh"
+      ]
+    },
+    {
+      "id": "peepl-facility-ga-intern",
+      "perusahaan": "PT Aneka Search Indonesia (Peepl)",
+      "program": "Facility & GA Internship",
+      "jalur": [],
+      "kategori": "Jasa SDM",
+      "lokasi": "Jakarta Selatan",
+      "untuk": "Mahasiswa tingkat akhir atau fresh graduate D3/S1 semua jurusan (Manajemen, Administrasi Bisnis, Teknik Industri nilai plus)",
+      "syarat": [
+        "Mahasiswa tingkat akhir atau fresh graduate D3/S1 semua jurusan",
+        "Pernah magang atau organisasi di admin, GA, atau operasional",
+        "Mahir Excel (lookup, pivot)",
+        "Proaktif dan rapi"
+      ],
+      "dibuka": "2026-11-18",
+      "deadline": "2026-12-20",
+      "catatan": "Magang 3 bulan. Catat aset di ERP, stock-take, labeling aset, bandingin penawaran vendor. Gaji ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/pt-aneka-search-indonesia-peepl/jobs/274717",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "magang",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "bfi-credit-marketing-gianyar",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Credit Marketing Executive Gianyar",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Gianyar, Bali",
+      "untuk": "Fresh graduate D3/S1 semua jurusan",
+      "syarat": [
+        "D3/S1 semua jurusan",
+        "Komunikasi, negosiasi, dan relationship building",
+        "Berorientasi target",
+        "Punya SIM C dan motor, siap kerja lapangan",
+        "Fresh graduate atau berpengalaman"
+      ],
+      "dibuka": "2026-11-23",
+      "deadline": "2026-12-09",
+      "catatan": "Penuh waktu. Akuisisi dan kelola relasi dealer, kejar target pembiayaan. Gaji ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/276133",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "bali"
+      ]
+    },
+    {
+      "id": "bfi-verificator-madiun",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Verificator Cabang Madiun",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Madiun, Jawa Timur",
+      "untuk": "Fresh graduate D3 semua jurusan",
+      "syarat": [
+        "Maksimal 30 tahun",
+        "Minimal D3 semua jurusan",
+        "Terbuka buat fresh graduate, pengalaman sejenis diutamakan",
+        "Suka kerja lapangan",
+        "Punya kendaraan dan SIM C/A"
+      ],
+      "dibuka": "2026-11-20",
+      "deadline": "2026-12-31",
+      "catatan": "Penuh waktu. Survei kelayakan konsumen kredit motor dan mobil, analisa kredit, kelengkapan data. Gaji ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/276062",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jatim"
+      ]
+    },
+    {
+      "id": "bfi-surveyor-digital-grobogan",
+      "perusahaan": "PT BFI Finance Indonesia Tbk",
+      "program": "Surveyor Digital Branch Grobogan",
+      "jalur": [],
+      "kategori": "Keuangan",
+      "lokasi": "Grobogan, Jawa Tengah",
+      "untuk": "Fresh graduate D3",
+      "syarat": [
+        "Minimal D3 (atau SMA berpengalaman)",
+        "Punya kendaraan dan SIM C",
+        "Komunikatif, suka kerja lapangan",
+        "Fresh graduate dipersilakan"
+      ],
+      "dibuka": "2026-11-23",
+      "deadline": "2026-12-10",
+      "catatan": "Penuh waktu. Analisa kelayakan calon konsumen, verifikasi data, kunjungan rumah. Gaji ga tertulis. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/bfifinance/jobs/276144",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jateng"
+      ]
+    },
+    {
+      "id": "ykan-conservation-acquisition",
+      "perusahaan": "Yayasan Konservasi Alam Nusantara (YKAN)",
+      "program": "Conservation Acquisition Representative (Jakarta dan Bandung)",
+      "jalur": [],
+      "kategori": "NGO",
+      "lokasi": "Jakarta Selatan atau Bandung",
+      "untuk": "Lulusan D3/S1 berbagai jurusan",
+      "syarat": [
+        "D3/S1 berbagai jurusan",
+        "Percaya diri ngobrol sama banyak orang",
+        "Ulet dan berorientasi target",
+        "Diutamakan domisili Jabodetabek (versi Jakarta)"
+      ],
+      "dibuka": "2026-11-20",
+      "deadline": "2026-12-01",
+      "catatan": "Penuh waktu. Fundraiser tatap muka yang ngajak orang dukung konservasi alam. Gaji ga tertulis. Versi Bandung: https://www.kalibrr.com/id-ID/c/yayasan-konservasi-alam-nusantara/jobs/275026. Daftar lewat Kalibrr.",
+      "link": "https://www.kalibrr.com/id-ID/c/yayasan-konservasi-alam-nusantara/jobs/275027",
+      "status": "perlu dicek",
+      "dicek": "Kalibrr, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "Kalibrr",
+      "bidang": [
+        "semua"
+      ],
+      "jenis_kerja": [
+        "sales"
+      ],
+      "tipe": "penuh waktu",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "patrajasa-intern-strategi-korporasi",
+      "perusahaan": "PT Patra Jasa",
+      "program": "Internship Strategi Korporasi",
+      "jalur": [],
+      "kategori": "BUMN",
+      "lokasi": "Jakarta Selatan",
+      "untuk": "Mahasiswa tingkat akhir D4/S1 Manajemen, Ekonomi, Hukum, atau Teknik Industri",
+      "syarat": [
+        "Mahasiswa tingkat akhir D4/S1 Manajemen, Ekonomi, Hukum, atau Teknik Industri",
+        "Ga ada jadwal kuliah selama magang (mulai Desember 2026)",
+        "Magang penuh waktu 3 sampai 6 bulan",
+        "Bisa olah data pakai Office dan nyusun laporan"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Magang mulai Des 2026. Administrasi kontrak dan pembayaran, monitoring anggaran, notulen. Gaji ga tertulis. Diposting sekitar awal Nov, tenggat ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96078347",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": false,
+      "sumber": "JobStreet",
+      "bidang": [
+        "bisnis",
+        "hukum",
+        "teknik"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "magang",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "grab-gip-research-data-analytics",
+      "perusahaan": "Grab Indonesia",
+      "program": "Grab Internship Program: Research & Data Analytics",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Jakarta (bisa Medan, Surabaya, Bali, Semarang, Yogyakarta)",
+      "untuk": "Mahasiswa dan lulusan baru",
+      "syarat": [
+        "Program buat mahasiswa dan lulusan baru",
+        "Magang Januari sampai Juni 2027",
+        "Syarat jurusan dan semester cek di link"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Magang Jan sampai Jun 2027. Riset pasar, analisis dataset besar, evaluasi performa program. Tenggat ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96042767",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "data",
+        "bisnis"
+      ],
+      "jenis_kerja": [
+        "analis"
+      ],
+      "tipe": "magang",
+      "wilayah": [
+        "jabodetabek"
+      ]
+    },
+    {
+      "id": "grab-gip-operations-project",
+      "perusahaan": "Grab Indonesia",
+      "program": "Grab Internship Program: Operations, Project & Process Management",
+      "jalur": [],
+      "kategori": "Teknologi",
+      "lokasi": "Jakarta (bisa kota lain)",
+      "untuk": "Mahasiswa dan lulusan baru",
+      "syarat": [
+        "Program buat mahasiswa dan lulusan baru",
+        "Magang Januari sampai Juni 2027",
+        "Syarat jurusan dan semester cek di link"
+      ],
+      "dibuka": null,
+      "deadline": null,
+      "catatan": "Magang Jan sampai Jun 2027. Optimasi alur kerja operasional dan milestone proyek. Tenggat ga tertulis. Daftar lewat JobStreet.",
+      "link": "https://id.jobstreet.com/id/job/96042765",
+      "status": "perlu dicek",
+      "dicek": "JobStreet, 25 Nov 2026 (belum dicek ke situs resmi perusahaan)",
+      "fresh_grad": true,
+      "sumber": "JobStreet",
+      "bidang": [
+        "bisnis",
+        "semua"
+      ],
+      "jenis_kerja": [
+        "admin"
+      ],
+      "tipe": "magang",
       "wilayah": [
         "jabodetabek"
       ]
